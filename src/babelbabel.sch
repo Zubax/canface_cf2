@@ -6740,11 +6740,11 @@ BABEL firmare</text>
 <attribute name="PACKAGE" x="134.112" y="57.15" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="TOLERANCE" x="136.652" y="61.214" size="0.762" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="86.36" y="144.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="86.36" y="144.78" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="VALUE" x="84.328" y="145.034" size="0.762" layer="96" font="vector" rot="R270" align="bottom-right"/>
-<attribute name="PACKAGE" x="86.868" y="148.59" size="0.508" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="TOLERANCE" x="84.328" y="144.526" size="0.762" layer="96" font="vector" rot="R270"/>
+<instance part="R11" gate="G$1" x="86.36" y="147.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="86.36" y="147.32" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
+<attribute name="VALUE" x="84.328" y="147.574" size="0.762" layer="96" font="vector" rot="R270" align="bottom-right"/>
+<attribute name="PACKAGE" x="86.868" y="151.13" size="0.508" layer="95" font="vector" rot="R270" align="center"/>
+<attribute name="TOLERANCE" x="84.328" y="147.066" size="0.762" layer="96" font="vector" rot="R270"/>
 </instance>
 <instance part="Q1" gate="P" x="40.64" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.846" y="116.84" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
@@ -6820,8 +6820,8 @@ BABEL firmare</text>
 <instance part="P+4" gate="G$1" x="111.76" y="78.74" smashed="yes">
 <attribute name="VALUE" x="111.76" y="82.296" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND2" gate="1" x="86.36" y="154.94" smashed="yes" rot="R180">
-<attribute name="VALUE" x="86.36" y="156.21" size="1.27" layer="96" font="vector" ratio="15" rot="R180" align="center"/>
+<instance part="GND2" gate="1" x="86.36" y="157.48" smashed="yes" rot="R180">
+<attribute name="VALUE" x="86.36" y="158.75" size="1.27" layer="96" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
 <instance part="GND48" gate="1" x="48.26" y="116.84" smashed="yes" rot="R90">
 <attribute name="VALUE" x="49.53" y="116.84" size="1.27" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
@@ -7125,7 +7125,7 @@ BABEL firmare</text>
 </net>
 <net name="BOOT0" class="0">
 <segment>
-<wire x1="86.36" y1="137.16" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="137.16" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="BOOT0"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
@@ -7266,7 +7266,7 @@ BABEL firmare</text>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="152.4" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="154.94" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
@@ -7598,18 +7598,6 @@ BABEL firmare</text>
 <label x="-20.32" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="VREF+"/>
-<wire x1="-76.2" y1="83.82" x2="-76.2" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB14"/>
-<wire x1="116.84" y1="99.06" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PA5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA5"/>
@@ -7644,18 +7632,6 @@ BABEL firmare</text>
 <pinref part="CON2" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
 <label x="58.42" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB7"/>
-<wire x1="88.9" y1="137.16" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB6"/>
-<wire x1="91.44" y1="137.16" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -8705,11 +8681,13 @@ No divider needed</text>
 <wire x1="175.26" y1="78.74" x2="175.26" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="175.26" y1="25.4" x2="254" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="254" y1="25.4" x2="254" y2="78.74" width="0.1524" layer="97" style="shortdash"/>
+<text x="129.54" y="-17.78" size="5.08" layer="97">Find out what's going on with XRST IRST
+Check other ERC errors</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="17.78" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="217.17" y="12.7" size="2.286" layer="94"/>
+<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
 <instance part="IC13" gate="G$1" x="35.56" y="88.9" smashed="yes">
@@ -10054,6 +10032,20 @@ No divider needed</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,2,20.32,20.32,IC3,IN,VDD_5V,,,"/>
+<approved hash="104,2,43.18,20.32,IC3,OUT,VDD_3V3,,,"/>
+<approved hash="104,1@BABEL,20.32,25.4,IC3,IN,VDD_5V,,,"/>
+<approved hash="104,1@BABEL,43.18,25.4,IC3,OUT,VDD_3V3,,,"/>
+<approved hash="213,1,208.28,132.08,RST,in,,,,"/>
+<approved hash="113,1,130.071,89.431,FRAME3,,,,,"/>
+<approved hash="113,2,130.071,89.431,FRAME4,,,,,"/>
+<approved hash="113,2,17.78,120.576,Q7,,,,,"/>
+<approved hash="113,1@BABEL,130.071,89.431,FRAME1,,,,,"/>
+<approved hash="113,1@BABEL,41.8363,116.84,Q1,,,,,"/>
+<approved hash="118,1@BABEL,101.6,74.93,Связь,GND,,,,"/>
+<approved hash="118,1@BABEL,204.47,48.26,Связь,VDD_5V,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
