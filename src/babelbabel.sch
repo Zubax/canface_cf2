@@ -5256,36 +5256,6 @@ package type OT</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DMG1024UV-7" urn="urn:adsk.eagle:component:8711363/3" prefix="Q" library_version="50">
-<description>Mosfet Array 2 N-Channel (Dual) 20V 1.38A 530mW Surface Mount SOT-563</description>
-<gates>
-<gate name="Q1" symbol="N-MOSFET" x="0" y="10.16"/>
-<gate name="Q2" symbol="N-MOSFET" x="0" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="SOT-563">
-<connects>
-<connect gate="Q1" pin="D" pad="6"/>
-<connect gate="Q1" pin="G" pad="2"/>
-<connect gate="Q1" pin="S" pad="1"/>
-<connect gate="Q2" pin="D" pad="3"/>
-<connect gate="Q2" pin="G" pad="5"/>
-<connect gate="Q2" pin="S" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8711362/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="DMG1024UV-7DICT-ND" constant="no"/>
-<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
-<attribute name="MANF#" value="DMG1024UV-7" constant="no"/>
-<attribute name="PACKAGE" value="SOT-563" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="stm32" urn="urn:adsk.eagle:library:2473361">
@@ -7766,17 +7736,11 @@ BABEL firmare</text>
 <part name="R46" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="10K"/>
 <part name="GND86" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="DMG1023UV-7" device="" package3d_urn="urn:adsk.eagle:package:8711362/3"/>
-<part name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="DMG1024UV-7" device="" package3d_urn="urn:adsk.eagle:package:8711362/3"/>
-<part name="GND87" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="R47" library="R_digikey" library_urn="urn:adsk.eagle:library:2539499" deviceset="10K" device="-0603" package3d_urn="urn:adsk.eagle:package:2539515/2" technology="-5%" value="10K"/>
 <part name="R48" library="R_digikey" library_urn="urn:adsk.eagle:library:2539499" deviceset="10K" device="-0603" package3d_urn="urn:adsk.eagle:package:2539515/2" technology="-5%" value="10K"/>
 <part name="+P37" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="+P38" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="CON10" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-6P" device="-SM06B" package3d_urn="urn:adsk.eagle:package:1041174/4" value="CON-6P-SM06B"/>
 <part name="GND88" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="R49" library="R_digikey" library_urn="urn:adsk.eagle:library:2539499" deviceset="120R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539515/2" technology="-1%" value="120R"/>
-<part name="R50" library="R_digikey" library_urn="urn:adsk.eagle:library:2539499" deviceset="120R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539515/2" technology="-1%" value="120R"/>
-<part name="R51" library="R_digikey" library_urn="urn:adsk.eagle:library:2539499" deviceset="120R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539515/2" technology="-1%" value="120R"/>
 <part name="R52" library="R_digikey" library_urn="urn:adsk.eagle:library:2539499" deviceset="120R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539515/2" technology="-1%" value="120R"/>
 <part name="R53" library="R_digikey" library_urn="urn:adsk.eagle:library:2539499" deviceset="120R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539515/2" technology="-1%" value="120R"/>
 <part name="R54" library="R_digikey" library_urn="urn:adsk.eagle:library:2539499" deviceset="120R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539515/2" technology="-1%" value="120R"/>
@@ -8657,11 +8621,8 @@ BABEL firmare</text>
 <text x="177.8" y="45.72" size="1.27" layer="97">TMS = SWDIO
 TDO = TRACESWO
 TCK = SWCLK</text>
-<text x="193.04" y="43.18" size="1.27" layer="97" font="vector" ratio="15" align="center">-&gt;</text>
-<text x="193.04" y="40.64" size="1.27" layer="97" font="vector" ratio="15" align="center">-&gt;</text>
-<text x="193.04" y="38.1" size="1.27" layer="97" font="vector" ratio="15" align="center">&lt;-</text>
-<text x="193.04" y="35.56" size="1.27" layer="97" font="vector" ratio="15" align="center">-&gt;</text>
-<text x="193.04" y="33.02" size="1.27" layer="97" font="vector" ratio="15" align="center">&lt;-&gt;</text>
+<text x="193.04" y="45.72" size="1.27" layer="97" font="vector" ratio="15" align="center">-&gt;</text>
+<text x="193.04" y="40.64" size="1.27" layer="97" font="vector" ratio="15" align="center">&lt;-&gt;</text>
 <text x="215.9" y="170.18" size="1.27" layer="97" align="center">HIGH on DIR allows transmission from nA to nB 
 LOW on DIR allows transmission from nB to nA</text>
 <text x="104.14" y="55.88" size="1.27" layer="97" align="center">SWDIO</text>
@@ -8952,25 +8913,6 @@ Check other ERC errors</text>
 <attribute name="NAME" x="229.87" y="60.96" size="1.778" layer="95" font="vector" ratio="15" rot="MR270" align="center-left"/>
 <attribute name="PACKAGE" x="226.822" y="60.96" size="0.762" layer="95" font="vector" ratio="15" rot="MR270" align="center-left"/>
 </instance>
-<instance part="Q10" gate="Q1" x="129.54" y="17.78" smashed="yes" rot="MR0">
-<attribute name="NAME" x="129.54" y="21.59" size="1.778" layer="95" font="vector" ratio="15" rot="MR180" align="center-left"/>
-<attribute name="MANF#" x="129.54" y="19.812" size="0.762" layer="95" font="vector" ratio="15" rot="MR180" align="center-left"/>
-<attribute name="PACKAGE" x="129.54" y="18.542" size="0.762" layer="95" font="vector" ratio="15" rot="MR180" align="center-left"/>
-</instance>
-<instance part="Q10" gate="Q2" x="119.38" y="17.78" smashed="yes">
-<attribute name="NAME" x="119.38" y="21.59" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
-<attribute name="MANF#" x="119.38" y="19.812" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
-<attribute name="PACKAGE" x="119.38" y="18.542" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
-</instance>
-<instance part="GND87" gate="1" x="124.46" y="7.62" smashed="yes">
-<attribute name="VALUE" x="124.46" y="6.35" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
-</instance>
-<instance part="R47" gate="G$1" x="121.92" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="121.92" y="35.56" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="123.952" y="35.306" size="0.762" layer="96" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="121.412" y="31.75" size="0.508" layer="95" rot="R90" align="center"/>
-<attribute name="TOLERANCE" x="123.952" y="35.814" size="0.762" layer="96" rot="R90"/>
-</instance>
 <instance part="R48" gate="G$1" x="213.36" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="213.36" y="66.04" size="1.27" layer="95" rot="R180" align="center"/>
 <attribute name="VALUE" x="213.614" y="68.072" size="0.762" layer="96" rot="R180" align="bottom-right"/>
@@ -8989,35 +8931,17 @@ Check other ERC errors</text>
 <instance part="GND88" gate="1" x="154.94" y="38.1" smashed="yes">
 <attribute name="VALUE" x="154.94" y="36.83" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="R49" gate="G$1" x="213.36" y="43.18" smashed="yes">
-<attribute name="NAME" x="213.36" y="43.18" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="213.106" y="41.148" size="0.762" layer="96" align="bottom-right"/>
-<attribute name="PACKAGE" x="209.55" y="43.688" size="0.508" layer="95" align="center"/>
-<attribute name="TOLERANCE" x="213.614" y="41.148" size="0.762" layer="96"/>
+<instance part="R52" gate="G$1" x="213.36" y="45.72" smashed="yes">
+<attribute name="NAME" x="213.36" y="45.72" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="213.106" y="43.688" size="0.762" layer="96" align="bottom-right"/>
+<attribute name="PACKAGE" x="209.55" y="46.228" size="0.508" layer="95" align="center"/>
+<attribute name="TOLERANCE" x="213.614" y="43.688" size="0.762" layer="96"/>
 </instance>
-<instance part="R50" gate="G$1" x="213.36" y="40.64" smashed="yes">
+<instance part="R53" gate="G$1" x="213.36" y="40.64" smashed="yes">
 <attribute name="NAME" x="213.36" y="40.64" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="213.106" y="38.608" size="0.762" layer="96" align="bottom-right"/>
 <attribute name="PACKAGE" x="209.55" y="41.148" size="0.508" layer="95" align="center"/>
 <attribute name="TOLERANCE" x="213.614" y="38.608" size="0.762" layer="96"/>
-</instance>
-<instance part="R51" gate="G$1" x="213.36" y="38.1" smashed="yes">
-<attribute name="NAME" x="213.36" y="38.1" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="213.106" y="36.068" size="0.762" layer="96" align="bottom-right"/>
-<attribute name="PACKAGE" x="209.55" y="38.608" size="0.508" layer="95" align="center"/>
-<attribute name="TOLERANCE" x="213.614" y="36.068" size="0.762" layer="96"/>
-</instance>
-<instance part="R52" gate="G$1" x="213.36" y="35.56" smashed="yes">
-<attribute name="NAME" x="213.36" y="35.56" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="213.106" y="33.528" size="0.762" layer="96" align="bottom-right"/>
-<attribute name="PACKAGE" x="209.55" y="36.068" size="0.508" layer="95" align="center"/>
-<attribute name="TOLERANCE" x="213.614" y="33.528" size="0.762" layer="96"/>
-</instance>
-<instance part="R53" gate="G$1" x="213.36" y="33.02" smashed="yes">
-<attribute name="NAME" x="213.36" y="33.02" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="213.106" y="30.988" size="0.762" layer="96" align="bottom-right"/>
-<attribute name="PACKAGE" x="209.55" y="33.528" size="0.508" layer="95" align="center"/>
-<attribute name="TOLERANCE" x="213.614" y="30.988" size="0.762" layer="96"/>
 </instance>
 <instance part="R54" gate="G$1" x="121.92" y="60.96" smashed="yes">
 <attribute name="NAME" x="121.92" y="60.96" size="1.27" layer="95" align="center"/>
@@ -9274,17 +9198,6 @@ Check other ERC errors</text>
 <pinref part="R46" gate="G$1" pin="2"/>
 <pinref part="GND86" gate="1" pin="GND"/>
 <wire x1="55.88" y1="154.94" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q10" gate="Q2" pin="S"/>
-<wire x1="121.92" y1="15.24" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="12.7" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="Q10" gate="Q1" pin="S"/>
-<wire x1="124.46" y1="12.7" x2="127" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="127" y1="12.7" x2="127" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="GND87" gate="1" pin="GND"/>
-<wire x1="124.46" y1="10.16" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
-<junction x="124.46" y="12.7"/>
 </segment>
 <segment>
 <pinref part="GND88" gate="1" pin="GND"/>
@@ -9653,12 +9566,6 @@ Check other ERC errors</text>
 <label x="238.76" y="165.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R47" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="40.64" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
-<label x="119.38" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R55" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="50.8" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
 <label x="203.2" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -9682,11 +9589,6 @@ Check other ERC errors</text>
 <wire x1="203.2" y1="137.16" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
 <label x="200.66" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="IC13" gate="G$1" pin="PA3"/>
-<wire x1="45.72" y1="86.36" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
-<label x="45.72" y="83.82" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="XTCK" class="0">
 <segment>
@@ -9696,32 +9598,8 @@ Check other ERC errors</text>
 </segment>
 <segment>
 <pinref part="R52" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="35.56" x2="203.2" y2="35.56" width="0.1524" layer="91"/>
-<label x="203.2" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="XTDI" class="0">
-<segment>
-<pinref part="IC15" gate="G$1" pin="2B"/>
-<wire x1="228.6" y1="137.16" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
-<label x="231.14" y="137.16" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R50" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="40.64" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
-<label x="203.2" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="XTDO" class="0">
-<segment>
-<pinref part="IC16" gate="G$1" pin="1B"/>
-<wire x1="228.6" y1="119.38" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
-<label x="231.14" y="119.38" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R51" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="38.1" x2="203.2" y2="38.1" width="0.1524" layer="91"/>
-<label x="203.2" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="208.28" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
+<label x="203.2" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XRXD" class="0">
@@ -9756,8 +9634,8 @@ Check other ERC errors</text>
 </segment>
 <segment>
 <pinref part="R53" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="33.02" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
-<label x="203.2" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="208.28" y1="40.64" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
+<label x="203.2" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ITMS" class="0">
@@ -9777,11 +9655,6 @@ Check other ERC errors</text>
 <pinref part="IC16" gate="G$1" pin="1A"/>
 <wire x1="203.2" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
 <label x="200.66" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC13" gate="G$1" pin="PA6"/>
-<wire x1="53.34" y1="86.36" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
-<label x="53.34" y="83.82" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="IRXD" class="0">
@@ -9845,63 +9718,11 @@ Check other ERC errors</text>
 <label x="119.38" y="139.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="IRST_SENSE" class="0">
-<segment>
-<pinref part="IC13" gate="G$1" pin="PA7"/>
-<wire x1="55.88" y1="86.36" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
-<label x="55.88" y="83.82" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="Q10" gate="Q1" pin="D"/>
-<wire x1="127" y1="25.4" x2="127" y2="27.94" width="0.1524" layer="91"/>
-<label x="127" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="IRST" class="0">
-<segment>
-<pinref part="IC13" gate="G$1" pin="PA2"/>
-<wire x1="30.48" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<label x="30.48" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="Q10" gate="Q2" pin="G"/>
-<wire x1="116.84" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
-<label x="114.3" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="!RST" class="0">
-<segment>
-<pinref part="IC13" gate="G$1" pin="NRST"/>
-<wire x1="33.02" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
-<label x="30.48" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="IC13" gate="G$1" pin="BOOT0"/>
 <pinref part="R46" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="139.7" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="XRST" class="0">
-<segment>
-<pinref part="Q10" gate="Q1" pin="G"/>
-<wire x1="132.08" y1="17.78" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
-<label x="134.62" y="17.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="Q10" gate="Q2" pin="D"/>
-<wire x1="121.92" y1="25.4" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="R47" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="27.94" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
-<junction x="121.92" y="27.94"/>
-<label x="119.38" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R49" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
-<label x="203.2" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -9966,40 +9787,11 @@ Check other ERC errors</text>
 <junction x="139.7" y="58.42"/>
 </segment>
 </net>
-<net name="TRACESWO" class="0">
-<segment>
-<pinref part="IC13" gate="G$1" pin="PB3"/>
-<wire x1="68.58" y1="139.7" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="144.78" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
-<label x="76.2" y="144.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RST" class="0">
-<segment>
-<pinref part="R49" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="43.18" x2="226.06" y2="43.18" width="0.1524" layer="91"/>
-<label x="226.06" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="TDI" class="0">
-<segment>
-<pinref part="R50" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="40.64" x2="226.06" y2="40.64" width="0.1524" layer="91"/>
-<label x="226.06" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="TDO" class="0">
-<segment>
-<pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="38.1" x2="226.06" y2="38.1" width="0.1524" layer="91"/>
-<label x="226.06" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
 <net name="TCK" class="0">
 <segment>
 <pinref part="R52" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="35.56" x2="226.06" y2="35.56" width="0.1524" layer="91"/>
-<label x="226.06" y="35.56" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="218.44" y1="45.72" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
+<label x="226.06" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="CON10" gate="G$1" pin="5"/>
@@ -10015,8 +9807,8 @@ Check other ERC errors</text>
 <net name="TMS" class="0">
 <segment>
 <pinref part="R53" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="33.02" x2="226.06" y2="33.02" width="0.1524" layer="91"/>
-<label x="226.06" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="218.44" y1="40.64" x2="226.06" y2="40.64" width="0.1524" layer="91"/>
+<label x="226.06" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="CON10" gate="G$1" pin="4"/>
@@ -10043,6 +9835,7 @@ Check other ERC errors</text>
 <approved hash="113,2,17.78,120.576,Q7,,,,,"/>
 <approved hash="113,1@BABEL,130.071,89.431,FRAME1,,,,,"/>
 <approved hash="113,1@BABEL,41.8363,116.84,Q1,,,,,"/>
+<approved hash="115,1@BABEL,86.36,139.7,BOOT0,,,,,"/>
 <approved hash="118,1@BABEL,101.6,74.93,Связь,GND,,,,"/>
 <approved hash="118,1@BABEL,204.47,48.26,Связь,VDD_5V,,,,"/>
 </errors>
