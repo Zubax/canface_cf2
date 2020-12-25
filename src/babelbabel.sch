@@ -6168,8 +6168,8 @@ package type TQ</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BAT30SWFILM" urn="urn:adsk.eagle:component:7690996/4" prefix="D" library_version="28">
-<description>Diode Array 1 Pair Series Connection Schottky 30V 300mA (DC) Surface Mount SC-70, SOT-323</description>
+<deviceset name="BAT54SWT1G" urn="urn:adsk.eagle:component:25620519/1" prefix="D" library_version="29">
+<description>30V 200mA 800mV @ 100mA SOT-323(SC-70) Schottky Barrier Diodes (SBD) RoHS</description>
 <gates>
 <gate name="G$1" symbol="D-HALFBRIDGE" x="0" y="0"/>
 </gates>
@@ -6185,10 +6185,10 @@ package type TQ</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY#" value="497-5553-2-ND" constant="no"/>
-<attribute name="LCSC#" value="C157390" constant="no"/>
-<attribute name="MANF" value="STMicroelectronics" constant="no"/>
-<attribute name="MANF#" value="BAT30SWFILM" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C78260" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BAT54SWT1G" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7383,9 +7383,9 @@ BABEL firmare</text>
 <part name="C31" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="10uF">
 <attribute name="LCSC#" value="C15850"/>
 </part>
-<part name="Q8" library="crystal" library_urn="urn:adsk.eagle:library:2539107" deviceset="CRYSTAL-4P" device="-3.2X2.5" package3d_urn="urn:adsk.eagle:package:2539117/3" technology="-16MHZ" value="16MHz">
+<part name="Q8" library="crystal" library_urn="urn:adsk.eagle:library:2539107" deviceset="CRYSTAL-4P" device="-3.2X2.5" package3d_urn="urn:adsk.eagle:package:2539117/3" technology="-16MHZ" value="12MHz">
 <attribute name="DIGIKEY#" value=""/>
-<attribute name="LCSC#" value="C164049"/>
+<attribute name="LCSC#" value="C9002"/>
 <attribute name="LOAD_CAPACITANCE" value="20pF"/>
 <attribute name="MANF" value=""/>
 <attribute name="MANF#" value=""/>
@@ -7577,18 +7577,18 @@ BABEL firmare</text>
 <part name="R53" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="120R">
 <attribute name="LCSC#" value="C22787"/>
 </part>
-<part name="R54" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="120R">
-<attribute name="LCSC#" value="C25079"/>
+<part name="R54" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="120R">
+<attribute name="LCSC#" value="C22787"/>
 </part>
 <part name="+P39" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="R55" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="120R">
 <attribute name="LCSC#" value="C22787"/>
 </part>
-<part name="R56" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="120R">
-<attribute name="LCSC#" value="C25079"/>
+<part name="R56" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="120R">
+<attribute name="LCSC#" value="C22787"/>
 </part>
 <part name="GND89" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT30SWFILM" device="" package3d_urn="urn:adsk.eagle:package:7365870/3"/>
+<part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54SWT1G" device="" package3d_urn="urn:adsk.eagle:package:7365870/3"/>
 <part name="+P40" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="GND90" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
@@ -8471,14 +8471,14 @@ TCK = SWCLK</text>
 <text x="193.04" y="40.64" size="1.27" layer="97" font="vector" ratio="15" align="center">&lt;-&gt;</text>
 <text x="215.9" y="170.18" size="1.27" layer="97" align="center">HIGH on DIR allows transmission from nA to nB 
 LOW on DIR allows transmission from nB to nA</text>
-<text x="106.68" y="63.5" size="1.27" layer="97" align="center">SWDIO</text>
-<text x="106.68" y="60.96" size="1.27" layer="97" align="center">SWCLK</text>
+<text x="101.6" y="63.5" size="1.27" layer="97" align="center">SWDIO</text>
+<text x="101.6" y="60.96" size="1.27" layer="97" align="center">SWCLK</text>
 <text x="133.604" y="149.606" size="0.889" layer="97" rot="R90" align="center">CON8 is for firmware flashing</text>
 <text x="99.06" y="111.76" size="1.27" layer="97" align="center">PB13 is FT pin
 No divider needed</text>
-<wire x1="162.56" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="162.56" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="101.6" y1="76.2" x2="101.6" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="96.52" y1="76.2" x2="96.52" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="162.56" y1="76.2" x2="162.56" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="175.26" y1="78.74" x2="175.26" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="175.26" y1="35.56" x2="254" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
@@ -8785,11 +8785,11 @@ No divider needed</text>
 <attribute name="PACKAGE" x="209.55" y="41.148" size="0.508" layer="95" font="vector" align="center"/>
 <attribute name="TOLERANCE" x="213.614" y="38.608" size="0.762" layer="96" font="vector"/>
 </instance>
-<instance part="R54" gate="G$1" x="124.46" y="68.58" smashed="yes">
-<attribute name="NAME" x="124.46" y="68.58" size="1.27" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="124.206" y="66.548" size="0.762" layer="96" font="vector" align="bottom-right"/>
-<attribute name="PACKAGE" x="120.65" y="69.088" size="0.508" layer="95" font="vector" align="center"/>
-<attribute name="TOLERANCE" x="124.714" y="66.548" size="0.762" layer="96" font="vector"/>
+<instance part="R54" gate="G$1" x="119.38" y="68.58" smashed="yes">
+<attribute name="NAME" x="119.38" y="68.58" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="119.126" y="66.548" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="115.57" y="69.088" size="0.508" layer="95" font="vector" align="center"/>
+<attribute name="TOLERANCE" x="119.634" y="66.548" size="0.762" layer="96" font="vector"/>
 </instance>
 <instance part="+P39" gate="G$1" x="30.48" y="137.16" smashed="yes">
 <attribute name="VALUE" x="30.48" y="140.716" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -8800,11 +8800,11 @@ No divider needed</text>
 <attribute name="PACKAGE" x="209.55" y="51.308" size="0.508" layer="95" font="vector" align="center"/>
 <attribute name="TOLERANCE" x="213.614" y="48.768" size="0.762" layer="96" font="vector"/>
 </instance>
-<instance part="R56" gate="G$1" x="124.46" y="66.04" smashed="yes">
-<attribute name="NAME" x="124.46" y="66.04" size="1.27" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="124.206" y="64.008" size="0.762" layer="96" font="vector" align="bottom-right"/>
-<attribute name="PACKAGE" x="120.65" y="66.548" size="0.508" layer="95" font="vector" align="center"/>
-<attribute name="TOLERANCE" x="124.714" y="64.008" size="0.762" layer="96" font="vector"/>
+<instance part="R56" gate="G$1" x="127" y="66.04" smashed="yes">
+<attribute name="NAME" x="127" y="66.04" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="126.746" y="64.008" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="123.19" y="66.548" size="0.508" layer="95" font="vector" align="center"/>
+<attribute name="TOLERANCE" x="127.254" y="64.008" size="0.762" layer="96" font="vector"/>
 </instance>
 <instance part="GND89" gate="1" x="121.92" y="139.7" smashed="yes">
 <attribute name="VALUE" x="121.92" y="138.43" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -9366,9 +9366,9 @@ No divider needed</text>
 <segment>
 <pinref part="CON10" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
-<label x="116.84" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="111.76" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="CON12" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="83.82" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="83.82" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
 <junction x="147.32" y="71.12"/>
@@ -9447,8 +9447,8 @@ No divider needed</text>
 </segment>
 <segment>
 <pinref part="R54" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-<label x="116.84" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="114.3" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+<label x="111.76" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ITMS_DIR" class="0">
@@ -9526,8 +9526,8 @@ No divider needed</text>
 </segment>
 <segment>
 <pinref part="R56" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
-<label x="116.84" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="121.92" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
+<label x="111.76" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -9605,7 +9605,7 @@ No divider needed</text>
 <label x="129.54" y="68.58" size="1.27" layer="95"/>
 <wire x1="149.86" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="CON12" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="86.36" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="86.36" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
 <junction x="144.78" y="68.58"/>
@@ -9615,10 +9615,10 @@ No divider needed</text>
 <segment>
 <pinref part="CON10" gate="G$1" pin="3"/>
 <pinref part="R56" gate="G$1" pin="2"/>
-<label x="129.54" y="66.04" size="1.27" layer="95"/>
+<label x="134.62" y="66.04" size="1.27" layer="95"/>
 <wire x1="149.86" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="CON12" gate="G$1" pin="3"/>
-<wire x1="142.24" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="88.9" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
 <junction x="142.24" y="66.04"/>
@@ -9632,10 +9632,10 @@ No divider needed</text>
 </segment>
 <segment>
 <pinref part="CON10" gate="G$1" pin="5"/>
-<label x="116.84" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="111.76" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="149.86" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="CON12" gate="G$1" pin="5"/>
-<wire x1="137.16" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="93.98" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 <junction x="137.16" y="60.96"/>
@@ -9649,10 +9649,10 @@ No divider needed</text>
 </segment>
 <segment>
 <pinref part="CON10" gate="G$1" pin="4"/>
-<label x="116.84" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="111.76" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="149.86" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="CON12" gate="G$1" pin="4"/>
-<wire x1="139.7" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="91.44" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
 <junction x="139.7" y="63.5"/>
