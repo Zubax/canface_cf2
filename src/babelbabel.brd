@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -187,7 +187,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTgxMTAxMTU3ODkyNjgx" f3durn="urn:adsk.wipprod:dm.lineage:kGuPgqnzRmWLHCf0r-cvPw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="23f56a24-089a-4aa2-8d88-7c919b1d14c9" lastsyncedrevisionid="23f56a24-089a-4aa2-8d88-7c919b1d14c9" lastboardhashguid="ecd9556e-f591-69f8-ffd6-2b87c3ad0fb6" lastpushedtime="2020-12-24T16:12:39Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTgxMTAxMTU3ODkyNjgx" f3durn="urn:adsk.wipprod:dm.lineage:kGuPgqnzRmWLHCf0r-cvPw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="23f56a24-089a-4aa2-8d88-7c919b1d14c9" lastsyncedrevisionid="23f56a24-089a-4aa2-8d88-7c919b1d14c9" lastboardhashguid="ecd9556e-f591-69f8-ffd6-2b87c3ad0fb6" lastpushedtime="2020-12-24T16:12:39Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="41" y1="33.75" x2="41" y2="32.35" width="0.01" layer="49"/>
 <wire x1="41" y1="32.35" x2="41" y2="18.25" width="0.01" layer="49"/>
@@ -438,9 +438,6 @@ VDD</text>
 <wire x1="33.1" y1="-23.85" x2="33.1" y2="-24.65" width="0.01" layer="110"/>
 <wire x1="32.9" y1="10.05" x2="33.9" y2="10.05" width="0.01" layer="110"/>
 <wire x1="33.4" y1="10.45" x2="33.4" y2="9.65" width="0.01" layer="110"/>
-<text x="44.8" y="24.8" size="1.778" layer="51">
-2. Find coupled MOSFETs alternatives for DCP
-3. Check MCU alternative package</text>
 <wire x1="41" y1="33" x2="40" y2="32" width="0.01" layer="20" curve="90"/>
 <wire x1="40" y1="32" x2="40" y2="18.5" width="0.01" layer="20"/>
 <wire x1="40" y1="18.5" x2="41" y2="17.5" width="0.01" layer="20" curve="90"/>
@@ -2574,10 +2571,11 @@ package type TQ</description>
 <attribute name="PACKAGE" value="0402" x="10.6" y="3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="10.6" y="3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="SOT-563" package3d_urn="urn:adsk.eagle:package:8711362/3" value="DMG1023UV-7" x="26.825" y="16.075" smashed="yes">
-<attribute name="DIGIKEY#" value="DMG1023UV-7DICT-ND" x="26.825" y="16.075" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="Diodes Incorporated" x="26.825" y="16.075" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="DMG1023UV-7" x="26.825" y="16.075" size="1.778" layer="27" display="off"/>
+<element name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="SOT-563" package3d_urn="urn:adsk.eagle:package:8711362/3" value="NTZD3152PT1G" x="26.825" y="16.075" smashed="yes">
+<attribute name="DIGIKEY#" value="NTZD3152PT1GOSCT-ND" x="26.825" y="16.075" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C393372" x="26.825" y="16.075" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="ON Semiconductor" x="26.825" y="16.075" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="NTZD3152PT1G" x="26.825" y="16.075" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.825" y="16.075" size="0.5" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="SOT-563" x="26.825" y="16.075" size="1.778" layer="27" display="off"/>
 </element>
@@ -2655,7 +2653,7 @@ package type TQ</description>
 <attribute name="NAME" x="33.1" y="-24.25" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
 <element name="IC102" library="stm32" library_urn="urn:adsk.eagle:library:2473361" package="TQFP64" package3d_urn="urn:adsk.eagle:package:2473349/4" value="STM32F373RCT6" x="11.7" y="-25.45" smashed="yes" rot="R90">
-<attribute name="DIGIKEY#" value="" x="11.7" y="-25.45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY#" value="497-13252-ND" x="11.7" y="-25.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LCSC#" value="C84174" x="11.7" y="-25.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="STMicroelectronics" x="11.7" y="-25.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="STM32F373RCT6" x="11.7" y="-25.45" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3027,7 +3025,7 @@ package type TQ</description>
 <attribute name="NAME" x="33.1" y="-6.25" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
 <element name="BABEL2:IC2" library="stm32" library_urn="urn:adsk.eagle:library:2473361" package="TQFP64" package3d_urn="urn:adsk.eagle:package:2473349/4" value="STM32F373RCT6" x="11.7" y="-7.45" smashed="yes" rot="R90">
-<attribute name="DIGIKEY#" value="" x="11.7" y="-7.45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY#" value="497-13252-ND" x="11.7" y="-7.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LCSC#" value="C84174" x="11.7" y="-7.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="STMicroelectronics" x="11.7" y="-7.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="STM32F373RCT6" x="11.7" y="-7.45" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4032,7 +4030,6 @@ package type TQ</description>
 <vertex x="35" y="-33.75"/>
 <vertex x="35" y="-15.75"/>
 </polygon>
-<wire x1="35.64" y1="-27.325" x2="35.49644375" y2="-27.18144375" width="0.2" layer="1"/>
 <via x="35.19644375" y="-26.45355625" extent="1-16" drill="0.3" diameter="0.5"/>
 <via x="35.79644375" y="-26.45355625" extent="1-16" drill="0.3" diameter="0.5"/>
 <via x="38.59644375" y="-26.75355625" extent="1-16" drill="0.3" diameter="0.5"/>
@@ -4068,7 +4065,6 @@ package type TQ</description>
 <vertex x="35" y="-15.75"/>
 <vertex x="35" y="2.15"/>
 </polygon>
-<wire x1="35.64" y1="-9.325" x2="35.49644375" y2="-9.18144375" width="0.2" layer="1"/>
 <via x="35.19644375" y="-8.45355625" extent="1-16" drill="0.3" diameter="0.5"/>
 <via x="35.79644375" y="-8.45355625" extent="1-16" drill="0.3" diameter="0.5"/>
 <via x="38.59644375" y="-8.75355625" extent="1-16" drill="0.3" diameter="0.5"/>

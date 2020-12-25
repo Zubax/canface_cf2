@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5323,8 +5323,8 @@ package type OT</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DMG1023UV-7" urn="urn:adsk.eagle:component:8711364/2" prefix="Q" library_version="50">
-<description>Mosfet Array 2 P-Channel (Dual) 20V 1.03A 530mW Surface Mount SOT-563</description>
+<deviceset name="NTZD3152PT1G" prefix="Q" library_version="50" library_locally_modified="yes">
+<description>Mosfet Array 2 P-Channel (Dual) 20V 430mA 250mW Surface Mount SOT-563</description>
 <gates>
 <gate name="Q1" symbol="P-MOSFET" x="0" y="10.16"/>
 <gate name="Q2" symbol="P-MOSFET" x="0" y="-5.08"/>
@@ -5344,9 +5344,10 @@ package type OT</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY#" value="DMG1023UV-7DICT-ND" constant="no"/>
-<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
-<attribute name="MANF#" value="DMG1023UV-7" constant="no"/>
+<attribute name="DIGIKEY#" value="NTZD3152PT1GOSCT-ND" constant="no"/>
+<attribute name="LCSC#" value="C393372" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="NTZD3152PT1G" constant="no"/>
 <attribute name="PACKAGE" value="SOT-563" constant="no"/>
 </technology>
 </technologies>
@@ -6679,7 +6680,9 @@ package type TQ</description>
 <part name="GND11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="P+10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="10K"/>
-<part name="IC2" library="stm32" library_urn="urn:adsk.eagle:library:2473361" deviceset="STM32F373RCT6" device="" package3d_urn="urn:adsk.eagle:package:2473349/4"/>
+<part name="IC2" library="stm32" library_urn="urn:adsk.eagle:library:2473361" deviceset="STM32F373RCT6" device="" package3d_urn="urn:adsk.eagle:package:2473349/4">
+<attribute name="DIGIKEY#" value="497-13252-ND"/>
+</part>
 <part name="P+11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="P+12" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="GND12" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -7832,7 +7835,7 @@ BABEL firmare</text>
 <part name="+P36" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="R46" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="10K"/>
 <part name="GND86" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="DMG1023UV-7" device="" package3d_urn="urn:adsk.eagle:package:8711362/3"/>
+<part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="NTZD3152PT1G" device="" package3d_urn="urn:adsk.eagle:package:8711362/3"/>
 <part name="R48" library="R_digikey" library_urn="urn:adsk.eagle:library:2539499" deviceset="10K" device="-0603" package3d_urn="urn:adsk.eagle:package:2539515/2" technology="-5%" value="10K"/>
 <part name="+P37" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="+P38" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
@@ -8734,8 +8737,6 @@ No divider needed</text>
 <wire x1="175.26" y1="78.74" x2="175.26" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="175.26" y1="35.56" x2="254" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="254" y1="35.56" x2="254" y2="78.74" width="0.1524" layer="97" style="shortdash"/>
-<text x="129.54" y="-17.78" size="5.08" layer="97">Find out what's going on with XRST IRST
-Check other ERC errors</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
