@@ -8305,7 +8305,7 @@ BABEL firmare</text>
 <wire x1="210.82" y1="55.88" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="CANH2" class="0">
 <segment>
 <pinref part="S3" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="83.82" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
