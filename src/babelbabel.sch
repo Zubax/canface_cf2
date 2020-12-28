@@ -7791,11 +7791,11 @@ BABEL firmare</text>
 <instance part="PAD2" gate="G$1" x="63.5" y="93.98" smashed="yes">
 <attribute name="NAME" x="63.5" y="95.25" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="R1" gate="G$1" x="215.9" y="149.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="215.9" y="149.86" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="VALUE" x="213.868" y="150.114" size="0.762" layer="96" font="vector" rot="R270" align="bottom-right"/>
-<attribute name="PACKAGE" x="216.408" y="153.67" size="0.508" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="TOLERANCE" x="213.868" y="149.606" size="0.762" layer="96" font="vector" rot="R270"/>
+<instance part="R1" gate="G$1" x="203.2" y="149.86" smashed="yes">
+<attribute name="NAME" x="203.2" y="149.86" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="202.946" y="147.828" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="199.39" y="150.368" size="0.508" layer="95" font="vector" align="center"/>
+<attribute name="TOLERANCE" x="203.454" y="147.828" size="0.762" layer="96" font="vector"/>
 </instance>
 <instance part="GND116" gate="G$1" x="241.3" y="125.73" smashed="yes">
 <attribute name="VALUE" x="241.3" y="123.698" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -7853,11 +7853,11 @@ BABEL firmare</text>
 <instance part="GND7" gate="1" x="210.82" y="27.94" smashed="yes">
 <attribute name="VALUE" x="210.82" y="26.67" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="R2" gate="G$1" x="215.9" y="76.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="215.9" y="76.2" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="VALUE" x="213.868" y="76.454" size="0.762" layer="96" font="vector" rot="R270" align="bottom-right"/>
-<attribute name="PACKAGE" x="216.408" y="80.01" size="0.508" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="TOLERANCE" x="213.868" y="75.946" size="0.762" layer="96" font="vector" rot="R270"/>
+<instance part="R2" gate="G$1" x="203.2" y="76.2" smashed="yes">
+<attribute name="NAME" x="203.2" y="76.2" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="202.946" y="74.168" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="199.39" y="76.708" size="0.508" layer="95" font="vector" align="center"/>
+<attribute name="TOLERANCE" x="203.454" y="74.168" size="0.762" layer="96" font="vector"/>
 </instance>
 <instance part="GND9" gate="G$1" x="241.3" y="52.07" smashed="yes">
 <attribute name="VALUE" x="241.3" y="50.038" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -8149,14 +8149,6 @@ BABEL firmare</text>
 <pinref part="IC9" gate="G$1" pin="VD18"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="154.94" x2="215.9" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="157.48" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GNDD" class="0">
 <segment>
 <wire x1="241.3" y1="128.27" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
@@ -8226,26 +8218,6 @@ BABEL firmare</text>
 <wire x1="233.68" y1="119.38" x2="233.68" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CANH2" class="0">
-<segment>
-<wire x1="231.14" y1="66.04" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
-<junction x="231.14" y="66.04"/>
-<pinref part="CON1" gate="G$1" pin="2"/>
-<label x="218.44" y="66.04" size="1.778" layer="95"/>
-<portref moduleinst="BABEL2" port="CAN_H"/>
-<wire x1="208.28" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="66.04" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
-<junction x="215.9" y="66.04"/>
-<wire x1="215.9" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="CON2" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="66.04" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="86.36" x2="236.22" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="CON6" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="43.18" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="43.18" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="CANL2" class="0">
 <segment>
 <wire x1="208.28" y1="63.5" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
@@ -8262,11 +8234,9 @@ BABEL firmare</text>
 <wire x1="236.22" y1="40.64" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="40.64" x2="228.6" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="63.5" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
 <junction x="210.82" y="63.5"/>
-<wire x1="195.58" y1="76.2" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="10"/>
-<wire x1="195.58" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VDD_5V" class="0">
@@ -8337,10 +8307,23 @@ BABEL firmare</text>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="81.28" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="83.82" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="66.04" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
+<junction x="231.14" y="66.04"/>
+<pinref part="CON1" gate="G$1" pin="2"/>
+<label x="218.44" y="66.04" size="1.778" layer="95"/>
+<portref moduleinst="BABEL2" port="CAN_H"/>
+<wire x1="208.28" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="CON2" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="66.04" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="86.36" x2="236.22" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="CON6" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="43.18" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="43.18" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="83.82" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
+<junction x="215.9" y="66.04"/>
 </segment>
 </net>
 <net name="CAN1_VDD1" class="0">
@@ -8414,16 +8397,17 @@ BABEL firmare</text>
 <label x="218.44" y="139.7" size="1.778" layer="95"/>
 <portref moduleinst="BABEL1" port="CAN_H"/>
 <wire x1="208.28" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="139.7" x2="215.9" y2="144.78" width="0.1524" layer="91"/>
-<junction x="215.9" y="139.7"/>
-<wire x1="215.9" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="CON3" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="139.7" x2="231.14" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="160.02" x2="236.22" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="CON5" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="116.84" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="157.48" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="157.48" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
+<junction x="215.9" y="139.7"/>
 </segment>
 </net>
 <net name="CANL1" class="0">
@@ -8442,11 +8426,27 @@ BABEL firmare</text>
 <wire x1="236.22" y1="114.3" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="114.3" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="137.16" x2="210.82" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
 <junction x="210.82" y="137.16"/>
-<wire x1="195.58" y1="149.86" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="149.86" x2="208.28" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
 <pinref part="S1" gate="G$1" pin="10"/>
 <wire x1="195.58" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="149.86" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="S3" gate="G$1" pin="10"/>
+<wire x1="195.58" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="76.2" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
