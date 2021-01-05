@@ -20,3 +20,16 @@ This eliminates the need for having a separate housing, reliably protecting all 
 while also providing a possibility to deposit some explanatory notes on the top surface of the device 
 (like connectors purpose, pinouts, etc.) without additional technological process, which allows Babel-Babel to be relatively self-documented device.
 
+![](figures/General_view.png)
+
+![](figures/Pinout.png)
+
+In order to use Babel-Babel as production flashing and testing tool an adapter PCB should be designed.
+In general this PCB should have PBS connectors for Babel-Babel on one side and some sort of connectors for device under test (usually pogo pins).
+Both Babel-Babel and device under test can then be connected to this adapter PCB and the flashing and testing routine can be performed.
+A good example of this practice is Myduck-LV.
+It is a device used to flash and test Mitochondrik LV.
+In order to avoid the requirement for an additional adapter PCB Myduck LV is designed to accept Babel-Babel directly: 
+
+![](figures/Myduck-LV.png)
+
