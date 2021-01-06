@@ -6286,7 +6286,7 @@ package type TQ</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="Electronic terminator" current="yes"/>
+<variantdef name="Electronic terminator"/>
 <variantdef name="Mechanical terminator"/>
 </variantdefs>
 <classes>
@@ -6445,7 +6445,7 @@ package type TQ</description>
 </part>
 <part name="GND28" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
-<part name="IC3" library="linear regulators" library_urn="urn:adsk.eagle:library:2541155" deviceset="AP2127" device="" package3d_urn="urn:adsk.eagle:package:2541159/3" technology="-3.3"/>
+<part name="IC3" library="linear regulators" library_urn="urn:adsk.eagle:library:2541155" deviceset="AP2127" device="" package3d_urn="urn:adsk.eagle:package:2541159/3" override_package3d_urn="urn:adsk.eagle:package:2541159/4" override_package_urn="urn:adsk.eagle:footprint:2541156/2" technology="-3.3"/>
 <part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="4.7uF">
 <attribute name="LCSC#" value="C19666"/>
 </part>
@@ -7767,7 +7767,7 @@ BABEL firmare</text>
 <variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="GND15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="NS5B1G385" device="" package3d_urn="urn:adsk.eagle:package:5347863/9">
+<part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="NS5B1G385" device="" package3d_urn="urn:adsk.eagle:package:5347863/9" override_package3d_urn="urn:adsk.eagle:package:5347863/10" override_package_urn="urn:adsk.eagle:footprint:8637277/4">
 <variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
@@ -10015,6 +10015,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
