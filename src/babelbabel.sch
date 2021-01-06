@@ -6286,7 +6286,7 @@ package type TQ</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="Electronic terminator"/>
+<variantdef name="Electronic terminator" current="yes"/>
 <variantdef name="Mechanical terminator"/>
 </variantdefs>
 <classes>
@@ -6702,8 +6702,8 @@ BABEL firmare</text>
 <instance part="P+11" gate="G$1" x="106.68" y="182.88" smashed="yes">
 <attribute name="VALUE" x="106.68" y="186.436" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="P+12" gate="G$1" x="106.68" y="149.86" smashed="yes" rot="R90">
-<attribute name="VALUE" x="103.124" y="149.86" size="1.27" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
+<instance part="P+12" gate="G$1" x="99.06" y="152.4" smashed="yes">
+<attribute name="VALUE" x="99.06" y="155.956" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="GND12" gate="1" x="104.14" y="152.4" smashed="yes" rot="R270">
 <attribute name="VALUE" x="102.87" y="152.4" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
@@ -6711,11 +6711,11 @@ BABEL firmare</text>
 <instance part="P+13" gate="G$1" x="129.54" y="116.84" smashed="yes" rot="R180">
 <attribute name="VALUE" x="129.54" y="113.284" size="1.27" layer="96" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="GND13" gate="1" x="127" y="203.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="127" y="204.47" size="1.27" layer="96" font="vector" ratio="15" rot="R180" align="center"/>
+<instance part="GND13" gate="1" x="127" y="208.28" smashed="yes" rot="R180">
+<attribute name="VALUE" x="127" y="209.55" size="1.27" layer="96" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="P+14" gate="G$1" x="124.46" y="200.66" smashed="yes">
-<attribute name="VALUE" x="124.46" y="204.216" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="P+14" gate="G$1" x="124.46" y="210.82" smashed="yes">
+<attribute name="VALUE" x="124.46" y="214.376" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="P+15" gate="G$1" x="182.88" y="142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="186.436" y="142.24" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
@@ -7125,7 +7125,7 @@ BABEL firmare</text>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VSS@4"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="127" y1="195.58" x2="127" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="127" y1="195.58" x2="127" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VSSSD"/>
@@ -7253,8 +7253,9 @@ BABEL firmare</text>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDDA"/>
-<wire x1="109.22" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="G$1" pin="VDD_3V3"/>
+<wire x1="109.22" y1="149.86" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="149.86" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDD@1"/>
@@ -7264,7 +7265,7 @@ BABEL firmare</text>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDD@4"/>
 <pinref part="P+14" gate="G$1" pin="VDD_3V3"/>
-<wire x1="124.46" y1="195.58" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="195.58" x2="124.46" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VREFSD+"/>
