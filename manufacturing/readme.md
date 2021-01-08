@@ -6,7 +6,7 @@ Following operations must be performed for Babel-Babel manufacturing:
 
 2) Flashing both Babels and Dronecode probe on the PCB.
 This operation should be performed without installing any connectors on the PCB.
-4 4 pin pogo pin connector should be used.
+4 pin pogo pin connector should be used.
 Connectors' pinouts used for flashing can be found in the picture below.
 ![](../figures/flashing_interface.svg)
 
