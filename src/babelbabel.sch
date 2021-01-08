@@ -6286,7 +6286,7 @@ package type TQ</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="Electronic terminator"/>
+<variantdef name="Electronic terminator" current="yes"/>
 <variantdef name="Mechanical terminator"/>
 </variantdefs>
 <classes>
@@ -6314,7 +6314,9 @@ package type TQ</description>
 <variantdef name="basic"/>
 </variantdefs>
 <parts>
-<part name="IC1" library="stm32" library_urn="urn:adsk.eagle:library:2473361" deviceset="STM32F373CBT6" device="-LQFP48" package3d_urn="urn:adsk.eagle:package:2473350/4"/>
+<part name="IC1" library="stm32" library_urn="urn:adsk.eagle:library:2473361" deviceset="STM32F373CBT6" device="-LQFP48" package3d_urn="urn:adsk.eagle:package:2473350/4">
+<variant name="basic" populate="no"/>
+</part>
 <part name="GND1" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="C5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">
@@ -6401,15 +6403,12 @@ package type TQ</description>
 <part name="+P4" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="5V" device=""/>
 <part name="C84" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">
 <attribute name="LCSC#" value="C1525"/>
-<variant name="A" populate="no"/>
 </part>
 <part name="C27" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="4.7uF">
 <attribute name="LCSC#" value="C19666"/>
-<variant name="A" populate="no"/>
 </part>
 <part name="C30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="4.7uF">
 <attribute name="LCSC#" value="C19666"/>
-<variant name="A" populate="no"/>
 </part>
 <part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -7694,10 +7693,7 @@ BABEL firmare</text>
 <part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54SWT1G" device="" package3d_urn="urn:adsk.eagle:package:7365870/3"/>
 <part name="+P40" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="GND90" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
-<variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
-</part>
+<part name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
 <part name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540381/2"/>
 <part name="GND91" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
@@ -7813,10 +7809,10 @@ BABEL firmare</text>
 <plain>
 </plain>
 <moduleinsts>
-<moduleinst name="BABEL1" module="BABEL" x="190.5" y="134.62" offset="100">
+<moduleinst name="BABEL1" module="BABEL" modulevariant="basic" x="190.5" y="134.62" offset="100">
 <attribute name="NAME" x="190.5" y="145.796" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BABEL2" module="BABEL" x="190.5" y="60.96" offset="200">
+<moduleinst name="BABEL2" module="BABEL" modulevariant="basic" x="190.5" y="60.96" offset="200">
 <attribute name="NAME" x="190.5" y="72.136" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
