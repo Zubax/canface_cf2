@@ -1,7 +1,7 @@
 # Babel-Babel
 All-in-one hardware solution for developing UAVCAN-compatible devices.
 
-Babel-Babel consists of three devices that are assembled on a single PCB: 2 Babel UAB-CAN adapters and dronecode probe (a generic JTAG/SWD + UART console adapter).
+Babel-Babel consists of three devices that are assembled on a single PCB: 2 Babel USB-CAN adapters and dronecode probe (a generic JTAG/SWD + UART console adapter).
 
 Babel-Babel is connected to a PC with only one USB cable as it contains a USB HUB. It provides the following interfaces for connecting to a device under development:
 - CAN 1 (UAVCAN micro connector)
