@@ -12,8 +12,7 @@ Babel-Babel is connected to a PC with only one USB cable as it contains a USB HU
 Along with that, all these interfaces are connected to additional PLS connectors (regular 0.1` single row pin headers). 
 These connectors may be used for production testing purposes.
 
-Each individual Babel can be turned off using the corresponding dip switch. CAN bus termination resistor on each individual Babel can also be connected to the bus 
-using a corresponding dip switch.
+Each individual Babel can be turned off using the corresponding dip switch.
 
 ## Standalone debugging tool 
 In standalone debugging tool using scenario (when pin headers are not used) Babel-Babel is constructed using a "novel approach" often called oreo-construction.
