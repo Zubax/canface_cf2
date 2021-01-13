@@ -36,4 +36,4 @@ A good example of this practice is Myduck-LV.
 It is a device used to flash and test Mitochondrik LV.
 In order to avoid the requirement for an additional adapter PCB Myduck LV is designed to accept Babel-Babel directly: 
 
-![](figures/Myduck-LV.png)
+![](https://github.com/Zubax/MyDuck-LV/blob/master/figures/Myduck-LV-jig.png)
