@@ -1,30 +1,32 @@
-# Бизнес-требования для отладчика Babel-Babel
+# Babel-Babel combined debugger and interface converter business requirements
 
-## Назначение
+## Purpose
 
-Babel-Babel предназначен для упрощения процесса тестирования продуктов Zubax
-(или любых других изделий, требующих для тестирования подключения одной или двух шины CAN и прошивки микроконтроллера по интерфейсу SWD).
-Помимо этого Babel-Babel также может быть использован как инструмент для разработки UAVCAN-совместимых встраиваемых устройств. 
-Один Babel-Babel заменяет два USB-CAN конвертера, программатор а также предоставляет один USB порт для подключения тестируемого устройства. При этом требуется только 1 USB подключение к компьютеру. 
+Babel-Babel is a device intended to ease the process of manufacturing flashing and testing of Zubax products (or any other similar products).
+Besides that, the device can be used as a tool for UAVCAN-compatible embedded devices.
+One Babel-Bable can replace two USB-CAN converters, a programmer and also can provide one USB 2.0 port for connecting of the device being debugged.
+All this requires only 1 USB connection to the host PC.
 
-## Технические требования
+## Technical requirements
 
-* Компактность.
-* Минимизация количества USB подключений от компьютера к отладочным средствам.
-* Обеспечение возможности минимизировать количество кабельных подключений к тестируемому устройству.
-* Обеспечение совместимости аппаратного обеспечения с существующим ПО Babel и DCP2.3.
 
-## Конструктивные требования
+* small size.
+* minimizing the required USB connections number for the host PCB to the debugging tools.
+* minimizing the required cable connections number to the device under test.
+* The hardware should be compatible with the existing software for Babel and DCP 2.3. 
 
-* Использование устройчивых к механическим воздействиям USB разъемов для подключения к компьютеру и тестируемому устройству.
-* Степень защиты оболочки IP40.
-* Стандартный Dronecode разъем в части программатора.
-* Следование аппаратным рекомендациям UAVCAN (в части разъемов USB-CAN конвертеров).
-* Питание устройства от шины USB компьютера (4.5 - 5.5 Вольт, ток потребления до 500 мА).
+## Design requirements
 
-## Условия эксплуатации
-* Применение внутри помещений.
-* Температурный диапазон окружающей среды -- 0...+40С.
-* Влажность -- до 100%.
+* USB connectors should be able to tolerate moderate mechanical abuse. 
+* Enclosure class IP40
+* Standard Dronecode connector should be used for SWD interface and debug UART.
+* USB-CAN converters should be compatible with UAVCAN hardware recommendations.
+* The device should be powered from the USB bus (4.5 - 5.5 V, current consumption up to 500 mA).
 
-Допускается использование не AEC-Q grade компонентов и отступление от политики разработки изделий.
+## Environmental conditions.
+
+* In-door usage.
+* Operating temperature range - 0..+40C
+* Operating Humidty - up to 100% 
+
+Using non-AEC-Q grade components as well as deviations from the hardware development policies is allowed.
