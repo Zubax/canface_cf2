@@ -5,8 +5,7 @@ The following operations must be performed for Babel-Babel manufacturing:
 1) SMT mounting of the main PCB.
 
 2) Flashing both Babels and [Dronecode probe](https://github.com/Zubax/dronecode_probe) on the PCB.
-This operation should be performed without installing any connectors on the PCB ---
-a 4-pin pogo pin connector should be used instead.
+This operation should be performed without installing any connectors on the PCB, a 4-pin pogo pin connector should be used instead.
 Connectors' pinouts used for flashing can be found in the picture below.
 
 ![](../figures/flashing_interface.svg)
