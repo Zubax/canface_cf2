@@ -13,5 +13,5 @@ Connectors' pinouts used for flashing can be found in the picture below.
 3) After flashing is done, all the PCBs should be stacked, aligned, and secured together using x5 2 mm diameter shafts.
 "Part A" PCBs should be split in two parts beforehand,
 and the excessive material that interferes with USB A connector placement should be removed.
-
+The shafts can be manufactured by cutting widely available in hardware stores round wooden dowels with 2 mm diamter to appropriate length (7.7 mm). 
 ![](../figures/blow_scheme.svg)
