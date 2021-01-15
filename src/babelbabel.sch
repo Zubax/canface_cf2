@@ -6310,12 +6310,12 @@ package type TQ</description>
 <port name="TERM_ON" side="left" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
-<variantdef name="48_pin_MCU"/>
-<variantdef name="64_pin_MCU"/>
+<variantdef name="A"/>
+<variantdef name="basic"/>
 </variantdefs>
 <parts>
 <part name="IC1" library="stm32" library_urn="urn:adsk.eagle:library:2473361" deviceset="STM32F373CBT6" device="-LQFP48" package3d_urn="urn:adsk.eagle:package:2473350/4">
-<variant name="64_pin_MCU" populate="no"/>
+<variant name="basic" populate="no"/>
 </part>
 <part name="GND1" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -6397,7 +6397,9 @@ package type TQ</description>
 <part name="GND50" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="P+6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="GND4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="IC8" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="TPD3S014DBVR" device="-SOT23-6" package3d_urn="urn:adsk.eagle:package:1040217/3"/>
+<part name="IC8" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="TPD3S014DBVR" device="-SOT23-6" package3d_urn="urn:adsk.eagle:package:1040217/3">
+<variant name="A" populate="no"/>
+</part>
 <part name="+P4" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="5V" device=""/>
 <part name="C84" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">
 <attribute name="LCSC#" value="C1525"/>
@@ -6420,7 +6422,6 @@ package type TQ</description>
 </part>
 <part name="IC2" library="stm32" library_urn="urn:adsk.eagle:library:2473361" deviceset="STM32F373RCT6" device="" package3d_urn="urn:adsk.eagle:package:2473349/4">
 <attribute name="DIGIKEY#" value="497-13252-ND"/>
-<variant name="48_pin_MCU" populate="no"/>
 </part>
 <part name="P+11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="P+12" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
@@ -6942,7 +6943,6 @@ BABEL firmare</text>
 <wire x1="264.16" y1="162.56" x2="264.16" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="BOOT0"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<label x="265.684" y="164.084" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="BOOT0"/>
@@ -7693,10 +7693,7 @@ BABEL firmare</text>
 <part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54SWT1G" device="" package3d_urn="urn:adsk.eagle:package:7365870/3"/>
 <part name="+P40" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="GND90" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
-<variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
-</part>
+<part name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
 <part name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540381/2"/>
 <part name="GND91" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
@@ -7812,10 +7809,10 @@ BABEL firmare</text>
 <plain>
 </plain>
 <moduleinsts>
-<moduleinst name="BABEL1" module="BABEL" modulevariant="64_pin_MCU" x="190.5" y="134.62" offset="100">
+<moduleinst name="BABEL1" module="BABEL" modulevariant="basic" x="190.5" y="134.62" offset="100">
 <attribute name="NAME" x="190.5" y="145.796" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BABEL2" module="BABEL" modulevariant="64_pin_MCU" x="190.5" y="60.96" offset="200">
+<moduleinst name="BABEL2" module="BABEL" modulevariant="basic" x="190.5" y="60.96" offset="200">
 <attribute name="NAME" x="190.5" y="72.136" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
@@ -9737,6 +9734,13 @@ No divider needed</text>
 <label x="53.34" y="91.44" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
+<net name="ITDI" class="0">
+<segment>
+<pinref part="IC15" gate="G$1" pin="2A"/>
+<wire x1="203.2" y1="137.16" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
+<label x="200.66" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 <net name="XTCK" class="0">
 <segment>
 <pinref part="IC15" gate="G$1" pin="1B"/>
@@ -9795,6 +9799,13 @@ No divider needed</text>
 <pinref part="IC13" gate="G$1" pin="PA4"/>
 <wire x1="50.8" y1="93.98" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
 <label x="50.8" y="91.44" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="ITDO" class="0">
+<segment>
+<pinref part="IC16" gate="G$1" pin="1A"/>
+<wire x1="203.2" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
+<label x="200.66" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IRXD" class="0">
@@ -9965,18 +9976,19 @@ No divider needed</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,2,22.86,27.94,IC3,IN,VDD_5V,,,"/>
-<approved hash="104,2,45.72,27.94,IC3,OUT,VDD_3V3,,,"/>
-<approved hash="104,1,137.16,162.56,IC2,VCC,VDD_5V,,,"/>
-<approved hash="104,1,137.16,88.9,IC1,VCC,VDD_5V,,,"/>
-<approved hash="104,1@BABEL,193.04,73.66,IC3,IN,VDD_5V,,,"/>
-<approved hash="104,1@BABEL,215.9,73.66,IC3,OUT,VDD_3V3,,,"/>
+<approved hash="104,2,20.32,20.32,IC3,IN,VDD_5V,,,"/>
+<approved hash="104,2,43.18,20.32,IC3,OUT,VDD_3V3,,,"/>
+<approved hash="104,1@BABEL,20.32,25.4,IC3,IN,VDD_5V,,,"/>
+<approved hash="104,1@BABEL,43.18,25.4,IC3,OUT,VDD_3V3,,,"/>
 <approved hash="213,1,208.28,132.08,RST,in,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME3,,,,,"/>
 <approved hash="113,2,130.071,89.431,FRAME4,,,,,"/>
-<approved hash="113,1@BABEL,193.571,130.071,FRAME1,,,,,"/>
-<approved hash="118,1@BABEL,279.4,100.33,Связь,GND,,,,"/>
-<approved hash="118,1@BABEL,121.92,71.12,Связь,VDD_5V,,,,"/>
+<approved hash="113,2,17.78,120.576,Q7,,,,,"/>
+<approved hash="113,1@BABEL,130.071,89.431,FRAME1,,,,,"/>
+<approved hash="113,1@BABEL,41.8363,116.84,Q1,,,,,"/>
+<approved hash="115,1@BABEL,86.36,139.7,BOOT0,,,,,"/>
+<approved hash="118,1@BABEL,101.6,74.93,Связь,GND,,,,"/>
+<approved hash="118,1@BABEL,204.47,48.26,Связь,VDD_5V,,,,"/>
 </errors>
 </schematic>
 </drawing>
