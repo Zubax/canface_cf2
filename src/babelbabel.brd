@@ -1922,6 +1922,7 @@ package type TQ</description>
 </element>
 <element name="CON7" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="MICRO_USB_PEGS" package3d_urn="urn:adsk.eagle:package:1041165/8" value="USB-1" x="10.7" y="36.3" locked="yes" smashed="yes" rot="R180">
 <attribute name="DIGIKEY#" value="609-4616-1-ND" x="10.7" y="36.3" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC#" value="C132562" x="10.7" y="36.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="FCI" x="10.7" y="36.3" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="10118193-0001LF" x="10.7" y="36.3" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.7" y="35.06" locked="yes" size="0.7" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
@@ -2632,6 +2633,7 @@ package type TQ</description>
 </element>
 <element name="CON10" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="SM06B" package3d_urn="urn:adsk.eagle:package:1041174/4" value="CON-6P-SM06B" x="38.2" y="7.05" locked="yes" smashed="yes" rot="R90">
 <attribute name="DIGIKEY#" value="455-1806-1-ND" x="38.2" y="7.05" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC#" value="C160405" x="38.2" y="7.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="JST Sales America Inc" x="38.2" y="7.05" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="SM06B-SRSS-TB(LF)(SN)" x="38.2" y="7.05" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="38.2" y="7.05" locked="yes" size="1" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
@@ -2699,10 +2701,10 @@ package type TQ</description>
 <attribute name="NAME" x="16.4" y="14.9" size="0.5" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="2" y="8.25" populate="no" smashed="yes" rot="R90"/>
-<element name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X06-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540381/2" value="PINHEAD_1X06-2.54" x="33.4" y="10.05" locked="yes" smashed="yes" rot="MR90">
+<element name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X06-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540381/2" value="PINHEAD_1X06-2.54" x="33.4" y="10.05" locked="yes" populate="no" smashed="yes" rot="MR90">
 <attribute name="NAME" x="33.4" y="10.05" locked="yes" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="33.1" y="-24.25" locked="yes" smashed="yes" rot="MR90">
+<element name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="33.1" y="-24.25" locked="yes" populate="no" smashed="yes" rot="MR90">
 <attribute name="NAME" x="33.1" y="-24.25" locked="yes" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 </element>
 <element name="IC102" library="stm32" library_urn="urn:adsk.eagle:library:2473361" package="TQFP64" package3d_urn="urn:adsk.eagle:package:2473349/4" value="STM32F373RCT6" x="11.7" y="-25.45" smashed="yes" rot="R90">
@@ -2712,14 +2714,15 @@ package type TQ</description>
 <attribute name="MANF#" value="STM32F373RCT6" x="11.7" y="-25.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.7" y="-25.45" size="1" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="CON101" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="2" y="-24.75" smashed="yes" rot="R90">
+<element name="CON101" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="2" y="-24.75" populate="no" smashed="yes" rot="R90">
 <attribute name="NAME" x="2" y="-24.75" size="1" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="CON4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="USB-A-F-PTH" package3d_urn="urn:adsk.eagle:package:25290692/2" value="USB-AA-PTH" x="33.7" y="25.25" locked="yes" smashed="yes" rot="R90">
-<attribute name="DIGIKEY#" value="787616-1-ND" x="33.7" y="25.25" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANF" value="TE Connectivity AMP Connectors" x="33.7" y="25.25" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANF#" value="787616-1" x="33.7" y="25.25" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31.16" y="25.25" locked="yes" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="CON4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="USB-A-F-PTH" package3d_urn="urn:adsk.eagle:package:25290692/2" value="USB-AA-PTH" x="34" y="25.25" smashed="yes" rot="R90">
+<attribute name="DIGIKEY#" value="787616-1-ND" x="34" y="25.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC#" value="C39437" x="34" y="25.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="TE Connectivity AMP Connectors" x="34" y="25.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="787616-1" x="34" y="25.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="31.46" y="25.25" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="CON5" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="JST_GH-4P-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" value="CON-4P-TABS-JST_GH-RA" x="38.8" y="-29.2" locked="yes" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="---" x="38.8" y="-29.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2730,16 +2733,22 @@ package type TQ</description>
 <attribute name="NAME" x="38.8" y="-29.2" locked="yes" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="-25°C ~ 85°C" x="38.8" y="-29.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="25.4" y="25.15" locked="yes" smashed="yes" rot="MR90">
+<element name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="25.4" y="25.15" locked="yes" populate="no" smashed="yes" rot="MR90">
 <attribute name="NAME" x="25.4" y="25.15" locked="yes" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 </element>
 <element name="S1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="DS-01" package3d_urn="urn:adsk.eagle:package:15321811/3" value="DS01-STRAIGHT" x="29.5" y="-31.6" locked="yes" populate="no" smashed="yes" rot="R90">
+<attribute name="LCSC#" value="C319063" x="29.5" y="-31.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="XKB Connectivity" x="29.5" y="-31.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="DS-01RP" x="29.5" y="-31.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.15" y="-31.6" locked="yes" size="1.5" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="S2" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="DS-01" package3d_urn="urn:adsk.eagle:package:15321811/3" value="DS01-STRAIGHT" x="21.4" y="-18.1" locked="yes" smashed="yes" rot="R90">
+<attribute name="LCSC#" value="C319063" x="21.4" y="-18.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="XKB Connectivity" x="21.4" y="-18.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="DS-01RP" x="21.4" y="-18.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="21.4" y="-16.5" locked="yes" size="1.5" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="CON102" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X03-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540386/3" value="PINHEAD_1X03-2.54" x="30.55" y="-17.6" locked="yes" smashed="yes" rot="MR180">
+<element name="CON102" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X03-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540386/3" value="PINHEAD_1X03-2.54" x="30.55" y="-17.6" locked="yes" populate="no" smashed="yes" rot="MR180">
 <attribute name="NAME" x="30.55" y="-17.6" locked="yes" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 </element>
 <element name="C126" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1uF" x="14.4" y="-17.3" smashed="yes" rot="R270">
@@ -3104,7 +3113,7 @@ package type TQ</description>
 <attribute name="NAME" x="38.8" y="-2.3" locked="yes" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="-25°C ~ 85°C" x="28.8" y="-2.3" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="33.1" y="-6.25" locked="yes" smashed="yes" rot="MR90">
+<element name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="33.1" y="-6.25" locked="yes" populate="no" smashed="yes" rot="MR90">
 <attribute name="NAME" x="33.1" y="-6.25" locked="yes" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 </element>
 <element name="IC202" library="stm32" library_urn="urn:adsk.eagle:library:2473361" package="TQFP64" package3d_urn="urn:adsk.eagle:package:2473349/4" value="STM32F373RCT6" x="11.7" y="-7.45" smashed="yes" rot="R90">
@@ -3114,7 +3123,7 @@ package type TQ</description>
 <attribute name="MANF#" value="STM32F373RCT6" x="11.7" y="-7.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.7" y="-7.45" size="1" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="CON201" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="2" y="-6.75" smashed="yes" rot="R90">
+<element name="CON201" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="2" y="-6.75" populate="no" smashed="yes" rot="R90">
 <attribute name="NAME" x="2" y="-6.75" size="1" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="CON6" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="JST_GH-4P-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" value="CON-4P-TABS-JST_GH-RA" x="38.8" y="-11.2" locked="yes" smashed="yes" rot="R270">
@@ -3127,12 +3136,18 @@ package type TQ</description>
 <attribute name="OPERATING_TEMP" value="-25°C ~ 85°C" x="38.8" y="-11.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="S3" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="DS-01" package3d_urn="urn:adsk.eagle:package:15321811/3" value="DS01-STRAIGHT" x="29.5" y="-13.6" locked="yes" populate="no" smashed="yes" rot="R90">
+<attribute name="LCSC#" value="C319063" x="29.5" y="-13.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="XKB Connectivity" x="29.5" y="-13.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="DS-01RP" x="29.5" y="-13.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.15" y="-13.6" locked="yes" size="1.5" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="S4" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="DS-01" package3d_urn="urn:adsk.eagle:package:15321811/3" value="DS01-STRAIGHT" x="21.4" y="-0.1" locked="yes" smashed="yes" rot="R90">
+<attribute name="LCSC#" value="C319063" x="21.4" y="-0.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="XKB Connectivity" x="21.4" y="-0.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="DS-01RP" x="21.4" y="-0.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="21.4" y="1.5" locked="yes" size="1.5" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="CON202" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X03-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540386/3" value="PINHEAD_1X03-2.54" x="30.55" y="0.4" locked="yes" smashed="yes" rot="MR180">
+<element name="CON202" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X03-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540386/3" value="PINHEAD_1X03-2.54" x="30.55" y="0.4" locked="yes" populate="no" smashed="yes" rot="MR180">
 <attribute name="NAME" x="30.55" y="0.4" locked="yes" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 </element>
 <element name="C226" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1uF" x="14.4" y="0.7" smashed="yes" rot="R270">
@@ -3179,6 +3194,7 @@ package type TQ</description>
 </element>
 <element name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:5347863/9" override_package3d_urn="urn:adsk.eagle:package:5347863/10" override_package_urn="urn:adsk.eagle:footprint:8637277/4" value="NS5B1G385" x="30.1" y="-32" smashed="yes">
 <attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" x="30.55" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C889718" x="30.1" y="-32" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="30.55" y="-31.75" size="1.778" layer="27" display="off"/>
 <attribute name="MANF#" value="NS5B1G385DTT1G" x="30.55" y="-31.75" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="30.1" y="-32" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
@@ -3196,6 +3212,7 @@ package type TQ</description>
 </element>
 <element name="IC1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:5347863/9" value="NS5B1G385" x="30.1" y="-14" smashed="yes">
 <attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" x="30.6" y="-14" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C889718" x="30.1" y="-14" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="30.6" y="-14" size="1.778" layer="27" display="off"/>
 <attribute name="MANF#" value="NS5B1G385DTT1G" x="30.6" y="-14" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="30.1" y="-14" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
@@ -3801,27 +3818,27 @@ package type TQ</description>
 <contactref element="CON4" pad="D+"/>
 <contactref element="CON15" pad="3"/>
 <contactref element="IC9" pad="11"/>
-<wire x1="25.4" y1="26.42" x2="28.1599" y2="26.42" width="0.2" layer="1"/>
-<wire x1="28.1599" y1="26.42" x2="28.3299" y2="26.25" width="0.2" layer="1"/>
 <wire x1="25.4" y1="26.42" x2="23.8" y2="24.82" width="0.2" layer="1"/>
 <wire x1="18.64" y1="17.91" x2="18.64" y2="18.95" width="0.2" layer="1"/>
 <wire x1="23.8" y1="24.82" x2="23.8" y2="18.8" width="0.2" layer="1"/>
 <wire x1="23.8" y1="18.8" x2="22.6" y2="17.6" width="0.2" layer="1"/>
 <wire x1="22.6" y1="17.6" x2="18.95" y2="17.6" width="0.2" layer="1"/>
 <wire x1="18.95" y1="17.6" x2="18.64" y2="17.91" width="0.2" layer="1"/>
+<wire x1="28.6299" y1="26.25" x2="28.4599" y2="26.42" width="0.2" layer="1"/>
+<wire x1="28.4599" y1="26.42" x2="25.4" y2="26.42" width="0.2" layer="1"/>
 </signal>
 <signal name="DUT_DM">
 <contactref element="CON4" pad="D-"/>
 <contactref element="CON15" pad="2"/>
 <contactref element="IC9" pad="10"/>
-<wire x1="25.4" y1="23.88" x2="27.9599" y2="23.88" width="0.2" layer="1"/>
-<wire x1="27.9599" y1="23.88" x2="28.3299" y2="24.25" width="0.2" layer="1"/>
 <wire x1="25.4" y1="23.88" x2="24.2" y2="22.68" width="0.2" layer="1"/>
 <wire x1="18" y1="17.9" x2="18" y2="18.95" width="0.2" layer="1"/>
 <wire x1="24.2" y1="22.68" x2="24.2" y2="18.6" width="0.2" layer="1"/>
 <wire x1="24.2" y1="18.6" x2="22.8" y2="17.2" width="0.2" layer="1"/>
 <wire x1="22.8" y1="17.2" x2="18.7" y2="17.2" width="0.2" layer="1"/>
 <wire x1="18.7" y1="17.2" x2="18" y2="17.9" width="0.2" layer="1"/>
+<wire x1="28.6299" y1="24.25" x2="28.2599" y2="23.88" width="0.2" layer="1"/>
+<wire x1="28.2599" y1="23.88" x2="25.4" y2="23.88" width="0.2" layer="1"/>
 </signal>
 <signal name="BABEL1:CAN_TX">
 <contactref element="IC105" pad="1"/>
@@ -4416,7 +4433,7 @@ package type TQ</description>
 <vertex x="22.9" y="26.35"/>
 </polygon>
 <wire x1="25.4" y1="21.34" x2="25.8099" y2="21.7499" width="1" layer="1"/>
-<wire x1="25.8099" y1="21.7499" x2="28.3299" y2="21.7499" width="1" layer="1"/>
+<wire x1="25.8099" y1="21.7499" x2="28.6299" y2="21.7499" width="1" layer="1"/>
 <wire x1="25.4" y1="21.34" x2="23.65" y2="23.09" width="1" layer="2"/>
 <wire x1="23.65" y1="26.2" x2="22.6" y2="27.25" width="1" layer="2"/>
 <wire x1="23.65" y1="23.09" x2="23.65" y2="26.2" width="1" layer="2"/>

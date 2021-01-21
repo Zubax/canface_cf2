@@ -6431,12 +6431,18 @@ package type TQ</description>
 <part name="P+15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="P+16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="GND15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
+<part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
+<variant name="48_pin_MCU" populate="no"/>
+<variant name="64_pin_MCU" populate="no"/>
+</part>
 <part name="P+17" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="GND&amp;16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P1" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="5V" device=""/>
 <part name="+P2" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="5V" device=""/>
-<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X03" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540386/3"/>
+<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X03" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540386/3">
+<variant name="48_pin_MCU" populate="no"/>
+<variant name="64_pin_MCU" populate="no"/>
+</part>
 <part name="GND8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="C26" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1uF">
 <attribute name="LCSC#" value="C52923"/>
@@ -7495,7 +7501,9 @@ BABEL firmare</text>
 <part name="C33" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="20pF">
 <attribute name="LCSC#" value="C1554"/>
 </part>
-<part name="CON7" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB" device="-1" package3d_urn="urn:adsk.eagle:package:1041165/8"/>
+<part name="CON7" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB" device="-1" package3d_urn="urn:adsk.eagle:package:1041165/8">
+<attribute name="LCSC#" value="C132562"/>
+</part>
 <part name="D3" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="PRTR5V0U2X" device="" package3d_urn="urn:adsk.eagle:package:3333649/6"/>
 <part name="GND51" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND52" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -7671,7 +7679,9 @@ BABEL firmare</text>
 </part>
 <part name="+P37" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="+P38" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
-<part name="CON10" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-6P" device="-SM06B" package3d_urn="urn:adsk.eagle:package:1041174/4" value="CON-6P-SM06B"/>
+<part name="CON10" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-6P" device="-SM06B" package3d_urn="urn:adsk.eagle:package:1041174/4" value="CON-6P-SM06B">
+<attribute name="LCSC#" value="C160405"/>
+</part>
 <part name="GND88" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="R52" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="120R">
 <attribute name="LCSC#" value="C22787"/>
@@ -7697,12 +7707,20 @@ BABEL firmare</text>
 <variant name="Electronic terminator" populate="no"/>
 <variant name="Mechanical terminator" populate="no"/>
 </part>
-<part name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540381/2"/>
+<part name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540381/2">
+<variant name="Electronic terminator" populate="no"/>
+<variant name="Mechanical terminator" populate="no"/>
+</part>
 <part name="GND91" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
+<part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
+<variant name="Electronic terminator" populate="no"/>
+<variant name="Mechanical terminator" populate="no"/>
+</part>
 <part name="+P2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
-<part name="CON4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB-A" device="A-PTH" package3d_urn="urn:adsk.eagle:package:25290692/2"/>
+<part name="CON4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB-A" device="A-PTH" package3d_urn="urn:adsk.eagle:package:25290692/2">
+<attribute name="LCSC#" value="C39437"/>
+</part>
 <part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GNDD" device="" value="GNDD"/>
@@ -7710,11 +7728,21 @@ BABEL firmare</text>
 <attribute name="AEC-Q" value="---"/>
 <attribute name="OPERATING_TEMP" value="-25°C ~ 85°C"/>
 </part>
-<part name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
+<part name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
+<variant name="Electronic terminator" populate="no"/>
+<variant name="Mechanical terminator" populate="no"/>
+</part>
 <part name="S1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="DS01" device="-STRAIGHT" package3d_urn="urn:adsk.eagle:package:15321811/3">
+<attribute name="LCSC#" value="C319063"/>
+<attribute name="MANF" value="XKB Connectivity"/>
+<attribute name="MANF#" value="DS-01RP"/>
 <variant name="Electronic terminator" populate="no"/>
 </part>
-<part name="S2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="DS01" device="-STRAIGHT" package3d_urn="urn:adsk.eagle:package:15321811/3"/>
+<part name="S2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="DS01" device="-STRAIGHT" package3d_urn="urn:adsk.eagle:package:15321811/3">
+<attribute name="LCSC#" value="C319063"/>
+<attribute name="MANF" value="XKB Connectivity"/>
+<attribute name="MANF#" value="DS-01RP"/>
+</part>
 <part name="GND8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="C26" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1uF">
 <attribute name="LCSC#" value="C52923"/>
@@ -7743,16 +7771,26 @@ BABEL firmare</text>
 </part>
 <part name="GND11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GNDD" device="" value="GNDD"/>
 <part name="+P5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
-<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
+<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
+<variant name="Electronic terminator" populate="no"/>
+<variant name="Mechanical terminator" populate="no"/>
+</part>
 <part name="GND12" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GNDD" device="" value="GNDD"/>
 <part name="CON6" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-4P-TABS" device="-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" technology="-JST_GH" value="CON-4P-TABS-JST_GH-RA">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="OPERATING_TEMP" value="-25°C ~ 85°C"/>
 </part>
 <part name="S3" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="DS01" device="-STRAIGHT" package3d_urn="urn:adsk.eagle:package:15321811/3">
+<attribute name="LCSC#" value="C319063"/>
+<attribute name="MANF" value="XKB Connectivity"/>
+<attribute name="MANF#" value="DS-01RP"/>
 <variant name="Electronic terminator" populate="no"/>
 </part>
-<part name="S4" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="DS01" device="-STRAIGHT" package3d_urn="urn:adsk.eagle:package:15321811/3"/>
+<part name="S4" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="DS01" device="-STRAIGHT" package3d_urn="urn:adsk.eagle:package:15321811/3">
+<attribute name="LCSC#" value="C319063"/>
+<attribute name="MANF" value="XKB Connectivity"/>
+<attribute name="MANF#" value="DS-01RP"/>
+</part>
 <part name="J2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CONNECTION" device="-SMD" package3d_urn="urn:adsk.eagle:package:7439847/1">
 <variant name="Electronic terminator" populate="no"/>
 <variant name="Mechanical terminator" populate="no"/>
@@ -7767,6 +7805,7 @@ BABEL firmare</text>
 </part>
 <part name="GND15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="NS5B1G385" device="" package3d_urn="urn:adsk.eagle:package:5347863/9" override_package3d_urn="urn:adsk.eagle:package:5347863/10" override_package_urn="urn:adsk.eagle:footprint:8637277/4">
+<attribute name="LCSC#" value="C889718"/>
 <variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
@@ -7777,6 +7816,7 @@ BABEL firmare</text>
 <part name="GND16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="IC1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="NS5B1G385" device="" package3d_urn="urn:adsk.eagle:package:5347863/9">
+<attribute name="LCSC#" value="C889718"/>
 <variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
@@ -7856,6 +7896,7 @@ BABEL firmare</text>
 </instance>
 <instance part="CON7" gate="G$1" x="10.16" y="116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.62" y="106.68" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="LCSC#" x="10.16" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="35.56" y="83.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="37.084" y="91.44" size="2.54" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
@@ -7971,6 +8012,7 @@ BABEL firmare</text>
 <instance part="CON4" gate="G$1" x="111.76" y="106.68" smashed="yes" rot="MR180">
 <attribute name="NAME" x="114.3" y="92.71" size="1.778" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="MANF#" x="114.3" y="107.95" size="1.778" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
+<attribute name="LCSC#" x="111.76" y="106.68" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="106.68" y="71.12" smashed="yes">
 <attribute name="VALUE" x="106.68" y="69.85" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -7992,10 +8034,16 @@ BABEL firmare</text>
 <instance part="S1" gate="G$1" x="205.74" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="210.82" y="154.94" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="210.82" y="161.925" size="1.778" layer="96" rot="R180"/>
+<attribute name="MANF" x="205.74" y="157.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANF#" x="205.74" y="157.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC#" x="205.74" y="157.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="S2" gate="G$1" x="210.82" y="121.92" smashed="yes">
 <attribute name="NAME" x="208.28" y="116.84" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="215.265" y="116.84" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC#" x="210.82" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="210.82" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="210.82" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="218.44" y="111.76" smashed="yes"/>
 <instance part="GND6" gate="1" x="170.18" y="48.26" smashed="yes">
@@ -8038,14 +8086,21 @@ BABEL firmare</text>
 <instance part="S3" gate="G$1" x="205.74" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="210.82" y="81.28" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="210.82" y="88.265" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC#" x="205.74" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="205.74" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="205.74" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="S4" gate="G$1" x="210.82" y="48.26" smashed="yes">
 <attribute name="NAME" x="208.28" y="43.18" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="215.265" y="43.18" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC#" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J2" gate="G$1" x="218.44" y="38.1" smashed="yes"/>
 <instance part="IC2" gate="G$1" x="157.48" y="149.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="148.59" y="166.37" size="1.778" layer="97" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="LCSC#" x="157.48" y="149.86" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="+P7" gate="G$1" x="129.54" y="165.1" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="129.54" y="168.656" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -8064,6 +8119,7 @@ BABEL firmare</text>
 </instance>
 <instance part="IC1" gate="G$1" x="157.48" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="148.59" y="92.71" size="1.778" layer="97" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="LCSC#" x="157.48" y="76.2" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="+P8" gate="G$1" x="129.54" y="91.44" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="129.54" y="94.996" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -9086,6 +9142,7 @@ No divider needed</text>
 </instance>
 <instance part="CON10" gate="G$1" x="152.4" y="55.88" smashed="yes">
 <attribute name="NAME" x="154.94" y="74.676" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="LCSC#" x="152.4" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND88" gate="1" x="157.48" y="45.72" smashed="yes">
 <attribute name="VALUE" x="157.48" y="44.45" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
