@@ -7264,8 +7264,13 @@ BABEL firmare</text>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDD@1"/>
-<wire x1="129.54" y1="127" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="G$1" pin="VDD_3V3"/>
+<wire x1="129.54" y1="127" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VREF+"/>
+<wire x1="129.54" y1="119.38" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="127" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="119.38" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
+<junction x="129.54" y="119.38"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDD@4"/>
