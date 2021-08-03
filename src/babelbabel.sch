@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5315,6 +5315,25 @@ package type OT</description>
 </library>
 <library name="mosfet" urn="urn:adsk.eagle:library:2640523">
 <packages>
+<package name="SOT23" urn="urn:adsk.eagle:footprint:2640527/4" library_version="50">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="-0.5" y1="1.4" x2="0.5" y2="1.4" width="0.15" layer="51"/>
+<wire x1="0.5" y1="1.4" x2="0.5" y2="-1.4" width="0.15" layer="51"/>
+<wire x1="0.5" y1="-1.4" x2="-0.5" y2="-1.4" width="0.15" layer="51"/>
+<wire x1="-0.5" y1="-1.4" x2="-0.5" y2="1.4" width="0.15" layer="51"/>
+<wire x1="-0.5" y1="-1.4" x2="-0.5" y2="-0.7" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="0.7" x2="-0.5" y2="1.4" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="1.4" x2="0.4" y2="1.4" width="0.15" layer="21"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.15" layer="21"/>
+<wire x1="0.4" y1="-1.4" x2="-0.5" y2="-1.4" width="0.15" layer="21"/>
+<smd name="3" x="-1.1" y="0" dx="1" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="1.1" y="0.95" dx="1" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="1.1" y="-0.95" dx="1" dy="1" layer="1" rot="R90"/>
+<text x="0" y="0" size="0.508" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-1.5" y1="-0.4" x2="-0.7" y2="0.4" layer="51" rot="R90"/>
+<rectangle x1="0.7" y1="-1.35" x2="1.5" y2="-0.55" layer="51" rot="R90"/>
+<rectangle x1="0.7" y1="0.55" x2="1.5" y2="1.35" layer="51" rot="R90"/>
+</package>
 <package name="SOT-563" urn="urn:adsk.eagle:footprint:8711361/2" library_version="50">
 <smd name="2" x="-0.85" y="0" dx="0.5" dy="0.325" layer="1"/>
 <smd name="1" x="-0.85" y="0.5" dx="0.5" dy="0.325" layer="1"/>
@@ -5339,6 +5358,12 @@ package type OT</description>
 </package>
 </packages>
 <packages3d>
+<package3d name="SOT23" urn="urn:adsk.eagle:package:2640533/9" type="model" library_version="50">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
 <package3d name="SOT-563" urn="urn:adsk.eagle:package:8711362/3" type="model" library_version="50">
 <packageinstances>
 <packageinstance name="SOT-563"/>
@@ -5387,8 +5412,77 @@ package type OT</description>
 <text x="3.302" y="-2.032" size="1.27" layer="97" font="vector">S</text>
 <text x="0" y="0.762" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left">&gt;PACKAGE</text>
 </symbol>
+<symbol name="N-MOSFET" urn="urn:adsk.eagle:symbol:2640529/3" library_version="50">
+<wire x1="0.762" y1="3.302" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0.762" y1="5.715" x2="0.762" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0.762" y1="5.08" x2="0.762" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.635" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="5.08" x2="3.81" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="3.302" x2="4.318" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="3.048" x2="3.81" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.048" x2="3.302" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="3.048" x2="3.048" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.032" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="2.286" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="3.048" width="0.1524" layer="94"/>
+<circle x="2.54" y="0" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="5.08" radius="0.3592" width="0" layer="94"/>
+<pin name="S" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="3.048"/>
+<vertex x="3.302" y="2.286"/>
+<vertex x="4.318" y="2.286"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="2.54"/>
+<vertex x="2.032" y="1.778"/>
+<vertex x="2.032" y="3.302"/>
+</polygon>
+<text x="3.302" y="5.842" size="1.27" layer="97" font="vector">D</text>
+<text x="-2.032" y="-2.032" size="1.27" layer="97" font="vector">G</text>
+<text x="3.302" y="-2.032" size="1.27" layer="97" font="vector">S</text>
+<text x="-0.254" y="3.81" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left">&gt;NAME</text>
+<text x="-0.254" y="2.032" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left">&gt;MANF#</text>
+<text x="-0.254" y="0.762" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left">&gt;PACKAGE</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="2N7002" urn="urn:adsk.eagle:component:24288005/6" prefix="Q" library_version="51">
+<description>N-Channel 60V 115mA 2.5V @ 250uA 7.5Ω @ 500mA,10V 200mW SOT-23(SOT-23-3) MOSFET RoHS</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2640533/9"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C8545" constant="no"/>
+<attribute name="MANF" value="Changjiang Electronics Tech (CJ)" constant="no"/>
+<attribute name="MANF#" value="2N7002" constant="no"/>
+<attribute name="PACKAGE" value="SOT23" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="NTZD3152PT1G" urn="urn:adsk.eagle:component:25616471/1" prefix="Q" library_version="51">
 <description>Mosfet Array 2 P-Channel (Dual) 20V 430mA 250mW Surface Mount SOT-563</description>
 <gates>
@@ -6318,6 +6412,8 @@ package type TQ</description>
 <part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND9" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="2N7002" device="" package3d_urn="urn:adsk.eagle:package:2640533/9"/>
+<part name="GND11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="P+10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="10K">
 <attribute name="LCSC#" value="C25744"/>
@@ -6367,10 +6463,10 @@ package type TQ</description>
 <sheets>
 <sheet>
 <plain>
-<wire x1="114.3" y1="88.9" x2="114.3" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="114.3" y1="98.52" x2="114.3" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="114.3" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="71.12" y1="55.88" x2="71.12" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="71.12" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="71.12" y1="55.88" x2="71.12" y2="98.52" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="71.12" y1="98.52" x2="114.3" y2="98.52" width="0.1524" layer="97" style="shortdash"/>
 <text x="73.66" y="78.74" size="1.27" layer="97">This section is needed 
 for compatibility with 
 BABEL firmare</text>
@@ -6586,14 +6682,22 @@ BABEL firmare</text>
 <instance part="GND9" gate="1" x="121.92" y="76.2" smashed="yes" rot="R270">
 <attribute name="VALUE" x="120.65" y="76.2" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
-<instance part="P+10" gate="G$1" x="109.22" y="83.82" smashed="yes">
-<attribute name="VALUE" x="109.22" y="87.376" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="Q2" gate="G$1" x="106.68" y="71.12" smashed="yes">
+<attribute name="NAME" x="106.426" y="74.93" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="MANF#" x="106.426" y="73.152" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="PACKAGE" x="106.426" y="71.882" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="99.06" y="81.28" smashed="yes">
-<attribute name="NAME" x="99.06" y="81.28" size="1.27" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="98.806" y="79.248" size="0.762" layer="96" font="vector" align="bottom-right"/>
-<attribute name="PACKAGE" x="95.25" y="81.788" size="0.508" layer="95" font="vector" align="center"/>
-<attribute name="TOLERANCE" x="99.314" y="79.248" size="0.762" layer="96" font="vector"/>
+<instance part="GND11" gate="1" x="109.22" y="58.42" smashed="yes">
+<attribute name="VALUE" x="109.22" y="57.15" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="P+10" gate="G$1" x="109.22" y="92.64" smashed="yes">
+<attribute name="VALUE" x="109.22" y="96.196" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R1" gate="G$1" x="109.26" y="86.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="109.34" y="87.02" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="111.292" y="86.726" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="108.752" y="83.17" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="111.292" y="87.234" size="0.762" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="IC2" gate="G$1" x="111.76" y="129.54" smashed="yes">
 <attribute name="NAME" x="143.51" y="163.83" size="3.81" layer="95" font="vector" ratio="15" align="center"/>
@@ -7014,6 +7118,11 @@ BABEL firmare</text>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="109.22" y1="60.96" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+</segment>
+<segment>
 <pinref part="IC2" gate="G$1" pin="VSSA"/>
 <wire x1="109.22" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -7130,17 +7239,6 @@ BABEL firmare</text>
 <pinref part="P+2" gate="G$1" pin="VDD_3V3"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="EN"/>
-<wire x1="127" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="81.28" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="P+10" gate="G$1" pin="VDD_3V3"/>
-<junction x="109.22" y="81.28"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="81.28" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
-<junction x="109.22" y="81.28"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="VBAT"/>
 <wire x1="109.22" y1="180.34" x2="106.68" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="G$1" pin="VDD_3V3"/>
@@ -7197,6 +7295,12 @@ BABEL firmare</text>
 <pinref part="IC5" gate="G$1" pin="VIO"/>
 <pinref part="P+1" gate="G$1" pin="VDD_3V3"/>
 <wire x1="304.8" y1="208.28" x2="307.34" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="P+10" gate="G$1" pin="VDD_3V3"/>
+<wire x1="109.26" y1="92.06" x2="109.22" y2="92.06" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="92.06" x2="109.22" y2="92.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -7309,11 +7413,9 @@ BABEL firmare</text>
 <label x="297.18" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="104.14" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 <label x="88.9" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="71.12" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA8"/>
@@ -7367,6 +7469,19 @@ BABEL firmare</text>
 <pinref part="IC2" gate="G$1" pin="PB2"/>
 <wire x1="152.4" y1="127" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
 <label x="152.4" y="124.46" size="1.27" layer="95" font="vector" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="EN"/>
+<wire x1="127" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="109.22" y1="81.28" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="109.26" y1="81.9" x2="109.2" y2="81.9" width="0.1524" layer="91"/>
+<wire x1="109.2" y1="81.9" x2="109.2" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="109.2" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<junction x="109.22" y="78.74"/>
 </segment>
 </net>
 </nets>
