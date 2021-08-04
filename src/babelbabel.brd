@@ -5142,15 +5142,8 @@ package type TQ</description>
 <wire x1="15.45" y1="-19.05" x2="15.45" y2="-19.75" width="0.254" layer="1"/>
 <contactref element="R101" pad="2"/>
 <via x="24.35" y="-23.75" extent="1-16" drill="0.35"/>
-<wire x1="25.5" y1="-23.75" x2="25.65" y2="-23.6" width="0.1524" layer="1"/>
 <wire x1="24.35" y1="-23.75" x2="24.5" y2="-23.6" width="0.3048" layer="1"/>
 <wire x1="24.5" y1="-23.6" x2="25.65" y2="-23.6" width="0.3048" layer="1"/>
-<wire x1="7.45" y1="-17.8" x2="6.8" y2="-17.85" width="0" layer="19" extent="1-1"/>
-<wire x1="7.85" y1="-17.35" x2="7.45" y2="-17.8" width="0" layer="19" extent="1-1"/>
-<wire x1="15.55" y1="-29.2" x2="16.15" y2="-29.2" width="0" layer="19" extent="1-1"/>
-<wire x1="8.25" y1="-17.8" x2="7.85" y2="-17.35" width="0" layer="19" extent="1-1"/>
-<wire x1="9.1" y1="-17.775" x2="8.25" y2="-17.8" width="0" layer="19" extent="1-1"/>
-<wire x1="6.8" y1="-16.7" x2="6.8" y2="-17.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BABEL1:PA4">
 <contactref element="IC101" pad="14"/>
@@ -5710,12 +5703,6 @@ package type TQ</description>
 <via x="24.45" y="-5.82" extent="1-16" drill="0.35"/>
 <wire x1="24.45" y1="-5.82" x2="24.67" y2="-5.6" width="0.3048" layer="1"/>
 <wire x1="24.67" y1="-5.6" x2="25.65" y2="-5.6" width="0.3048" layer="1"/>
-<wire x1="8.2" y1="0.35" x2="7.85" y2="0.85" width="0" layer="19" extent="1-1"/>
-<wire x1="15.55" y1="-11.2" x2="16.15" y2="-11.2" width="0" layer="19" extent="1-1"/>
-<wire x1="7.5" y1="0.35" x2="7.85" y2="0.85" width="0" layer="19" extent="1-1"/>
-<wire x1="6.8" y1="0.15" x2="7.5" y2="0.35" width="0" layer="19" extent="1-1"/>
-<wire x1="9.1" y1="0.375" x2="8.2" y2="0.35" width="0" layer="19" extent="1-1"/>
-<wire x1="6.8" y1="1.3" x2="7.85" y2="0.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BABEL2:PA4">
 <contactref element="IC201" pad="14"/>
