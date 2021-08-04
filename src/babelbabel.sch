@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6463,10 +6463,10 @@ package type TQ</description>
 <sheets>
 <sheet>
 <plain>
-<wire x1="114.3" y1="88.9" x2="114.3" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="114.3" y1="98.52" x2="114.3" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="114.3" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="71.12" y1="55.88" x2="71.12" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="71.12" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="71.12" y1="55.88" x2="71.12" y2="98.52" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="71.12" y1="98.52" x2="114.3" y2="98.52" width="0.1524" layer="97" style="shortdash"/>
 <text x="73.66" y="78.74" size="1.27" layer="97">This section is needed 
 for compatibility with 
 BABEL firmare</text>
@@ -6690,14 +6690,14 @@ BABEL firmare</text>
 <instance part="GND11" gate="1" x="109.22" y="58.42" smashed="yes">
 <attribute name="VALUE" x="109.22" y="57.15" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="P+10" gate="G$1" x="109.22" y="83.82" smashed="yes">
-<attribute name="VALUE" x="109.22" y="87.376" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="P+10" gate="G$1" x="109.22" y="92.64" smashed="yes">
+<attribute name="VALUE" x="109.22" y="96.196" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="R1" gate="G$1" x="99.06" y="81.28" smashed="yes">
-<attribute name="NAME" x="99.06" y="81.28" size="1.27" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="98.806" y="79.248" size="0.762" layer="96" font="vector" align="bottom-right"/>
-<attribute name="PACKAGE" x="95.25" y="81.788" size="0.508" layer="95" font="vector" align="center"/>
-<attribute name="TOLERANCE" x="99.314" y="79.248" size="0.762" layer="96" font="vector"/>
+<instance part="R1" gate="G$1" x="109.26" y="86.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="109.34" y="87.02" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="111.292" y="86.726" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="108.752" y="83.17" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="111.292" y="87.234" size="0.762" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="IC2" gate="G$1" x="111.76" y="129.54" smashed="yes">
 <attribute name="NAME" x="143.51" y="163.83" size="3.81" layer="95" font="vector" ratio="15" align="center"/>
@@ -7239,18 +7239,6 @@ BABEL firmare</text>
 <pinref part="P+2" gate="G$1" pin="VDD_3V3"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="EN"/>
-<wire x1="127" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="109.22" y1="81.28" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="P+10" gate="G$1" pin="VDD_3V3"/>
-<junction x="109.22" y="81.28"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="81.28" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
-<junction x="109.22" y="81.28"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="VBAT"/>
 <wire x1="109.22" y1="180.34" x2="106.68" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="G$1" pin="VDD_3V3"/>
@@ -7307,6 +7295,12 @@ BABEL firmare</text>
 <pinref part="IC5" gate="G$1" pin="VIO"/>
 <pinref part="P+1" gate="G$1" pin="VDD_3V3"/>
 <wire x1="304.8" y1="208.28" x2="307.34" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="P+10" gate="G$1" pin="VDD_3V3"/>
+<wire x1="109.26" y1="92.06" x2="109.22" y2="92.06" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="92.06" x2="109.22" y2="92.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -7420,13 +7414,8 @@ BABEL firmare</text>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="104.14" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 <label x="88.9" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
-<junction x="91.44" y="71.12"/>
-<wire x1="91.44" y1="71.12" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA8"/>
@@ -7480,6 +7469,19 @@ BABEL firmare</text>
 <pinref part="IC2" gate="G$1" pin="PB2"/>
 <wire x1="152.4" y1="127" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
 <label x="152.4" y="124.46" size="1.27" layer="95" font="vector" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="EN"/>
+<wire x1="127" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="109.22" y1="81.28" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="109.26" y1="81.9" x2="109.2" y2="81.9" width="0.1524" layer="91"/>
+<wire x1="109.2" y1="81.9" x2="109.2" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="109.2" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<junction x="109.22" y="78.74"/>
 </segment>
 </net>
 </nets>
