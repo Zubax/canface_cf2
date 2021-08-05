@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6287,7 +6287,6 @@ package type TQ</description>
 </attributes>
 <variantdefs>
 <variantdef name="Electronic terminator" current="yes"/>
-<variantdef name="Mechanical terminator"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -7544,15 +7543,12 @@ BABEL firmare</text>
 </part>
 <part name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-S_2X2" package3d_urn="urn:adsk.eagle:package:3188704/1">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-S_2X2" package3d_urn="urn:adsk.eagle:package:3188704/1">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-S_2X2" package3d_urn="urn:adsk.eagle:package:3188704/1">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="120R">
 <attribute name="LCSC#" value="C22787"/>
@@ -7712,16 +7708,13 @@ BABEL firmare</text>
 <part name="GND90" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540381/2">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="GND91" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="+P2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
@@ -7737,7 +7730,6 @@ BABEL firmare</text>
 </part>
 <part name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="S1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="DS01" device="-STRAIGHT" package3d_urn="urn:adsk.eagle:package:15321811/3">
 <attribute name="LCSC#" value="C319063"/>
@@ -7764,7 +7756,6 @@ BABEL firmare</text>
 <part name="+P6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="J1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CONNECTION" device="-SMD" package3d_urn="urn:adsk.eagle:package:7439847/1">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -7780,7 +7771,6 @@ BABEL firmare</text>
 <part name="+P5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="GND12" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GNDD" device="" value="GNDD"/>
 <part name="CON6" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-4P-TABS" device="-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" technology="-JST_GH" value="CON-4P-TABS-JST_GH-RA">
@@ -7800,57 +7790,46 @@ BABEL firmare</text>
 </part>
 <part name="J2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CONNECTION" device="-SMD" package3d_urn="urn:adsk.eagle:package:7439847/1">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-S_2X2" package3d_urn="urn:adsk.eagle:package:3188704/1">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-S_2X2" package3d_urn="urn:adsk.eagle:package:3188704/1">
 <variant name="Electronic terminator" populate="no"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="GND15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="NS5B1G385" device="" package3d_urn="urn:adsk.eagle:package:5347863/9" override_package3d_urn="urn:adsk.eagle:package:5347863/10" override_package_urn="urn:adsk.eagle:footprint:8637277/4">
 <attribute name="LCSC#" value="C889718"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">
 <attribute name="LCSC#" value="C1525"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="GND16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="IC1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="NS5B1G385" device="" package3d_urn="urn:adsk.eagle:package:5347863/9">
 <attribute name="LCSC#" value="C889718"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">
 <attribute name="LCSC#" value="C1525"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="GND22" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND23" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0402" package3d_urn="urn:adsk.eagle:package:2539470/2" value="LED-0402">
 <attribute name="COLOR" value="RED"/>
 <attribute name="LCSC#" value="C74339"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="R3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K">
 <attribute name="LCSC#" value="C11702"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="GND24" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0402" package3d_urn="urn:adsk.eagle:package:2539470/2" value="LED-0402">
 <attribute name="COLOR" value="RED"/>
 <attribute name="LCSC#" value="C74339"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K">
 <attribute name="LCSC#" value="C11702"/>
-<variant name="Mechanical terminator" populate="no"/>
 </part>
 <part name="GND25" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 </parts>

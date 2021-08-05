@@ -1657,7 +1657,6 @@ package type TQ</description>
 <variantdefs>
 <variantdef name="Electronic terminator" current="yes"/>
 <variantdef name="A"/>
-<variantdef name="Mechanical terminator"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
