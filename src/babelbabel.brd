@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="18" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.001" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,17 +22,17 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -56,9 +56,9 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -2287,16 +2287,16 @@ package type TQ</description>
 <attribute name="NAME" x="23.15" y="-22.4" size="0.508" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="SOT23" x="23.15" y="-22.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R101" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="10K" x="25.55" y="-22.9" smashed="yes" rot="R270">
-<attribute name="AEC-Q" value="" x="25.55" y="-22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="" x="25.55" y="-22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LCSC#" value="C25744" x="25.55" y="-22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF" value="" x="25.55" y="-22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="" x="25.55" y="-22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.55" y="-22.9" size="0.5" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="25.55" y="-22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE" value="0402" x="25.55" y="-22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="25.55" y="-22.9" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R101" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="10K" x="25.562" y="-23.142" smashed="yes" rot="R270">
+<attribute name="AEC-Q" value="" x="25.562" y="-23.142" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="" x="25.562" y="-23.142" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="C25744" x="25.562" y="-23.142" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="" x="25.562" y="-23.142" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="" x="25.562" y="-23.142" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="25.562" y="-23.142" size="0.5" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="25.562" y="-23.142" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="0402" x="25.562" y="-23.142" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="25.562" y="-23.142" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CON16" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="JST_GH-4P-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" value="CON-4P-TABS-JST_GH-RA" x="38.8" y="-20.3" locked="yes" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="---" x="28.8" y="-20.3" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3093,16 +3093,16 @@ package type TQ</description>
 <attribute name="NAME" x="23.15" y="-4.4" size="0.508" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="SOT23" x="23.15" y="-4.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R201" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="10K" x="25.55" y="-4.9" smashed="yes" rot="R270">
-<attribute name="AEC-Q" value="" x="25.55" y="-4.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="" x="25.55" y="-4.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LCSC#" value="C25744" x="25.55" y="-4.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF" value="" x="25.55" y="-4.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="" x="25.55" y="-4.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.55" y="-4.9" size="0.5" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="25.55" y="-4.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE" value="0402" x="25.55" y="-4.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="25.55" y="-4.9" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R201" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="10K" x="25.58" y="-5.11" smashed="yes" rot="R270">
+<attribute name="AEC-Q" value="" x="25.58" y="-5.11" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="" x="25.58" y="-5.11" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="C25744" x="25.58" y="-5.11" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="" x="25.58" y="-5.11" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="" x="25.58" y="-5.11" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="25.58" y="-5.11" size="0.5" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="25.58" y="-5.11" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="0402" x="25.58" y="-5.11" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="25.58" y="-5.11" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CON1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="JST_GH-4P-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" value="CON-4P-TABS-JST_GH-RA" x="38.8" y="-2.3" locked="yes" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="---" x="28.8" y="-2.3" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3384,7 +3384,7 @@ package type TQ</description>
 <vertex x="4" y="-33.75"/>
 </polygon>
 <via x="24.2" y="-22.4" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="26.4" y="-22.15" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="19.025" y="-19.43" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="26.8" y="-24.45" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="29.15" y="-24.2" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="29.25" y="-20.85" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -3482,7 +3482,7 @@ package type TQ</description>
 <wire x1="26.765" y1="-7.815" x2="26.8" y2="-7.85" width="0.2" layer="1"/>
 <via x="26.8" y="-7.85" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="24.2" y="-4.4" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="26.4" y="-4.15" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="19.68" y="-1.33" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="26.8" y="-6.45" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="29.15" y="-6.2" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="29.25" y="-2.85" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -4158,25 +4158,22 @@ package type TQ</description>
 <signal name="BABEL1:CAN_VDD_EN">
 <contactref element="IC101" pad="29"/>
 <contactref element="Q102" pad="1"/>
-<contactref element="R101" pad="1"/>
 <contactref element="IC102" pad="41"/>
 <wire x1="7.45" y1="-24.7" x2="8.75" y2="-24.7" width="0.15" layer="1"/>
 <via x="8.75" y="-24.7" extent="1-16" drill="0.3" diameter="0.6"/>
-<wire x1="25.55" y1="-22.4" x2="25.55" y2="-22.25" width="0.2" layer="1"/>
-<wire x1="25.55" y1="-22.25" x2="25.05" y2="-22.25" width="0.2" layer="1"/>
-<wire x1="25.05" y1="-22.25" x2="24.1" y2="-21.3" width="0.2" layer="1"/>
 <wire x1="6" y1="-25.7" x2="4.9" y2="-25.7" width="0.15" layer="1"/>
 <via x="4.9" y="-25.7" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="7.2" y1="-24.7" x2="6.2" y2="-25.7" width="0.15" layer="2"/>
 <wire x1="4.9" y1="-25.7" x2="6.2" y2="-25.7" width="0.15" layer="2"/>
 <wire x1="7.2" y1="-24.7" x2="8.75" y2="-24.7" width="0.15" layer="2"/>
-<wire x1="24.1" y1="-21.3" x2="23.275" y2="-20.475" width="0.15" layer="1"/>
 <wire x1="9.9" y1="-23.55" x2="13.7818" y2="-23.55" width="0.15" layer="1"/>
 <wire x1="9.9" y1="-23.55" x2="8.75" y2="-24.7" width="0.15" layer="1"/>
 <wire x1="13.7818" y1="-23.55" x2="16.0568" y2="-21.275" width="0.15" layer="1"/>
-<wire x1="19.425" y1="-20.475" x2="23.275" y2="-20.475" width="0.15" layer="1"/>
-<wire x1="16.0568" y1="-21.275" x2="18.625" y2="-21.275" width="0.15" layer="1"/>
-<wire x1="18.625" y1="-21.275" x2="19.425" y2="-20.475" width="0.15" layer="1"/>
+<wire x1="23.51989375" y1="-21.3" x2="24.1" y2="-21.3" width="0.1524" layer="1"/>
+<wire x1="18.6808375" y1="-21.275" x2="19.4820375" y2="-20.4738" width="0.1524" layer="1"/>
+<wire x1="19.4820375" y1="-20.4738" x2="22.69369375" y2="-20.4738" width="0.1524" layer="1"/>
+<wire x1="22.69369375" y1="-20.4738" x2="23.51989375" y2="-21.3" width="0.1524" layer="1"/>
+<wire x1="16.0568" y1="-21.275" x2="18.6808375" y2="-21.275" width="0.1524" layer="1"/>
 </signal>
 <signal name="GNDD">
 <contactref element="CON16" pad="M$1"/>
@@ -5016,9 +5013,6 @@ package type TQ</description>
 <contactref element="C107" pad="1"/>
 <contactref element="C108" pad="1"/>
 <contactref element="IC101" pad="17"/>
-<contactref element="IC108" pad="1"/>
-<contactref element="Q102" pad="3"/>
-<contactref element="R101" pad="2"/>
 <contactref element="IC102" pad="1"/>
 <contactref element="IC102" pad="13"/>
 <contactref element="IC102" pad="19"/>
@@ -5054,20 +5048,12 @@ package type TQ</description>
 <wire x1="7.95" y1="-19" x2="7.8" y2="-18.85" width="0.3" layer="1"/>
 <via x="12.45" y="-22.5" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="12.45" y1="-21.2" x2="12.45" y2="-22.5" width="0.3" layer="1"/>
-<wire x1="25.55" y1="-23.4" x2="25.45" y2="-23.5" width="0.3" layer="1"/>
-<wire x1="25.45" y1="-23.5" x2="23.15" y2="-23.5" width="0.3" layer="1"/>
 <wire x1="19.7" y1="-21" x2="19.7" y2="-21.75" width="0.3" layer="1"/>
 <via x="19.7" y="-21" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="19.7" y1="-21.75" x2="19.7" y2="-22.85" width="0.3" layer="1"/>
 <wire x1="17.4" y1="-23.2" x2="19.3" y2="-23.2" width="0.3" layer="1"/>
 <wire x1="19.65" y1="-22.85" x2="19.7" y2="-22.85" width="0.3" layer="1"/>
 <wire x1="19.3" y1="-23.2" x2="19.65" y2="-22.85" width="0.3" layer="1"/>
-<wire x1="23.15" y1="-23.5" x2="23.15" y2="-22.55" width="0.3" layer="1"/>
-<via x="23.15" y="-22.55" extent="1-16" drill="0.3" diameter="0.5"/>
-<wire x1="27.95" y1="-19.9" x2="27.55" y2="-19.9" width="0.3" layer="1"/>
-<wire x1="27.55" y1="-19.9" x2="27.1" y2="-19.45" width="0.3" layer="1"/>
-<wire x1="27.1" y1="-19.45" x2="27.05" y2="-19.45" width="0.3" layer="1"/>
-<via x="27.05" y="-19.45" extent="1-16" drill="0.3" diameter="0.5"/>
 <polygon width="0.2" layer="15" thermals="no">
 <vertex x="7.25" y="-17.15"/>
 <vertex x="7.25" y="-18"/>
@@ -5085,9 +5071,6 @@ package type TQ</description>
 <wire x1="17.4" y1="-21" x2="19.7" y2="-21" width="0.5" layer="15"/>
 <wire x1="14.65" y1="-23.8" x2="14.1" y2="-23.25" width="0.5" layer="15"/>
 <wire x1="19.7" y1="-21" x2="21.6" y2="-21" width="0.5" layer="15"/>
-<wire x1="21.6" y1="-21" x2="23.15" y2="-22.55" width="0.5" layer="15"/>
-<wire x1="27.05" y1="-19.45" x2="23.15" y2="-19.45" width="0.5" layer="15"/>
-<wire x1="23.15" y1="-19.45" x2="21.6" y2="-21" width="0.5" layer="15"/>
 <wire x1="8.95" y1="-21.2" x2="8.95" y2="-21.55" width="0.3" layer="1"/>
 <wire x1="8.95" y1="-21.55" x2="8.8" y2="-21.7" width="0.3" layer="1"/>
 <wire x1="8.8" y1="-21.7" x2="7.4" y2="-21.7" width="0.3" layer="1"/>
@@ -5139,7 +5122,8 @@ package type TQ</description>
 <wire x1="7.8" y1="-18.85" x2="7.8" y2="-17.4" width="0.3" layer="1"/>
 <wire x1="7.8" y1="-17.4" x2="7.85" y2="-17.35" width="0.3" layer="1"/>
 <contactref element="IC105" pad="5"/>
-<wire x1="23.15" y1="-22.55" x2="24.7" y2="-24.1" width="0.5" layer="15"/>
+<wire x1="21.6" y1="-21" x2="24.312" y2="-23.712" width="0.5" layer="15"/>
+<wire x1="24.312" y1="-23.712" x2="24.7" y2="-24.1" width="0.5" layer="15"/>
 <wire x1="24.7" y1="-24.1" x2="24.7" y2="-25.7" width="0.5" layer="15"/>
 <wire x1="24.7" y1="-25.7" x2="27.4" y2="-28.4" width="0.5" layer="15"/>
 <wire x1="27.4" y1="-28.4" x2="29.45" y2="-28.4" width="0.5" layer="15"/>
@@ -5156,6 +5140,10 @@ package type TQ</description>
 <contactref element="IC102" pad="17"/>
 <wire x1="15.00784375" y1="-18.60784375" x2="15.45" y2="-19.05" width="0.254" layer="1"/>
 <wire x1="15.45" y1="-19.05" x2="15.45" y2="-19.75" width="0.254" layer="1"/>
+<contactref element="R101" pad="2"/>
+<via x="24.312" y="-23.712" extent="1-16" drill="0.3"/>
+<wire x1="24.312" y1="-23.712" x2="24.382" y2="-23.642" width="0.508" layer="1"/>
+<wire x1="24.382" y1="-23.642" x2="25.562" y2="-23.642" width="0.508" layer="1"/>
 </signal>
 <signal name="BABEL1:PA4">
 <contactref element="IC101" pad="14"/>
@@ -5454,21 +5442,15 @@ package type TQ</description>
 <signal name="BABEL2:CAN_VDD_EN">
 <contactref element="IC201" pad="29"/>
 <contactref element="Q202" pad="1"/>
-<contactref element="R201" pad="1"/>
 <contactref element="IC202" pad="41"/>
 <wire x1="7.45" y1="-6.7" x2="8.75" y2="-6.7" width="0.15" layer="1"/>
 <via x="8.75" y="-6.7" extent="1-16" drill="0.3" diameter="0.6"/>
-<wire x1="25.55" y1="-4.4" x2="25.55" y2="-4.25" width="0.2" layer="1"/>
-<wire x1="25.55" y1="-4.25" x2="25.05" y2="-4.25" width="0.2" layer="1"/>
-<wire x1="25.05" y1="-4.25" x2="24.1" y2="-3.3" width="0.2" layer="1"/>
 <wire x1="6" y1="-7.7" x2="4.9" y2="-7.7" width="0.15" layer="1"/>
 <via x="4.9" y="-7.7" extent="1-16" drill="0.3" diameter="0.6"/>
-<wire x1="24.1" y1="-3.3" x2="24.05" y2="-3.3" width="0.15" layer="1"/>
-<wire x1="24.05" y1="-3.3" x2="23.225" y2="-2.475" width="0.15" layer="1"/>
+<wire x1="24.05" y1="-3.3" x2="24.1" y2="-3.3" width="0.15" layer="1"/>
 <wire x1="9.9" y1="-5.55" x2="11.55" y2="-5.55" width="0.15" layer="1"/>
 <wire x1="9.9" y1="-5.55" x2="8.75" y2="-6.7" width="0.15" layer="1"/>
 <wire x1="11.55" y1="-5.55" x2="12.05" y2="-5.05" width="0.15" layer="1"/>
-<wire x1="19.425" y1="-2.475" x2="23.225" y2="-2.475" width="0.15" layer="1"/>
 <wire x1="14.2818" y1="-5.05" x2="16.0568" y2="-3.275" width="0.15" layer="1"/>
 <wire x1="16.0568" y1="-3.275" x2="18.625" y2="-3.275" width="0.15" layer="1"/>
 <wire x1="12.05" y1="-5.05" x2="14.2818" y2="-5.05" width="0.15" layer="1"/>
@@ -5476,6 +5458,9 @@ package type TQ</description>
 <wire x1="4.9" y1="-7.7" x2="7.5" y2="-7.7" width="0.2" layer="15"/>
 <wire x1="8.5" y1="-6.7" x2="8.75" y2="-6.7" width="0.2" layer="15"/>
 <wire x1="7.5" y1="-7.7" x2="8.5" y2="-6.7" width="0.2" layer="15"/>
+<wire x1="19.425" y1="-2.475" x2="19.4262" y2="-2.4738" width="0.1524" layer="1"/>
+<wire x1="19.4262" y1="-2.4738" x2="23.2238" y2="-2.4738" width="0.1524" layer="1"/>
+<wire x1="23.2238" y1="-2.4738" x2="24.05" y2="-3.3" width="0.1524" layer="1"/>
 </signal>
 <signal name="CAN1_VDD1">
 <contactref element="CON1" pad="1"/>
@@ -5584,9 +5569,6 @@ package type TQ</description>
 <contactref element="C207" pad="1"/>
 <contactref element="C208" pad="1"/>
 <contactref element="IC201" pad="17"/>
-<contactref element="IC208" pad="1"/>
-<contactref element="Q202" pad="3"/>
-<contactref element="R201" pad="2"/>
 <contactref element="IC202" pad="1"/>
 <contactref element="IC202" pad="13"/>
 <contactref element="IC202" pad="19"/>
@@ -5621,20 +5603,12 @@ package type TQ</description>
 <wire x1="7.95" y1="-1" x2="7.8" y2="-0.85" width="0.3" layer="1"/>
 <via x="12.45" y="-4.5" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="12.45" y1="-3.2" x2="12.45" y2="-4.5" width="0.3" layer="1"/>
-<wire x1="25.55" y1="-5.4" x2="25.45" y2="-5.5" width="0.3" layer="1"/>
-<wire x1="25.45" y1="-5.5" x2="23.15" y2="-5.5" width="0.3" layer="1"/>
 <wire x1="19.7" y1="-3" x2="19.7" y2="-3.75" width="0.3" layer="1"/>
 <via x="19.7" y="-3" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="19.7" y1="-3.75" x2="19.7" y2="-4.85" width="0.3" layer="1"/>
 <wire x1="17.4" y1="-5.2" x2="19.3" y2="-5.2" width="0.3" layer="1"/>
 <wire x1="19.65" y1="-4.85" x2="19.7" y2="-4.85" width="0.3" layer="1"/>
 <wire x1="19.3" y1="-5.2" x2="19.65" y2="-4.85" width="0.3" layer="1"/>
-<wire x1="23.15" y1="-5.5" x2="23.15" y2="-4.55" width="0.3" layer="1"/>
-<via x="23.15" y="-4.55" extent="1-16" drill="0.3" diameter="0.5"/>
-<wire x1="27.95" y1="-1.9" x2="27.55" y2="-1.9" width="0.3" layer="1"/>
-<wire x1="27.55" y1="-1.9" x2="27.1" y2="-1.45" width="0.3" layer="1"/>
-<wire x1="27.1" y1="-1.45" x2="27.05" y2="-1.45" width="0.3" layer="1"/>
-<via x="27.05" y="-1.45" extent="1-16" drill="0.3" diameter="0.5"/>
 <polygon width="0.2" layer="15" thermals="no">
 <vertex x="7.3" y="1.05"/>
 <vertex x="7.3" y="0.15"/>
@@ -5649,9 +5623,6 @@ package type TQ</description>
 <wire x1="17.4" y1="-3" x2="19.7" y2="-3" width="0.5" layer="15"/>
 <wire x1="14.65" y1="-5.8" x2="14.1" y2="-5.25" width="0.5" layer="15"/>
 <wire x1="19.7" y1="-3" x2="21.6" y2="-3" width="0.5" layer="15"/>
-<wire x1="21.6" y1="-3" x2="23.15" y2="-4.55" width="0.5" layer="15"/>
-<wire x1="27.05" y1="-1.45" x2="23.15" y2="-1.45" width="0.5" layer="15"/>
-<wire x1="23.15" y1="-1.45" x2="21.6" y2="-3" width="0.5" layer="15"/>
 <wire x1="8.95" y1="-3.2" x2="8.95" y2="-3.55" width="0.3" layer="1"/>
 <wire x1="8.95" y1="-3.55" x2="8.8" y2="-3.7" width="0.3" layer="1"/>
 <wire x1="8.8" y1="-3.7" x2="7.4" y2="-3.7" width="0.3" layer="1"/>
@@ -5702,7 +5673,8 @@ package type TQ</description>
 <wire x1="2.885" y1="-3.7" x2="2.125" y2="-2.94" width="0.3" layer="1"/>
 <wire x1="2.125" y1="-2.94" x2="2" y2="-2.94" width="0.3" layer="1"/>
 <contactref element="IC205" pad="5"/>
-<wire x1="23.15" y1="-4.55" x2="25.1" y2="-6.5" width="0.5" layer="15"/>
+<wire x1="21.6" y1="-3" x2="24.56" y2="-5.96" width="0.5" layer="15"/>
+<wire x1="25.1" y1="-6.5" x2="24.56" y2="-5.96" width="0.5" layer="15"/>
 <wire x1="25.1" y1="-6.5" x2="25.1" y2="-8.5" width="0.5" layer="15"/>
 <wire x1="25.1" y1="-8.5" x2="27" y2="-10.4" width="0.5" layer="15"/>
 <wire x1="29.35" y1="-10.4" x2="27" y2="-10.4" width="0.5" layer="15"/>
@@ -5726,6 +5698,11 @@ package type TQ</description>
 <contactref element="IC202" pad="17"/>
 <wire x1="15.00784375" y1="-0.60784375" x2="15.45" y2="-1.05" width="0.254" layer="1"/>
 <wire x1="15.45" y1="-1.05" x2="15.45" y2="-1.75" width="0.254" layer="1"/>
+<contactref element="R201" pad="2"/>
+<wire x1="24.56" y1="-5.96" x2="24.56" y2="-5.845" width="0.508" layer="15"/>
+<via x="24.56" y="-5.845" extent="1-16" drill="0.3"/>
+<wire x1="25.58" y1="-5.61" x2="25.345" y2="-5.845" width="0.508" layer="1"/>
+<wire x1="25.345" y1="-5.845" x2="24.56" y2="-5.845" width="0.508" layer="1"/>
 </signal>
 <signal name="BABEL2:PA4">
 <contactref element="IC201" pad="14"/>
@@ -6030,6 +6007,39 @@ package type TQ</description>
 <contactref element="LED2" pad="A"/>
 <contactref element="R4" pad="1"/>
 <wire x1="29.55" y1="-11.85" x2="30.65" y2="-11.85" width="0.15" layer="1"/>
+</signal>
+<signal name="BABEL1:N$1">
+<contactref element="Q102" pad="3"/>
+<contactref element="IC108" pad="1"/>
+<contactref element="R101" pad="1"/>
+<wire x1="25.562" y1="-22.642" x2="25.0422" y2="-23.1618" width="0.1524" layer="1"/>
+<wire x1="25.0422" y1="-23.1618" x2="23.4882" y2="-23.1618" width="0.1524" layer="1"/>
+<wire x1="23.4882" y1="-23.1618" x2="23.15" y2="-23.5" width="0.1524" layer="1"/>
+<wire x1="27.95" y1="-19.9" x2="27.816" y2="-19.9" width="0.1524" layer="1"/>
+<wire x1="27.816" y1="-19.9" x2="27.189" y2="-19.273" width="0.1524" layer="1"/>
+<via x="27.189" y="-19.273" extent="1-16" drill="0.3"/>
+<wire x1="27.189" y1="-19.273" x2="27.189" y2="-21.382" width="0.1524" layer="2"/>
+<wire x1="27.189" y1="-21.382" x2="26.387" y2="-22.184" width="0.1524" layer="2"/>
+<via x="26.387" y="-22.184" extent="1-16" drill="0.3"/>
+<wire x1="26.387" y1="-22.184" x2="25.929" y2="-22.642" width="0.1524" layer="1"/>
+<wire x1="25.929" y1="-22.642" x2="25.562" y2="-22.642" width="0.1524" layer="1"/>
+</signal>
+<signal name="BABEL2:N$1">
+<contactref element="Q202" pad="3"/>
+<contactref element="IC208" pad="1"/>
+<contactref element="R201" pad="1"/>
+<wire x1="24.3420375" y1="-5.3188" x2="24.1608375" y2="-5.5" width="0.1524" layer="1"/>
+<wire x1="24.1608375" y1="-5.5" x2="23.15" y2="-5.5" width="0.1524" layer="1"/>
+<wire x1="25.58" y1="-4.61" x2="24.8712" y2="-5.3188" width="0.1524" layer="1"/>
+<wire x1="24.8712" y1="-5.3188" x2="24.3420375" y2="-5.3188" width="0.1524" layer="1"/>
+<via x="27.052" y="-1.345" extent="1-16" drill="0.3"/>
+<wire x1="27.052" y1="-1.345" x2="27.052" y2="-3.496" width="0.1524" layer="2"/>
+<wire x1="27.052" y1="-3.496" x2="26.454025" y2="-4.093975" width="0.1524" layer="2"/>
+<via x="26.454025" y="-4.093975" extent="1-16" drill="0.3"/>
+<wire x1="26.454025" y1="-4.093975" x2="26.096025" y2="-4.093975" width="0.1524" layer="1"/>
+<wire x1="26.096025" y1="-4.093975" x2="25.58" y2="-4.61" width="0.1524" layer="1"/>
+<wire x1="27.95" y1="-1.9" x2="27.607" y2="-1.9" width="0.1524" layer="1"/>
+<wire x1="27.607" y1="-1.9" x2="27.052" y2="-1.345" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
