@@ -54,3 +54,16 @@ It is a device used for flashing and testing [Mitochondrik-LV](https://zubax.com
 To eliminate additional adapter PCBs, MyDuck-LV is designed to host Babel-Babel directly:
 
 ![](https://github.com/Zubax/MyDuck-LV/blob/master/figures/Myduck-LV-jig.png)
+
+## Manufacturing instructions
+
+For details on the manufacturing process of the device, check the
+instructions at `/docs/manufacturing.md`.
+
+## Release notes
+
+Newest entries at the top.
+
+### Babel-Babel v1.0 (2021)
+
+The original version.
