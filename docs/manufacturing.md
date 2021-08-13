@@ -22,3 +22,14 @@ or on [Amazon](https://www.amazon.co.uk/Wooden-Sticks-Round-Dowels-Natural/dp/B0
 and other online shops.
 
 ![](figures/blow_scheme.svg)
+
+## BOM for final assembly of Babel-Babel
+
+| Name          | Quantity |
+| ------------- | -------- |
+| Main PCB         | 1 |
+| Wood dowel       | 5 |
+| Part A           | 2 |
+| Part B1          | 1 |
+| Part C           | 1 |
+| Part D           | 1 |
