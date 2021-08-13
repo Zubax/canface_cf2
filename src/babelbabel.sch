@@ -7978,9 +7978,9 @@ BABEL firmare</text>
 <instance part="GND25" gate="1" x="134.62" y="38.1" smashed="yes">
 <attribute name="VALUE" x="134.62" y="36.83" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="CON4" gate="G$1" x="111.76" y="93.98" smashed="yes">
-<attribute name="NAME" x="114.3" y="107.95" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
-<attribute name="MANF#" x="114.3" y="92.71" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<instance part="CON4" gate="G$1" x="114.3" y="109.22" smashed="yes" rot="MR180">
+<attribute name="NAME" x="116.84" y="95.25" size="1.778" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
+<attribute name="MANF#" x="116.84" y="110.49" size="1.778" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -8081,13 +8081,13 @@ BABEL firmare</text>
 </segment>
 <segment>
 <pinref part="CON15" gate="G$1" pin="4"/>
-<wire x1="106.68" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="83.82" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="106.68" y1="73.66" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<junction x="106.68" y="83.82"/>
-<pinref part="CON4" gate="G$1" pin="VBUS"/>
+<wire x1="106.68" y1="73.66" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
+<junction x="106.68" y="73.66"/>
+<pinref part="CON4" gate="G$1" pin="GND"/>
+<wire x1="106.68" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -8176,27 +8176,27 @@ BABEL firmare</text>
 <net name="DUT_DP" class="0">
 <segment>
 <pinref part="CON15" gate="G$1" pin="3"/>
-<wire x1="104.14" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="81.28" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="81.28" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="IC9" gate="G$1" pin="DP1"/>
 <wire x1="83.82" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="134.62" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
-<junction x="104.14" y="101.6"/>
-<pinref part="CON4" gate="G$1" pin="D-"/>
+<wire x1="104.14" y1="134.62" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="CON4" gate="G$1" pin="D+"/>
+<wire x1="104.14" y1="104.14" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="104.14" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
+<junction x="104.14" y="104.14"/>
 </segment>
 </net>
 <net name="DUT_DM" class="0">
 <segment>
 <pinref part="CON15" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="78.74" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC9" gate="G$1" pin="DM1"/>
-<wire x1="101.6" y1="99.06" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="78.74" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="101.6" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
-<junction x="101.6" y="99.06"/>
-<pinref part="CON4" gate="G$1" pin="D+"/>
+<pinref part="CON4" gate="G$1" pin="D-"/>
+<wire x1="111.76" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
+<junction x="101.6" y="101.6"/>
 </segment>
 </net>
 <net name="BABEL1_RST" class="0">
@@ -8403,13 +8403,12 @@ BABEL firmare</text>
 </segment>
 <segment>
 <pinref part="+P4" gate="G$1" pin="VDD_5V"/>
-<wire x1="109.22" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="CON15" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="96.52" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="76.2" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<junction x="99.06" y="96.52"/>
-<pinref part="CON4" gate="G$1" pin="GND"/>
+<wire x1="99.06" y1="76.2" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="CON4" gate="G$1" pin="VBUS"/>
+<wire x1="99.06" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
+<junction x="99.06" y="99.06"/>
 </segment>
 <segment>
 <portref moduleinst="BABEL2" port="VDD_5V"/>
