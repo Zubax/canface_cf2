@@ -27,12 +27,12 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -623,44 +623,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <rectangle x1="-4.3" y1="-2.35" x2="-3.3" y2="-0.75" layer="51"/>
 <rectangle x1="3.3" y1="-2.35" x2="4.3" y2="-0.75" layer="51"/>
 </package>
-<package name="USB-A-F-PTH" urn="urn:adsk.eagle:footprint:25290689/1" library_version="89">
-<wire x1="-6.5" y1="-7.32" x2="-6.4999" y2="-7.32" width="0.2032" layer="21"/>
-<wire x1="-6.4999" y1="-7.32" x2="-6.2" y2="-7.32" width="0.2032" layer="21"/>
-<wire x1="-5.9" y1="-7.62" x2="5.9" y2="-7.62" width="0.2032" layer="21"/>
-<wire x1="6.2" y1="-7.32" x2="6.5" y2="-7.32" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="-7.32" x2="6.5" y2="1.38" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="1.38" x2="6.5" y2="3.88" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="3.88" x2="6.5" y2="6.28" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="6.28" x2="-6.5" y2="6.28" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="6.28" x2="-6.5" y2="3.88" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="3.88" x2="-6.5" y2="1.38" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="1.38" x2="-6.5" y2="-7.32" width="0.2032" layer="21"/>
-<wire x1="-6.7999" y1="-7.62" x2="-6.4999" y2="-7.32" width="0.2032" layer="21" curve="90"/>
-<wire x1="-6.8" y1="-7.62" x2="-7" y2="-7.62" width="0.2032" layer="21"/>
-<wire x1="-6.2" y1="-7.32" x2="-5.9" y2="-7.62" width="0.2032" layer="21" curve="-90"/>
-<wire x1="6.5" y1="-7.32" x2="6.8" y2="-7.62" width="0.2032" layer="21" curve="90"/>
-<wire x1="5.9" y1="-7.62" x2="6.2" y2="-7.3199" width="0.2032" layer="21" curve="-89.980911"/>
-<wire x1="-5" y1="0.38" x2="-4" y2="-5.62" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-5.62" x2="-3" y2="-5.62" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-5.62" x2="-2" y2="0.38" width="0.2032" layer="21"/>
-<wire x1="5" y1="0.38" x2="4" y2="-5.62" width="0.2032" layer="21"/>
-<wire x1="4" y1="-5.62" x2="3" y2="-5.62" width="0.2032" layer="21"/>
-<wire x1="3" y1="-5.62" x2="2" y2="0.38" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="3.88" x2="-8" y2="3.38" width="0.2032" layer="21"/>
-<wire x1="-8" y1="3.38" x2="-8" y2="1.88" width="0.2032" layer="21"/>
-<wire x1="-8" y1="1.88" x2="-6.5" y2="1.38" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="3.88" x2="8" y2="3.38" width="0.2032" layer="21"/>
-<wire x1="8" y1="3.38" x2="8" y2="1.88" width="0.2032" layer="21"/>
-<wire x1="8" y1="1.88" x2="6.5" y2="1.38" width="0.2032" layer="21"/>
-<wire x1="6.8" y1="-7.62" x2="7" y2="-7.62" width="0.2032" layer="21"/>
-<pad name="VBUS" x="-3.5001" y="5.3701" drill="1"/>
-<pad name="D-" x="-1" y="5.3701" drill="1"/>
-<pad name="D+" x="1" y="5.3701" drill="1"/>
-<pad name="GND" x="3.5001" y="5.3701" drill="1"/>
-<pad name="P$1" x="-6.5701" y="2.6601" drill="2.286"/>
-<pad name="P$2" x="6.5701" y="2.6601" drill="2.286"/>
-<text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="JST_GH-4P-RA" urn="urn:adsk.eagle:footprint:1040040/4" library_version="52">
 <description>http://www.molex.com/pdm_docs/sd/5023860270_sd.pdf</description>
 <smd name="M$1" x="3.825" y="0.19" dx="2.8" dy="1" layer="1" roundness="50" rot="R270"/>
@@ -749,11 +711,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <package3d name="SM06B" urn="urn:adsk.eagle:package:1041174/4" type="model" library_version="27" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SM06B"/>
-</packageinstances>
-</package3d>
-<package3d name="USB-A-F-PTH" urn="urn:adsk.eagle:package:25290692/2" type="model" library_version="90">
-<packageinstances>
-<packageinstance name="USB-A-F-PTH"/>
 </packageinstances>
 </package3d>
 <package3d name="JST_GH-4P-RA" urn="urn:adsk.eagle:package:1040150/6" type="model" library_version="52">
@@ -1650,6 +1607,48 @@ package type TQ</description>
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="Connectors">
+<packages>
+<package name="USB-A-F-PTH">
+<wire x1="-6.5" y1="-7.32" x2="-6.4999" y2="-7.32" width="0.2032" layer="21"/>
+<wire x1="-6.4999" y1="-7.32" x2="-6.2" y2="-7.32" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="-7.62" x2="5.9" y2="-7.62" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="-7.32" x2="6.5" y2="-7.32" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="-7.32" x2="6.5" y2="1.38" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="1.38" x2="6.5" y2="3.88" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="3.88" x2="6.5" y2="6.28" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="6.28" x2="-6.5" y2="6.28" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="6.28" x2="-6.5" y2="3.88" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="3.88" x2="-6.5" y2="1.38" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="1.38" x2="-6.5" y2="-7.32" width="0.2032" layer="21"/>
+<wire x1="-6.7999" y1="-7.62" x2="-6.4999" y2="-7.32" width="0.2032" layer="21" curve="90"/>
+<wire x1="-6.8" y1="-7.62" x2="-7" y2="-7.62" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="-7.32" x2="-5.9" y2="-7.62" width="0.2032" layer="21" curve="-90"/>
+<wire x1="6.5" y1="-7.32" x2="6.8" y2="-7.62" width="0.2032" layer="21" curve="90"/>
+<wire x1="5.9" y1="-7.62" x2="6.2" y2="-7.3199" width="0.2032" layer="21" curve="-89.980911"/>
+<wire x1="-5" y1="0.38" x2="-4" y2="-5.62" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-5.62" x2="-3" y2="-5.62" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-5.62" x2="-2" y2="0.38" width="0.2032" layer="21"/>
+<wire x1="5" y1="0.38" x2="4" y2="-5.62" width="0.2032" layer="21"/>
+<wire x1="4" y1="-5.62" x2="3" y2="-5.62" width="0.2032" layer="21"/>
+<wire x1="3" y1="-5.62" x2="2" y2="0.38" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="3.88" x2="-8" y2="3.38" width="0.2032" layer="21"/>
+<wire x1="-8" y1="3.38" x2="-8" y2="1.88" width="0.2032" layer="21"/>
+<wire x1="-8" y1="1.88" x2="-6.5" y2="1.38" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="3.88" x2="8" y2="3.38" width="0.2032" layer="21"/>
+<wire x1="8" y1="3.38" x2="8" y2="1.88" width="0.2032" layer="21"/>
+<wire x1="8" y1="1.88" x2="6.5" y2="1.38" width="0.2032" layer="21"/>
+<wire x1="6.8" y1="-7.62" x2="7" y2="-7.62" width="0.2032" layer="21"/>
+<pad name="D+" x="1" y="5.3701" drill="1"/>
+<pad name="D-" x="-1" y="5.3701" drill="1"/>
+<pad name="GND" x="3.5001" y="5.3701" drill="1"/>
+<pad name="P$1" x="-6.6701" y="2.6601" drill="2.286"/>
+<pad name="P$2" x="6.6701" y="2.6601" drill="2.286"/>
+<pad name="VBUS" x="-3.5001" y="5.3701" drill="1"/>
+<text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -2715,13 +2714,6 @@ package type TQ</description>
 <element name="CON101" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2" value="PINHEAD_1X04-2.54" x="2" y="-24.75" populate="no" smashed="yes" rot="R90">
 <attribute name="NAME" x="2" y="-24.75" size="1" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="CON4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="USB-A-F-PTH" package3d_urn="urn:adsk.eagle:package:25290692/2" value="USB-AA-PTH" x="34" y="25.25" smashed="yes" rot="R90">
-<attribute name="DIGIKEY#" value="787616-1-ND" x="34" y="25.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSC#" value="C39437" x="34" y="25.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANF" value="TE Connectivity AMP Connectors" x="34" y="25.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANF#" value="787616-1" x="34" y="25.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31.46" y="25.25" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
-</element>
 <element name="CON5" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="JST_GH-4P-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" value="CON-4P-TABS-JST_GH-RA" x="38.8" y="-29.2" locked="yes" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="---" x="38.8" y="-29.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="455-1566-1-ND" x="38.8" y="-29.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3252,6 +3244,12 @@ package type TQ</description>
 <attribute name="PACKAGE" value="0402" x="28.75" y="-12.85" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="28.75" y="-12.85" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="CON4" library="Connectors" package="USB-A-F-PTH" value="USB-AA-PTH" x="33.25" y="25.457" smashed="yes" rot="R90">
+<attribute name="DIGIKEY#" value="2092-KUSBX-AS1N-W-ND" x="33.25" y="25.457" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Kycon, Inc." x="33.25" y="25.457" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="KUSBX-AS1N-W" x="33.25" y="25.457" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="30.71" y="25.457" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3424,7 +3422,6 @@ package type TQ</description>
 <vertex x="34.3" y="-33.75"/>
 <vertex x="4" y="-33.75"/>
 </polygon>
-<contactref element="CON4" pad="GND"/>
 <contactref element="CON15" pad="4"/>
 <contactref element="J1" pad="P$1"/>
 <contactref element="IC201" pad="23"/>
@@ -3560,6 +3557,7 @@ package type TQ</description>
 <wire x1="14.35" y1="1.15" x2="13.1" y2="1.15" width="0.5" layer="1"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="LED2" pad="C"/>
+<contactref element="CON4" pad="GND"/>
 <wire x1="14" y1="36.3" x2="14" y2="36.3" width="0" layer="19" extent="1-16"/>
 <wire x1="11.9" y1="36.3" x2="14" y2="36.3" width="0" layer="19" extent="1-16"/>
 <wire x1="7.4" y1="36.3" x2="9.5" y2="36.3" width="0" layer="19" extent="1-16"/>
@@ -3801,7 +3799,6 @@ package type TQ</description>
 <wire x1="10.9" y1="22.6" x2="10.9" y2="25.4" width="0.2" layer="1"/>
 </signal>
 <signal name="DUT_DP">
-<contactref element="CON4" pad="D+"/>
 <contactref element="CON15" pad="3"/>
 <contactref element="IC9" pad="11"/>
 <wire x1="25.4" y1="26.42" x2="23.8" y2="24.82" width="0.2" layer="1"/>
@@ -3810,11 +3807,11 @@ package type TQ</description>
 <wire x1="23.8" y1="18.8" x2="22.6" y2="17.6" width="0.2" layer="1"/>
 <wire x1="22.6" y1="17.6" x2="18.95" y2="17.6" width="0.2" layer="1"/>
 <wire x1="18.95" y1="17.6" x2="18.64" y2="17.91" width="0.2" layer="1"/>
-<wire x1="28.6299" y1="26.25" x2="28.4599" y2="26.42" width="0.2" layer="1"/>
-<wire x1="28.4599" y1="26.42" x2="25.4" y2="26.42" width="0.2" layer="1"/>
+<wire x1="25.437" y1="26.457" x2="25.4" y2="26.42" width="0.2" layer="1"/>
+<contactref element="CON4" pad="D+"/>
+<wire x1="27.8799" y1="26.457" x2="25.437" y2="26.457" width="0.2" layer="1"/>
 </signal>
 <signal name="DUT_DM">
-<contactref element="CON4" pad="D-"/>
 <contactref element="CON15" pad="2"/>
 <contactref element="IC9" pad="10"/>
 <wire x1="25.4" y1="23.88" x2="24.2" y2="22.68" width="0.2" layer="1"/>
@@ -3823,8 +3820,9 @@ package type TQ</description>
 <wire x1="24.2" y1="18.6" x2="22.8" y2="17.2" width="0.2" layer="1"/>
 <wire x1="22.8" y1="17.2" x2="18.7" y2="17.2" width="0.2" layer="1"/>
 <wire x1="18.7" y1="17.2" x2="18" y2="17.9" width="0.2" layer="1"/>
-<wire x1="28.6299" y1="24.25" x2="28.2599" y2="23.88" width="0.2" layer="1"/>
-<wire x1="28.2599" y1="23.88" x2="25.4" y2="23.88" width="0.2" layer="1"/>
+<wire x1="25.977" y1="24.457" x2="25.4" y2="23.88" width="0.2" layer="1"/>
+<contactref element="CON4" pad="D-"/>
+<wire x1="27.8799" y1="24.457" x2="25.977" y2="24.457" width="0.2" layer="1"/>
 </signal>
 <signal name="BABEL1:CAN_TX">
 <contactref element="IC105" pad="1"/>
@@ -4339,7 +4337,6 @@ package type TQ</description>
 <contactref element="R9" pad="2"/>
 <contactref element="IC9" pad="18"/>
 <contactref element="R10" pad="2"/>
-<contactref element="CON4" pad="VBUS"/>
 <contactref element="R110" pad="2"/>
 <contactref element="R109" pad="2"/>
 <wire x1="22.55" y1="-31.8" x2="22.45" y2="-31.7" width="0.3" layer="1"/>
@@ -4415,8 +4412,6 @@ package type TQ</description>
 <vertex x="21.7" y="26.35"/>
 <vertex x="22.9" y="26.35"/>
 </polygon>
-<wire x1="25.4" y1="21.34" x2="25.8099" y2="21.7499" width="1" layer="1"/>
-<wire x1="25.8099" y1="21.7499" x2="28.6299" y2="21.7499" width="1" layer="1"/>
 <wire x1="25.4" y1="21.34" x2="23.65" y2="23.09" width="1" layer="2"/>
 <wire x1="23.65" y1="26.2" x2="22.6" y2="27.25" width="1" layer="2"/>
 <wire x1="23.65" y1="23.09" x2="23.65" y2="26.2" width="1" layer="2"/>
@@ -4560,6 +4555,9 @@ package type TQ</description>
 <wire x1="13.1" y1="0.2" x2="14.4" y2="0.2" width="0.5" layer="1"/>
 <wire x1="11.9" y1="-13" x2="11.9" y2="-16.4" width="0.6" layer="15"/>
 <wire x1="19.3" y1="2.1" x2="13.1" y2="2.1" width="0.5" layer="1"/>
+<contactref element="CON4" pad="VBUS"/>
+<wire x1="25.4" y1="21.34" x2="26.0169" y2="21.9569" width="1.27" layer="1"/>
+<wire x1="26.0169" y1="21.9569" x2="27.8799" y2="21.9569" width="1.27" layer="1"/>
 </signal>
 <signal name="N$37">
 <contactref element="Q7" pad="1"/>
@@ -5848,15 +5846,14 @@ package type TQ</description>
 <wire x1="34.6" y1="-21.75" x2="35.425" y2="-20.925" width="0.2" layer="1"/>
 <wire x1="36.8" y1="-27.95" x2="34.9" y2="-27.95" width="0.2" layer="1"/>
 <contactref element="IC2" pad="1"/>
-<wire x1="31.3" y1="-32.95" x2="31.31" y2="-32.946" width="0.2" layer="1"/>
-<wire x1="31.604" y1="-32.946" x2="31.6" y2="-32.946" width="0.15" layer="1"/>
-<wire x1="31.6" y1="-32.946" x2="31.31" y2="-32.946" width="0.15" layer="1"/>
 <wire x1="34.9" y1="-27.95" x2="34.566" y2="-28.284" width="0.2" layer="1"/>
 <wire x1="35.89" y1="-29.825" x2="34.721" y2="-29.825" width="0.2" layer="1"/>
 <wire x1="34.721" y1="-29.825" x2="34.6235" y2="-29.9225" width="0.2" layer="1"/>
-<wire x1="34.6235" y1="-29.9225" x2="31.6" y2="-32.946" width="0.2" layer="1"/>
+<wire x1="31.6" y1="-32.946" x2="34.6235" y2="-29.9225" width="0.2" layer="1"/>
 <wire x1="34.566" y1="-29.865" x2="34.6235" y2="-29.9225" width="0.2" layer="1"/>
 <wire x1="34.566" y1="-28.284" x2="34.566" y2="-29.865" width="0.2" layer="1"/>
+<wire x1="31.3" y1="-32.95" x2="31.304" y2="-32.946" width="0.15" layer="1"/>
+<wire x1="31.304" y1="-32.946" x2="31.6" y2="-32.946" width="0.15" layer="1"/>
 </signal>
 <signal name="CANL1">
 <contactref element="CON16" pad="3"/>
