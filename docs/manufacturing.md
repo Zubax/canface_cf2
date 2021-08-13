@@ -9,7 +9,7 @@ This operation should be performed without installing any connectors on the PCB,
 a 4-pin pogo pin connector should be used instead.
 Connectors' pinouts used for flashing can be found in the picture below.
 
-![](../figures/flashing_interface.svg)
+![](figures/flashing_interface.svg)
 
 3) After flashing is done, all the PCBs should be stacked, aligned,
 and secured together using x5 2 mm diameter pins.
@@ -21,4 +21,4 @@ The dowels can be purchased in general hardware stores
 or on [Amazon](https://www.amazon.co.uk/Wooden-Sticks-Round-Dowels-Natural/dp/B07T4ZFFHQ)
 and other online shops.
 
-![](../figures/blow_scheme.svg)
+![](figures/blow_scheme.svg)

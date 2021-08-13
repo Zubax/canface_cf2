@@ -32,9 +32,9 @@ while also providing a possibility to deposit some explanatory notes on the top 
 (like the purpose of connectors, pinouts, etc.) without any additional technological processes,
 which allows Babel-Babel to be a relatively self-documenting device.
 
-![](figures/General_view.png)
+![](docs/figures/General_view.png)
 
-![](figures/Pinout.png)
+![](docs/figures/Pinout.png)
 
 ## Production flashing tool
 
