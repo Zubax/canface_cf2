@@ -20,7 +20,7 @@ These connectors may be used for production testing purposes.
 
 Each Babel can be turned off using the corresponding dip switch.
 
-For technical characteristics, please refer to `requirements.md`.
+For technical characteristics, please refer to [requirements document](/docs/requirements.md).
 
 ## Standalone debug tool
 
@@ -58,7 +58,7 @@ To eliminate additional adapter PCBs, MyDuck-LV is designed to host Babel-Babel 
 ## Manufacturing instructions
 
 For details on the manufacturing process of the device, check the
-instructions at `/docs/manufacturing.md`.
+instructions at [manufacturing document](/docs/manufacturing.md).
 
 ## Release notes
 
