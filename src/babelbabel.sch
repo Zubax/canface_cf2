@@ -1483,116 +1483,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <smd name="G1" x="-5.575" y="-0.53" dx="2.2" dy="1.6" layer="1" rot="R90"/>
 <text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="USB-A-F-PTH" urn="urn:adsk.eagle:footprint:25290689/1" library_version="89">
-<wire x1="-6.5" y1="-7.32" x2="-6.4999" y2="-7.32" width="0.2032" layer="21"/>
-<wire x1="-6.4999" y1="-7.32" x2="-6.2" y2="-7.32" width="0.2032" layer="21"/>
-<wire x1="-5.9" y1="-7.62" x2="5.9" y2="-7.62" width="0.2032" layer="21"/>
-<wire x1="6.2" y1="-7.32" x2="6.5" y2="-7.32" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="-7.32" x2="6.5" y2="1.38" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="1.38" x2="6.5" y2="3.88" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="3.88" x2="6.5" y2="6.28" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="6.28" x2="-6.5" y2="6.28" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="6.28" x2="-6.5" y2="3.88" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="3.88" x2="-6.5" y2="1.38" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="1.38" x2="-6.5" y2="-7.32" width="0.2032" layer="21"/>
-<wire x1="-6.7999" y1="-7.62" x2="-6.4999" y2="-7.32" width="0.2032" layer="21" curve="90"/>
-<wire x1="-6.8" y1="-7.62" x2="-7" y2="-7.62" width="0.2032" layer="21"/>
-<wire x1="-6.2" y1="-7.32" x2="-5.9" y2="-7.62" width="0.2032" layer="21" curve="-90"/>
-<wire x1="6.5" y1="-7.32" x2="6.8" y2="-7.62" width="0.2032" layer="21" curve="90"/>
-<wire x1="5.9" y1="-7.62" x2="6.2" y2="-7.3199" width="0.2032" layer="21" curve="-89.980911"/>
-<wire x1="-5" y1="0.38" x2="-4" y2="-5.62" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-5.62" x2="-3" y2="-5.62" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-5.62" x2="-2" y2="0.38" width="0.2032" layer="21"/>
-<wire x1="5" y1="0.38" x2="4" y2="-5.62" width="0.2032" layer="21"/>
-<wire x1="4" y1="-5.62" x2="3" y2="-5.62" width="0.2032" layer="21"/>
-<wire x1="3" y1="-5.62" x2="2" y2="0.38" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="3.88" x2="-8" y2="3.38" width="0.2032" layer="21"/>
-<wire x1="-8" y1="3.38" x2="-8" y2="1.88" width="0.2032" layer="21"/>
-<wire x1="-8" y1="1.88" x2="-6.5" y2="1.38" width="0.2032" layer="21"/>
-<wire x1="6.5" y1="3.88" x2="8" y2="3.38" width="0.2032" layer="21"/>
-<wire x1="8" y1="3.38" x2="8" y2="1.88" width="0.2032" layer="21"/>
-<wire x1="8" y1="1.88" x2="6.5" y2="1.38" width="0.2032" layer="21"/>
-<wire x1="6.8" y1="-7.62" x2="7" y2="-7.62" width="0.2032" layer="21"/>
-<pad name="VBUS" x="-3.5001" y="5.3701" drill="1"/>
-<pad name="D-" x="-1" y="5.3701" drill="1"/>
-<pad name="D+" x="1" y="5.3701" drill="1"/>
-<pad name="GND" x="3.5001" y="5.3701" drill="1"/>
-<pad name="P$1" x="-6.5701" y="2.6601" drill="2.286"/>
-<pad name="P$2" x="6.5701" y="2.6601" drill="2.286"/>
-<text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="USB-MICROB-SMD" urn="urn:adsk.eagle:footprint:25290687/1" library_version="89">
-<description>Micro USB Package</description>
-<wire x1="-3.4" y1="-2.15" x2="-3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.15" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-2.15" x2="-3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="-3.4" y2="2.85" width="0.127" layer="51"/>
-<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="3.4" y1="2.85" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="3.4" y1="-1.45" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="1.25" x2="-3.4" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="1.25" x2="3.4" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.127" layer="51"/>
-<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="1.45" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="2.85" x2="-2.2" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-2.15" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="3.4" y1="-2.15" x2="4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-2.15" x2="-3" y2="-2.55" width="0.127" layer="51"/>
-<wire x1="-2.8" y1="-2.8" x2="2.75" y2="-2.8" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.6" x2="3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3" y1="-2.55" x2="-2.8" y2="-2.8" width="0.127" layer="51" curve="84.547378"/>
-<wire x1="2.75" y1="-2.8" x2="3" y2="-2.6" width="0.127" layer="51" curve="84.547378"/>
-<smd name="VBUS" x="-1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="GND" x="1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="D-" x="-0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="D+" x="0" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="MT1" x="-4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<smd name="MT2" x="4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<smd name="MT3" x="-1.27" y="0" dx="1.9" dy="1.9" layer="1" rot="R90"/>
-<smd name="MT4" x="1.27" y="0" dx="1.9" dy="1.9" layer="1" rot="R90"/>
-<text x="-2.54" y="-4.445" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
-</package>
-<package name="USB-MICROB-TH" urn="urn:adsk.eagle:footprint:25290688/1" library_version="89">
-<wire x1="-3.4" y1="-2.15" x2="-3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.15" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-2.15" x2="-3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="-3.4" y2="1.58" width="0.127" layer="51"/>
-<wire x1="3.4" y1="1.58" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="3.4" y1="-1.45" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="1.25" x2="-3.4" y2="1.58" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="1.25" x2="3.4" y2="1.58" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="1.58" x2="3.4" y2="1.58" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="1.58" x2="3.4" y2="1.58" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-2.15" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="3.4" y1="-2.15" x2="4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-2.15" x2="-3" y2="-2.55" width="0.127" layer="51"/>
-<wire x1="-2.8" y1="-2.8" x2="2.75" y2="-2.8" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.6" x2="3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3" y1="-2.55" x2="-2.8" y2="-2.8" width="0.127" layer="51" curve="84.547378"/>
-<wire x1="2.75" y1="-2.8" x2="3" y2="-2.6" width="0.127" layer="51" curve="84.547378"/>
-<smd name="VBUS" x="-1.3" y="2.65" dx="1.4" dy="0.4" layer="1" rot="R90"/>
-<smd name="GND" x="1.3" y="2.65" dx="1.4" dy="0.4" layer="1" rot="R90"/>
-<smd name="D-" x="-0.65" y="2.65" dx="1.4" dy="0.4" layer="1" rot="R90"/>
-<smd name="D+" x="0" y="2.65" dx="1.4" dy="0.4" layer="1" rot="R90"/>
-<smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.4" layer="1" rot="R90"/>
-<smd name="M5" x="-1.15" y="0" dx="1.8" dy="1.8" layer="1" rot="R90"/>
-<smd name="M6" x="1.15" y="0" dx="1.8" dy="1.8" layer="1" rot="R90"/>
-<pad name="MT1" x="-2.425" y="2.8" drill="0.6" diameter="1.2"/>
-<pad name="MT2" x="2.425" y="2.8" drill="0.6" diameter="1.2"/>
-<pad name="MT3" x="-3.61" y="0" drill="1.1" diameter="2" rot="R180"/>
-<pad name="MT4" x="3.61" y="0" drill="1.1" diameter="2" rot="R90"/>
-</package>
 <package name="1051330011" urn="urn:adsk.eagle:footprint:4410717/3" library_version="95">
 <wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0.01" layer="20"/>
 <wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.01" layer="20"/>
@@ -1665,22 +1555,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <packageinstance name="DF13C-6P-1.25V"/>
 </packageinstances>
 </package3d>
-<package3d name="USB-A-F-PTH" urn="urn:adsk.eagle:package:25290692/2" type="model" library_version="90">
-<packageinstances>
-<packageinstance name="USB-A-F-PTH"/>
-</packageinstances>
-</package3d>
-<package3d name="USB-MICROB-SMD" urn="urn:adsk.eagle:package:25290690/1" type="box" library_version="89">
-<description>Micro USB Package</description>
-<packageinstances>
-<packageinstance name="USB-MICROB-SMD"/>
-</packageinstances>
-</package3d>
-<package3d name="USB-MICROB-TH" urn="urn:adsk.eagle:package:25290691/1" type="box" library_version="89">
-<packageinstances>
-<packageinstance name="USB-MICROB-TH"/>
-</packageinstances>
-</package3d>
 <package3d name="1051330011" urn="urn:adsk.eagle:package:4410721/4" type="model" library_version="95">
 <packageinstances>
 <packageinstance name="1051330011"/>
@@ -1741,19 +1615,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pin name="G1" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="G2" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 <text x="2.54" y="18.796" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
-</symbol>
-<symbol name="USB-1" urn="urn:adsk.eagle:symbol:25290686/1" library_version="89">
-<wire x1="5.08" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="5.08" y2="0" width="0.254" layer="94"/>
-<text x="2.54" y="6.477" size="3.048" layer="94" font="vector" ratio="12" rot="R90" align="center">USB</text>
-<text x="2.54" y="13.97" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;MANF#</text>
-<pin name="D+" x="-2.54" y="5.08" visible="pad" length="short"/>
-<pin name="D-" x="-2.54" y="7.62" visible="pad" length="short"/>
-<pin name="VBUS" x="-2.54" y="10.16" visible="pad" length="short"/>
-<pin name="GND" x="-2.54" y="2.54" visible="pad" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1933,60 +1794,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="DIGIKEY#" value="H3423-ND" constant="no"/>
 <attribute name="MANF" value="Hirose Electric Co Ltd" constant="no"/>
 <attribute name="MANF#" value="DF13C-6P-1.25V(20)" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="USB-A" urn="urn:adsk.eagle:component:25290693/2" prefix="CON" library_version="90">
-<description>USB-A (USB TYPE-A) Receptacle Connector 4 Position Through Hole, Right Angle</description>
-<gates>
-<gate name="G$1" symbol="USB-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="MICROB-SMD" package="USB-MICROB-SMD">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25290690/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MICROB-PTH" package="USB-MICROB-TH">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25290691/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="A-PTH" package="USB-A-F-PTH">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25290692/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="787616-1-ND" constant="no"/>
-<attribute name="MANF" value="TE Connectivity AMP Connectors" constant="no"/>
-<attribute name="MANF#" value="787616-1" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6282,6 +6089,88 @@ package type TQ</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Connectors">
+<packages>
+<package name="USB-A-F-PTH">
+<wire x1="-6.5" y1="-7.32" x2="-6.4999" y2="-7.32" width="0.2032" layer="21"/>
+<wire x1="-6.4999" y1="-7.32" x2="-6.2" y2="-7.32" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="-7.62" x2="5.9" y2="-7.62" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="-7.32" x2="6.5" y2="-7.32" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="-7.32" x2="6.5" y2="1.38" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="1.38" x2="6.5" y2="3.88" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="3.88" x2="6.5" y2="6.28" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="6.28" x2="-6.5" y2="6.28" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="6.28" x2="-6.5" y2="3.88" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="3.88" x2="-6.5" y2="1.38" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="1.38" x2="-6.5" y2="-7.32" width="0.2032" layer="21"/>
+<wire x1="-6.7999" y1="-7.62" x2="-6.4999" y2="-7.32" width="0.2032" layer="21" curve="90"/>
+<wire x1="-6.8" y1="-7.62" x2="-7" y2="-7.62" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="-7.32" x2="-5.9" y2="-7.62" width="0.2032" layer="21" curve="-90"/>
+<wire x1="6.5" y1="-7.32" x2="6.8" y2="-7.62" width="0.2032" layer="21" curve="90"/>
+<wire x1="5.9" y1="-7.62" x2="6.2" y2="-7.3199" width="0.2032" layer="21" curve="-89.980911"/>
+<wire x1="-5" y1="0.38" x2="-4" y2="-5.62" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-5.62" x2="-3" y2="-5.62" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-5.62" x2="-2" y2="0.38" width="0.2032" layer="21"/>
+<wire x1="5" y1="0.38" x2="4" y2="-5.62" width="0.2032" layer="21"/>
+<wire x1="4" y1="-5.62" x2="3" y2="-5.62" width="0.2032" layer="21"/>
+<wire x1="3" y1="-5.62" x2="2" y2="0.38" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="3.88" x2="-8" y2="3.38" width="0.2032" layer="21"/>
+<wire x1="-8" y1="3.38" x2="-8" y2="1.88" width="0.2032" layer="21"/>
+<wire x1="-8" y1="1.88" x2="-6.5" y2="1.38" width="0.2032" layer="21"/>
+<wire x1="6.5" y1="3.88" x2="8" y2="3.38" width="0.2032" layer="21"/>
+<wire x1="8" y1="3.38" x2="8" y2="1.88" width="0.2032" layer="21"/>
+<wire x1="8" y1="1.88" x2="6.5" y2="1.38" width="0.2032" layer="21"/>
+<wire x1="6.8" y1="-7.62" x2="7" y2="-7.62" width="0.2032" layer="21"/>
+<pad name="D+" x="1" y="5.3701" drill="1"/>
+<pad name="D-" x="-1" y="5.3701" drill="1"/>
+<pad name="GND" x="3.5001" y="5.3701" drill="1"/>
+<pad name="P$1" x="-6.6701" y="2.6601" drill="2.286"/>
+<pad name="P$2" x="6.6701" y="2.6601" drill="2.286"/>
+<pad name="VBUS" x="-3.5001" y="5.3701" drill="1"/>
+<text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="USB-1">
+<wire x1="5.08" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="0" width="0.254" layer="94"/>
+<pin name="D+" x="-2.54" y="5.08" visible="pad" length="short"/>
+<pin name="D-" x="-2.54" y="7.62" visible="pad" length="short"/>
+<pin name="GND" x="-2.54" y="2.54" visible="pad" length="short"/>
+<pin name="VBUS" x="-2.54" y="10.16" visible="pad" length="short"/>
+<text x="2.54" y="6.477" size="3.048" layer="94" font="vector" ratio="12" rot="R90" align="center">USB</text>
+<text x="2.54" y="13.97" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;MANF#</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB-A" prefix="CON">
+<description>USB-A (USB TYPE-A) Receptacle Connector 4 Position Through Hole, Right Angle</description>
+<gates>
+<gate name="G$1" symbol="USB-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A-PTH" package="USB-A-F-PTH">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="2092-KUSBX-AS1N-W-ND" constant="no"/>
+<attribute name="MANF" value="Kycon, Inc." constant="no"/>
+<attribute name="MANF#" value="KUSBX-AS1N-W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7704,9 +7593,6 @@ BABEL firmare</text>
 <part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
 <part name="+P2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
-<part name="CON4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB-A" device="A-PTH" package3d_urn="urn:adsk.eagle:package:25290692/2">
-<attribute name="LCSC#" value="C39437"/>
-</part>
 <part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GNDD" device="" value="GNDD"/>
@@ -7794,6 +7680,7 @@ BABEL firmare</text>
 <attribute name="LCSC#" value="C11702"/>
 </part>
 <part name="GND25" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="CON4" library="Connectors" deviceset="USB-A" device="A-PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -7957,11 +7844,6 @@ BABEL firmare</text>
 <instance part="+P2" gate="G$1" x="20.32" y="167.64" smashed="yes">
 <attribute name="VALUE" x="20.32" y="171.196" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="CON4" gate="G$1" x="111.76" y="106.68" smashed="yes" rot="MR180">
-<attribute name="NAME" x="114.3" y="92.71" size="1.778" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
-<attribute name="MANF#" x="114.3" y="107.95" size="1.778" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
-<attribute name="LCSC#" x="111.76" y="106.68" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
 <instance part="GND3" gate="1" x="106.68" y="71.12" smashed="yes">
 <attribute name="VALUE" x="106.68" y="69.85" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
@@ -8096,6 +7978,10 @@ BABEL firmare</text>
 <instance part="GND25" gate="1" x="134.62" y="38.1" smashed="yes">
 <attribute name="VALUE" x="134.62" y="36.83" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
+<instance part="CON4" gate="G$1" x="111.76" y="93.98" smashed="yes">
+<attribute name="NAME" x="114.3" y="107.95" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="MANF#" x="114.3" y="92.71" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8194,7 +8080,6 @@ BABEL firmare</text>
 <junction x="210.82" y="111.76"/>
 </segment>
 <segment>
-<pinref part="CON4" gate="G$1" pin="GND"/>
 <pinref part="CON15" gate="G$1" pin="4"/>
 <wire x1="106.68" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
@@ -8202,6 +8087,7 @@ BABEL firmare</text>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="106.68" y1="73.66" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <junction x="106.68" y="83.82"/>
+<pinref part="CON4" gate="G$1" pin="VBUS"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -8289,7 +8175,6 @@ BABEL firmare</text>
 </net>
 <net name="DUT_DP" class="0">
 <segment>
-<pinref part="CON4" gate="G$1" pin="D+"/>
 <pinref part="CON15" gate="G$1" pin="3"/>
 <wire x1="104.14" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="81.28" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
@@ -8298,11 +8183,11 @@ BABEL firmare</text>
 <wire x1="83.82" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="134.62" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <junction x="104.14" y="101.6"/>
+<pinref part="CON4" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="DUT_DM" class="0">
 <segment>
-<pinref part="CON4" gate="G$1" pin="D-"/>
 <pinref part="CON15" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
@@ -8311,6 +8196,7 @@ BABEL firmare</text>
 <wire x1="101.6" y1="99.06" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
 <junction x="101.6" y="99.06"/>
+<pinref part="CON4" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="BABEL1_RST" class="0">
@@ -8516,7 +8402,6 @@ BABEL firmare</text>
 <junction x="20.32" y="165.1"/>
 </segment>
 <segment>
-<pinref part="CON4" gate="G$1" pin="VBUS"/>
 <pinref part="+P4" gate="G$1" pin="VDD_5V"/>
 <wire x1="109.22" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="CON15" gate="G$1" pin="1"/>
@@ -8524,6 +8409,7 @@ BABEL firmare</text>
 <wire x1="109.22" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="76.2" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <junction x="99.06" y="96.52"/>
+<pinref part="CON4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <portref moduleinst="BABEL2" port="VDD_5V"/>
