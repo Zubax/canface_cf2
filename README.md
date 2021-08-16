@@ -20,7 +20,7 @@ These connectors may be used for production testing purposes.
 
 Each Babel can be turned off using the corresponding dip switch.
 
-For technical characteristics, please refer to `requirements.md`.
+For technical characteristics, please refer to [requirements document](/docs/requirements.md).
 
 ## Standalone debug tool
 
@@ -32,9 +32,9 @@ while also providing a possibility to deposit some explanatory notes on the top 
 (like the purpose of connectors, pinouts, etc.) without any additional technological processes,
 which allows Babel-Babel to be a relatively self-documenting device.
 
-![](figures/General_view.png)
+![](docs/figures/General_view.png)
 
-![](figures/Pinout.png)
+![](docs/figures/Pinout.png)
 
 ## Production flashing tool
 
@@ -54,3 +54,16 @@ It is a device used for flashing and testing [Mitochondrik-LV](https://zubax.com
 To eliminate additional adapter PCBs, MyDuck-LV is designed to host Babel-Babel directly:
 
 ![](https://github.com/Zubax/MyDuck-LV/blob/master/figures/Myduck-LV-jig.png)
+
+## Manufacturing instructions
+
+For details on the manufacturing process of the device, check the
+instructions at [manufacturing document](/docs/manufacturing.md).
+
+## Release notes
+
+Newest entries at the top.
+
+### Babel-Babel v1.0 (2021)
+
+The original version.
