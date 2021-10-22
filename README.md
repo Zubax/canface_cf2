@@ -64,6 +64,10 @@ instructions at [manufacturing document](/docs/manufacturing.md).
 
 Newest entries at the top.
 
+### Babel-Babel v1.1(2021)
+
+- DCP switch pulled high to load main firmware at boot instead of bootloader
+
 ### Babel-Babel v1.0 (2021)
 
 The original version.
