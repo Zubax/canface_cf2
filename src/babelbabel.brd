@@ -3234,6 +3234,17 @@ package type TQ</description>
 <attribute name="MANF#" value="STM32F373CBT6" x="11.719" y="-7.471" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="11.557" y="-7.348" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
+<element name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="10K" x="5.05" y="11.15" smashed="yes">
+<attribute name="AEC-Q" value="" x="5.05" y="11.15" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="" x="5.05" y="11.15" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C25744" x="5.05" y="11.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="" x="5.05" y="11.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="" x="5.05" y="11.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.09" y="11.16" size="0.5" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="5.05" y="11.15" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="0402" x="5.05" y="11.15" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="5.05" y="11.15" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3493,7 +3504,7 @@ package type TQ</description>
 <via x="7.7" y="15.65" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="28.04283125" y="13.075" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="28.15" y="7.8" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="4.4" y="10.65" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="4.44" y="8.63" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="10.5" y="10.5" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="11.4" y="19.7" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="9.55" y="11.85" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -3600,7 +3611,8 @@ package type TQ</description>
 <wire x1="6.025" y1="5.825" x2="5.5" y2="5.3" width="0.25" layer="1"/>
 <wire x1="5.5" y1="5.3" x2="5.4" y2="5.3" width="0.25" layer="1"/>
 <wire x1="2" y1="12.06" x2="2.26" y2="11.8" width="0.2" layer="1"/>
-<wire x1="2.26" y1="11.8" x2="6.1" y2="11.8" width="0.2" layer="1"/>
+<wire x1="2.26" y1="11.8" x2="4.6" y2="11.8" width="0.2" layer="1"/>
+<wire x1="4.6" y1="11.8" x2="6.1" y2="11.8" width="0.2" layer="1"/>
 <wire x1="6.925" y1="12.625" x2="6.925" y2="12.8" width="0.2" layer="1"/>
 <wire x1="6.1" y1="11.8" x2="6.925" y2="12.625" width="0.2" layer="1"/>
 <wire x1="21.15" y1="6.85" x2="20.85" y2="6.85" width="0.4" layer="15"/>
@@ -3686,6 +3698,9 @@ package type TQ</description>
 <wire x1="25.29283125" y1="12.9" x2="24.19283125" y2="14" width="0.2" layer="1"/>
 <wire x1="24.59283125" y1="14.8" x2="24.19283125" y2="14.4" width="0.2" layer="1"/>
 <wire x1="25.1" y1="14.8" x2="24.59283125" y2="14.8" width="0.2" layer="1"/>
+<contactref element="R7" pad="1"/>
+<wire x1="4.55" y1="11.15" x2="4.55" y2="11.75" width="0.2" layer="1"/>
+<wire x1="4.55" y1="11.75" x2="4.6" y2="11.8" width="0.2" layer="1"/>
 </signal>
 <signal name="DCP_DM">
 <contactref element="IC13" pad="32"/>
@@ -4466,8 +4481,8 @@ package type TQ</description>
 <wire x1="10.8" y1="-7.2" x2="9.2" y2="-5.6" width="0.6" layer="15"/>
 <wire x1="6.6" y1="20.65" x2="13.5" y2="27.55" width="0.6" layer="15"/>
 <wire x1="6.6" y1="-3.8" x2="6.6" y2="2.2" width="0.6" layer="15"/>
-<wire x1="6.6" y1="2.2" x2="6.6" y2="11.188909375" width="0.6" layer="15"/>
-<wire x1="6.6" y1="11.188909375" x2="6.6" y2="17.8" width="0.6" layer="15"/>
+<wire x1="6.6" y1="2.2" x2="6.6" y2="10.32" width="0.6" layer="15"/>
+<wire x1="6.6" y1="10.32" x2="6.6" y2="17.8" width="0.6" layer="15"/>
 <wire x1="6.6" y1="17.8" x2="6.6" y2="20.65" width="0.6" layer="15"/>
 <wire x1="11.9" y1="2.2" x2="6.6" y2="2.2" width="0.6" layer="15"/>
 <via x="7.75" y="17.2" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -4489,13 +4504,9 @@ package type TQ</description>
 <wire x1="7.15" y1="17.2" x2="7.75" y2="17.2" width="0.2" layer="1"/>
 <wire x1="7.05" y1="17.1" x2="7.65" y2="17.1" width="0.25" layer="1"/>
 <wire x1="7.65" y1="17.1" x2="7.75" y2="17.2" width="0.25" layer="1"/>
-<wire x1="6.875" y1="10.825" x2="6.025" y2="10.825" width="0.25" layer="1"/>
-<wire x1="6.025" y1="10.825" x2="5.711090625" y2="11.138909375" width="0.25" layer="1"/>
-<wire x1="5.711090625" y1="11.138909375" x2="5.711090625" y2="11.188909375" width="0.25" layer="1"/>
-<via x="5.711090625" y="11.188909375" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="4.611090625" y="9.788909375" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="5.15" y1="17.1" x2="5.15" y2="17.9" width="0.2" layer="1"/>
 <wire x1="5.15" y1="17.9" x2="5.35" y2="18.1" width="0.2" layer="1"/>
-<wire x1="5.711090625" y1="11.188909375" x2="6.6" y2="11.188909375" width="0.2" layer="15"/>
 <wire x1="5.35" y1="18.1" x2="7.5" y2="18.1" width="0.2" layer="1"/>
 <wire x1="7.5" y1="18.1" x2="7.75" y2="17.85" width="0.2" layer="1"/>
 <wire x1="7.75" y1="17.85" x2="7.7" y2="17.8" width="0.2" layer="15"/>
@@ -4552,6 +4563,13 @@ package type TQ</description>
 <contactref element="CON4" pad="VBUS"/>
 <wire x1="25.4" y1="21.34" x2="26.0169" y2="21.9569" width="1.27" layer="1"/>
 <wire x1="26.0169" y1="21.9569" x2="27.8799" y2="21.9569" width="1.27" layer="1"/>
+<wire x1="4.611090625" y1="9.788909375" x2="6.068909375" y2="9.788909375" width="0.3048" layer="15"/>
+<wire x1="6.068909375" y1="9.788909375" x2="6.6" y2="10.32" width="0.3048" layer="15"/>
+<wire x1="6.875" y1="10.825" x2="6.802" y2="10.752" width="0.254" layer="1"/>
+<wire x1="6.802" y1="10.752" x2="6.2602625" y2="10.752" width="0.254" layer="1"/>
+<wire x1="6.2602625" y1="10.752" x2="5.7082625" y2="10.2" width="0.254" layer="1"/>
+<wire x1="5.02218125" y1="10.2" x2="4.611090625" y2="9.788909375" width="0.254" layer="1"/>
+<wire x1="5.7082625" y1="10.2" x2="5.02218125" y2="10.2" width="0.254" layer="1"/>
 </signal>
 <signal name="N$37">
 <contactref element="Q7" pad="1"/>
@@ -4582,6 +4600,9 @@ package type TQ</description>
 <wire x1="8.275" y1="11.325" x2="8.55" y2="11.05" width="0.2" layer="1"/>
 <wire x1="8.275" y1="11.325" x2="6.875" y2="11.325" width="0.2" layer="1"/>
 <via x="8.55" y="11.05" extent="1-16" drill="0.3" diameter="0.6"/>
+<contactref element="R7" pad="2"/>
+<wire x1="6.875" y1="11.325" x2="5.725" y2="11.325" width="0.2" layer="1"/>
+<wire x1="5.725" y1="11.325" x2="5.55" y2="11.15" width="0.2" layer="1"/>
 </signal>
 <signal name="N$39">
 <contactref element="LED6" pad="A"/>

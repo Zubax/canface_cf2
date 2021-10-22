@@ -7655,6 +7655,9 @@ BABEL firmare</text>
 </part>
 <part name="GND25" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="CON4" library="Connectors" deviceset="USB-A" device="A-PTH"/>
+<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="10K">
+<attribute name="LCSC#" value="C25744"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -9024,6 +9027,12 @@ No divider needed</text>
 <instance part="GND15" gate="1" x="114.3" y="96.52" smashed="yes">
 <attribute name="VALUE" x="114.3" y="95.25" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
+<instance part="R7" gate="G$1" x="96.52" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.52" y="99.06" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="98.552" y="98.806" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="96.012" y="95.25" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="98.552" y="99.314" size="0.762" layer="96" font="vector" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9276,8 +9285,12 @@ No divider needed</text>
 <segment>
 <pinref part="IC13" gate="G$1" pin="PB12"/>
 <pinref part="PAD3" gate="G$1" pin="P$1"/>
-<wire x1="88.9" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
 <label x="99.06" y="106.68" size="1.27" layer="95" font="vector"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="104.14" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
+<junction x="96.52" y="106.68"/>
 </segment>
 </net>
 <net name="VDD_5V" class="0">
@@ -9379,6 +9392,9 @@ No divider needed</text>
 <wire x1="76.2" y1="91.44" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
 <junction x="76.2" y="91.44"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
+<junction x="88.9" y="93.98"/>
 </segment>
 <segment>
 <pinref part="+P37" gate="G$1" pin="VDD_3V3"/>
