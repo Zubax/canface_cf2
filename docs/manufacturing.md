@@ -2,7 +2,7 @@
 
 ## PCB specification for all PCB
 ### Main PCB
-* Quantity per product/order: 1
+
 * Layers: 4 (layer stack in manufacturing package)
 * Thickness: 1.0mm
 * PCB color: Red
@@ -10,62 +10,67 @@
 * Surface Finish: LeadFree HASL-RoHS
 * Outer Copper Weight: 1 oz or 1.4 Mils
 * Inner Copper Weight: 0.5 oz or 0.7 mils
-* Material Type: FR4-Standard Tg 130-140C
+* Material Type: FR4
 * Flying Prob Test: Fully Test
 * Castellated Holes: No
 
 ### Enclosure PCB
 
+Every parameters for enclosure PCB are same except thickness.\
+Common parameters: 
+
+* Surface Finish: LeadFree HASL-RoHS
+* Color: Red
+* Silkscreen: White
+* Material: FR4
+* No Copper
+
 ### Part B1
-   * Quantity per product/order: 1
-   * Thickness: 0.8mm
-   * Surface Finish: LeadFree HASL-RoHS
-   * Color: Red
-   * Silkscreen: White
-   * Material: Textolite
-   * No Copper
+
+* Thickness: 0.8mm
 
 ### Part A
-   * Quantity per product/order: 2
-   * Thickness: 1.6mm
-   * Surface Finish: LeadFree HASL-RoHS
-   * Color: Red
-   * Silkscreen: None
-   * Material: Textolite
-   * No Copper
+
+* Thickness: 1.6mm
 
 ### Part C
-   * Quantity per product/order: 1
-   * Thickness: 1.2mm
-   * Surface Finish: LeadFree HASL-RoHS
-   * Color: Red
-   * Silkscreen: None
-   * Material: Textolite
-   * No Copper
+
+* Thickness: 1.2mm
 
 ### Part D
-   * Quantity per product/order: 1
-   * Thickness: 0.8mm
-   * Surface Finish: LeadFree HASL-RoHS
-   * Color: Red
-   * Silkscreen: None
-   * Material: Textolite
-   * No Copper
 
+* Thickness: 0.8mm
 
-
-The following operations must be performed for Babel-Babel manufacturing:
+## The following operations must be performed for Babel-Babel manufacturing:
 
 1) SMT mounting of the main PCB.
 
 2) Flashing both Babels and [Dronecode probe](https://github.com/Zubax/dronecode_probe) on the PCB.
 This operation should be performed without installing any connectors on the PCB,
 a 4-pin pogo pin connector should be used instead.
-Connectors' pinouts used for flashing can be found in the picture below.(Flashing process will be covered in a deperate doc)
+Connectors' pinouts used for flashing can be found in the picture below.
 
 ![](figures/flashing_interface.svg)
 
-3) After flashing is done, all the PCBs should be stacked, aligned,
+To flash Babel-Babel, the Babel part of the board has to be flashed first then the DCP part will be flashed.
+To Flash Babel follow the procedure bellow:
+* Turn off one babel by toggling the switch
+* Connect 1 DCP and 1 Babel from PC
+  
+![](figures/flashing1.jpg)
+
+* Connect 1 CAN port from Babel to 1 port of Babel-Babel on the side that'll be flashed
+* Navigate to drwatson_babel repository and run "./drwatson_babel.py (babel port path)"
+ 
+![](figures/flashing3.png)
+
+* Enter provided credentials and press enter and the flashing process will start
+
+![](figures/flashing4.png)
+
+### To flash the DCP part follow [this link](https://github.com/Zubax/dronecode_probe/blob/master/MANUFACTURING.md)
+
+1) After flashing is done, all the PCBs should be stacked, aligned,
 and secured together using x5 2 mm diameter pins.
 "Part A" PCBs should be split in two parts beforehand,
 and the excessive material that interferes with USB A connector placement should be removed.
