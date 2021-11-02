@@ -68,7 +68,7 @@ To Flash Babel follow the procedure bellow:
 
 ![](figures/flashing4.png)
 
-### To flash the DCP part follow [this link](https://github.com/Zubax/dronecode_probe/blob/master/MANUFACTURING.md)
+To flash the DCP part, follow [the DCP Manufacturing documentation](https://github.com/Zubax/dronecode_probe/blob/master/MANUFACTURING.md).
 
 1) After flashing is done, all the PCBs should be stacked, aligned,
 and secured together using x5 2 mm diameter pins.
