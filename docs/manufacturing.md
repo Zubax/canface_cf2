@@ -41,7 +41,7 @@ Common parameters:
 
 * Thickness: 0.8mm
 
-## The following operations must be performed for Babel-Babel manufacturing:
+## Manufacturing
 
 1) SMT mounting of the main PCB.
 
