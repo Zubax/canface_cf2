@@ -64,6 +64,10 @@ To flash and test Babel, follow the procedure below:
  
 ![](figures/flashing3.png)
 
+* Hold the pogo-pins from DCP to flashing interface of Babel-Babel
+
+![](figures/flashing2.jpg)
+
 * Enter provided credentials and press enter and the flashing process will start
 
 ![](figures/flashing4.png)
