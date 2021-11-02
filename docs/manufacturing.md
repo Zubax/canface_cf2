@@ -16,7 +16,7 @@
 
 ### Enclosure PCB
 
-Every parameters for enclosure PCB are same except thickness.\
+All parameters of the enclosure PCBs are the same except thickness.
 Common parameters: 
 
 * Surface Finish: LeadFree HASL-RoHS
