@@ -53,7 +53,7 @@ Connectors' pinouts used for flashing can be found in the picture below.
 ![](figures/flashing_interface.svg)
 
 To flash Babel-Babel, the Babel part of the board has to be flashed first then the DCP part will be flashed.
-To Flash Babel follow the procedure bellow:
+To flash and test Babel, follow the procedure below:
 * Turn off one babel by toggling the switch
 * Connect 1 DCP and 1 Babel from PC
   
