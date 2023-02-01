@@ -443,6 +443,7 @@ VDD</text>
 <wire x1="38" y1="54.25" x2="39" y2="53.25" width="0.01" layer="20" curve="90"/>
 <wire x1="34" y1="34.5" x2="34" y2="34.9" width="0.2" layer="41"/>
 <wire x1="34" y1="16.5" x2="34" y2="16.9" width="0.2" layer="41"/>
+<text x="22.22" y="41.41" size="1.778" layer="22" rot="MR270">V1.1</text>
 </plain>
 <libraries>
 <library name="rc" urn="urn:adsk.eagle:library:2539423">
@@ -3200,7 +3201,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <attribute name="LCSC#" value="C13167" x="19.82" y="58.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="" x="19.82" y="58.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF#" value="" x="19.82" y="58.74" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="20.16" y="58.72" size="0.5" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="19.82" y="58.74" size="0.5" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="" x="19.82" y="58.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="0603" x="19.82" y="58.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="19.82" y="58.74" size="1.778" layer="27" rot="R270" display="off"/>

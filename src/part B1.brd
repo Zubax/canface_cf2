@@ -415,6 +415,7 @@ VDD</text>
 <wire x1="21" y1="51.95" x2="21.7" y2="52.4" width="0.01" layer="20" curve="90"/>
 <text x="20.3" y="57.1" size="1.5" layer="21" font="vector" ratio="15" align="center">ON</text>
 <text x="12.1" y="57.1" size="1.5" layer="21" font="vector" ratio="15" align="center">OFF</text>
+<text x="15.8" y="45.7" size="1.778" layer="22" rot="MR270">V1.1</text>
 </plain>
 <libraries>
 </libraries>
