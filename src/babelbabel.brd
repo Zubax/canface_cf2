@@ -4341,6 +4341,24 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <attribute name="SPICEPREFIX" value="R" x="33.58" y="-14.91" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="31.675" y="-14.275" size="1.27" layer="27" rot="R270"/>
 </element>
+<element name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="24.08" y="-20.25" smashed="yes" rot="R90">
+<attribute name="MANF" value="YAGEO" x="24.08" y="-20.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RC0201FR-0710KL" x="24.08" y="-20.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="24.235" y="-20.205" size="0.1" layer="25" font="vector" rot="R180"/>
+<attribute name="PACKAGE" value="0201" x="24.08" y="-20.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="0" x="24.08" y="-20.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="24.08" y="-20.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="25.985" y="-20.885" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="R202" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="24.07" y="-2.17" smashed="yes" rot="R90">
+<attribute name="MANF" value="YAGEO" x="24.07" y="-2.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RC0201FR-0710KL" x="24.07" y="-2.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="24.225" y="-2.135" size="0.1" layer="25" font="vector" rot="R180"/>
+<attribute name="PACKAGE" value="0201" x="24.07" y="-2.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="0" x="24.07" y="-2.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="24.07" y="-2.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="25.975" y="-2.805" size="1.27" layer="27" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -5255,7 +5273,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="10.32" y1="-23.13" x2="13.7818" y2="-23.13" width="0.15" layer="1"/>
 <wire x1="10.32" y1="-23.13" x2="8.75" y2="-24.7" width="0.15" layer="1"/>
 <wire x1="13.7818" y1="-23.13" x2="15.7868" y2="-21.125" width="0.15" layer="1"/>
-<wire x1="23.51989375" y1="-21.3" x2="24.1" y2="-21.3" width="0.1524" layer="1"/>
+<wire x1="23.51989375" y1="-21.3" x2="24.08" y2="-21.3" width="0.1524" layer="1"/>
+<wire x1="24.08" y1="-21.3" x2="24.1" y2="-21.3" width="0.1524" layer="1"/>
 <wire x1="18.8308375" y1="-21.125" x2="19.4820375" y2="-20.4738" width="0.1524" layer="1"/>
 <wire x1="19.4820375" y1="-20.4738" x2="22.69369375" y2="-20.4738" width="0.1524" layer="1"/>
 <wire x1="22.69369375" y1="-20.4738" x2="23.51989375" y2="-21.3" width="0.1524" layer="1"/>
@@ -5263,6 +5282,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <contactref element="IC101" pad="29"/>
 <wire x1="8.75" y1="-24.7" x2="8.746" y2="-24.704" width="0.2" layer="1"/>
 <wire x1="8.746" y1="-24.704" x2="7.46" y2="-24.704" width="0.2" layer="1"/>
+<contactref element="R102" pad="1"/>
+<wire x1="24.08" y1="-20.505" x2="24.08" y2="-21.3" width="0.2" layer="1"/>
 </signal>
 <signal name="GNDD">
 <contactref element="CON16" pad="M$1"/>
@@ -5466,7 +5487,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="26.6" y1="-21.25" x2="26.5" y2="-21.25" width="0.5" layer="1"/>
 <wire x1="26.5" y1="-21.25" x2="26.5" y2="-20.05" width="0.5" layer="1"/>
 <wire x1="26.5" y1="-20.05" x2="26.05" y2="-19.6" width="0.5" layer="1"/>
-<wire x1="26.05" y1="-19.6" x2="23" y2="-19.6" width="0.5" layer="1"/>
+<wire x1="26.05" y1="-19.6" x2="24.14" y2="-19.6" width="0.5" layer="1"/>
+<wire x1="24.14" y1="-19.6" x2="23" y2="-19.6" width="0.5" layer="1"/>
 <wire x1="19.25" y1="-15.85" x2="13.15" y2="-15.85" width="0.5" layer="1"/>
 <wire x1="13.1" y1="-15.9" x2="13.15" y2="-15.85" width="0.5" layer="1"/>
 <wire x1="23" y1="-19.6" x2="19.25" y2="-15.85" width="0.5" layer="1"/>
@@ -5543,7 +5565,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="26.6" y1="-3.25" x2="26.5" y2="-3.25" width="0.5" layer="1"/>
 <wire x1="26.5" y1="-3.25" x2="26.5" y2="-2.05" width="0.5" layer="1"/>
 <wire x1="26.5" y1="-2.05" x2="26.05" y2="-1.6" width="0.5" layer="1"/>
-<wire x1="26.05" y1="-1.6" x2="23" y2="-1.6" width="0.5" layer="1"/>
+<wire x1="26.05" y1="-1.6" x2="24.12" y2="-1.6" width="0.5" layer="1"/>
+<wire x1="24.12" y1="-1.6" x2="23" y2="-1.6" width="0.5" layer="1"/>
 <wire x1="23" y1="-1.6" x2="19.3" y2="2.1" width="0.5" layer="1"/>
 <polygon width="0.2" layer="1" thermals="no">
 <vertex x="13.6" y="-17.2"/>
@@ -5666,6 +5689,26 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <contactref element="CON4" pad="VBUS"/>
 <wire x1="25.4" y1="21.34" x2="26.0169" y2="21.9569" width="1.27" layer="1"/>
 <wire x1="26.0169" y1="21.9569" x2="27.8799" y2="21.9569" width="1.27" layer="1"/>
+<contactref element="R102" pad="2"/>
+<contactref element="R202" pad="2"/>
+<wire x1="24.08" y1="-19.995" x2="24.08" y2="-19.66" width="0.2" layer="1"/>
+<wire x1="24.08" y1="-19.66" x2="24.14" y2="-19.6" width="0.2" layer="1"/>
+<wire x1="24.07" y1="-1.915" x2="24.07" y2="-1.65" width="0.2" layer="1"/>
+<wire x1="24.07" y1="-1.65" x2="24.12" y2="-1.6" width="0.2" layer="1"/>
+<wire x1="22.6" y1="27.25" x2="22.6" y2="27.85" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="27.25" x2="22.6" y2="27.25" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="27.85" x2="22.6" y2="27.85" width="0" layer="19" extent="1-1"/>
+<wire x1="13.5" y1="27.55" x2="14.4" y2="27.875" width="0" layer="19" extent="1-1"/>
+<wire x1="11.9" y1="1.6" x2="11.9" y2="2.2" width="0" layer="19" extent="1-1"/>
+<wire x1="11.9" y1="-17" x2="11.9" y2="-16.4" width="0" layer="19" extent="1-1"/>
+<wire x1="7.75" y1="17.2" x2="7.75" y2="17.85" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="27.05" x2="13.5" y2="27.55" width="0" layer="19" extent="1-1"/>
+<wire x1="12.5" y1="26.55" x2="13" y2="27.05" width="0" layer="19" extent="1-1"/>
+<wire x1="11.95" y1="26.35" x2="12.5" y2="26.55" width="0" layer="19" extent="1-1"/>
+<wire x1="7.05" y1="17.9" x2="7.75" y2="17.85" width="0" layer="19" extent="1-1"/>
+<wire x1="8.5" y1="17.6" x2="7.75" y2="17.85" width="0" layer="19" extent="1-1"/>
+<wire x1="13.1" y1="2.1" x2="11.9" y2="2.2" width="0" layer="19" extent="1-1"/>
+<wire x1="13.1" y1="-15.9" x2="11.9" y2="-16.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="Q7" pad="1"/>
@@ -6570,10 +6613,14 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="7.5" y1="-7.7" x2="8.5" y2="-6.7" width="0.2" layer="15"/>
 <wire x1="19.425" y1="-2.475" x2="19.4262" y2="-2.4738" width="0.1524" layer="1"/>
 <wire x1="19.4262" y1="-2.4738" x2="23.2238" y2="-2.4738" width="0.1524" layer="1"/>
-<wire x1="23.2238" y1="-2.4738" x2="24.05" y2="-3.3" width="0.1524" layer="1"/>
+<wire x1="23.2238" y1="-2.4738" x2="23.88" y2="-3.13" width="0.1524" layer="1"/>
 <contactref element="IC201" pad="29"/>
+<wire x1="23.88" y1="-3.13" x2="24.05" y2="-3.3" width="0.1524" layer="1"/>
 <wire x1="8.75" y1="-6.7" x2="8.729" y2="-6.721" width="0.2" layer="1"/>
 <wire x1="8.729" y1="-6.721" x2="7.469" y2="-6.721" width="0.2" layer="1"/>
+<contactref element="R202" pad="1"/>
+<wire x1="24.07" y1="-2.425" x2="24.07" y2="-2.94" width="0.2" layer="1"/>
+<wire x1="24.07" y1="-2.94" x2="23.88" y2="-3.13" width="0.2" layer="1"/>
 </signal>
 <signal name="CAN1_VDD1">
 <contactref element="CON1" pad="1"/>

@@ -10868,6 +10868,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MANF#" value="RC0201FR-0710KL"/>
 <attribute name="PACKAGE" value="0201"/>
 </part>
+<part name="+P5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MANF" value="YAGEO"/>
+<attribute name="MANF#" value="RC0201FR-0710KL"/>
+<attribute name="PACKAGE" value="0201"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -11215,6 +11227,16 @@ BABEL firmare</text>
 <attribute name="MANF#" x="233.68" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANF" x="233.68" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PACKAGE" x="232.41" y="105.156" size="1.016" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="+P5" gate="G$1" x="180.34" y="71.12" smashed="yes">
+<attribute name="VALUE" x="180.34" y="74.676" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R2" gate="G$1" x="180.34" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="180.8734" y="62.484" size="1.143" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="182.372" y="60.96" size="0.762" layer="96" font="vector" rot="R90"/>
+<attribute name="MANF#" x="180.34" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANF" x="180.34" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PACKAGE" x="179.07" y="61.976" size="1.016" layer="96" font="vector" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -11817,6 +11839,11 @@ BABEL firmare</text>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="+P3" gate="G$1" pin="VDD_5V"/>
 </segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="+P5" gate="G$1" pin="VDD_5V"/>
+<wire x1="180.34" y1="68.58" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAN_VDD" class="0">
 <segment>
@@ -11843,8 +11870,12 @@ BABEL firmare</text>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="185.42" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
 <label x="170.18" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="58.42" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
+<junction x="180.34" y="53.34"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA8"/>
