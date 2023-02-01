@@ -64,6 +64,12 @@ instructions at [manufacturing document](/docs/manufacturing.md).
 
 Newest entries at the top.
 
+### Babel-Babel v1.1 (2023)
+
+* CAN VDD pulled high with resistor
+* Reset switch added to DCP with added pulup resistor
+* CAN VBUS voltage measurement implemented
+
 ### Babel-Babel v1.0 (2021)
 
 The original version.
