@@ -444,6 +444,14 @@ VDD</text>
 <wire x1="34" y1="34.5" x2="34" y2="34.9" width="0.2" layer="41"/>
 <wire x1="34" y1="16.5" x2="34" y2="16.9" width="0.2" layer="41"/>
 <text x="22.22" y="41.41" size="1.778" layer="22" rot="MR270">V1.1</text>
+<circle x="7.8" y="54.1" radius="0.1" width="0.2" layer="21"/>
+<circle x="9" y="54.1" radius="0.1" width="0.2" layer="21"/>
+<circle x="16.7" y="21.2" radius="0.1" width="0.2" layer="21"/>
+<circle x="16.7" y="23" radius="0.1" width="0.2" layer="21"/>
+<circle x="16.7" y="3" radius="0.1" width="0.2" layer="21"/>
+<circle x="16.7" y="4.9" radius="0.1" width="0.2" layer="21"/>
+<circle x="30.4" y="23.9" radius="0.1" width="0.2" layer="21"/>
+<circle x="30.4" y="5.9" radius="0.1" width="0.2" layer="21"/>
 </plain>
 <libraries>
 <library name="rc" urn="urn:adsk.eagle:library:2539423">
@@ -2695,6 +2703,22 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
 </package>
+<package name="R0402" urn="urn:adsk.eagle:footprint:23043/3" library_version="11">
+<description>&lt;b&gt;Chip RESISTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1" y1="0.483" x2="1" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="0.483" x2="1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="-0.483" x2="-1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0201" urn="urn:adsk.eagle:package:26117/2" type="model" library_version="11">
@@ -2702,6 +2726,12 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <packageinstances>
 <packageinstance name="R0201"/>
+</packageinstances>
+</package3d>
+<package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model" library_version="11">
+<description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
+<packageinstances>
+<packageinstance name="R0402"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3132,9 +3162,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <element name="R113" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0603" package3d_urn="urn:adsk.eagle:package:2539454/2" value="1K5" x="3.8" y="4.45" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="" x="3.8" y="4.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="" x="3.8" y="4.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LCSC#" value="C25867" x="3.8" y="4.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF" value="" x="3.8" y="4.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="" x="3.8" y="4.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="" x="3.8" y="4.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Panasonic" x="3.8" y="4.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="ERJ-3EKF1501V" x="3.8" y="4.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="3.8" y="4.45" size="0.5" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="" x="3.8" y="4.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="0603" x="-61.2" y="29.45" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3998,9 +4028,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <element name="R213" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0603" package3d_urn="urn:adsk.eagle:package:2539454/2" value="1K5" x="3.8" y="22.45" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="" x="3.8" y="22.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="" x="3.8" y="22.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LCSC#" value="C25867" x="3.8" y="22.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF" value="" x="3.8" y="22.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="" x="3.8" y="22.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="" x="3.8" y="22.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Panasonic" x="3.8" y="22.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="ERJ-3EKF1501V" x="3.8" y="22.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="3.8" y="22.45" size="0.5" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="" x="3.8" y="22.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="0603" x="-61.2" y="47.45" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4208,41 +4238,41 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <element name="J2" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="CONNECTION" package3d_urn="urn:adsk.eagle:package:7439847/1" value="CONNECTION-SMD" x="30.25" y="33.3" smashed="yes" rot="MR180">
 <attribute name="BOM" value="EXCLUDE" x="30.25" y="33.3" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:5347863/9" override_package3d_urn="urn:adsk.eagle:package:5347863/10" override_package_urn="urn:adsk.eagle:footprint:8637277/4" value="NS5B1G385" x="28.1" y="3.75" smashed="yes">
-<attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" x="28.55" y="4" size="1.778" layer="27" display="off"/>
-<attribute name="LCSC#" value="C889718" x="28.1" y="3.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="ON Semiconductor" x="28.55" y="4" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="NS5B1G385DTT1G" x="28.55" y="4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.1" y="3.75" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
+<element name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:5347863/9" override_package3d_urn="urn:adsk.eagle:package:5347863/10" override_package_urn="urn:adsk.eagle:footprint:8637277/4" value="NS5B1G385" x="26.08" y="3.77" smashed="yes">
+<attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" x="26.53" y="4.02" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C889718" x="26.08" y="3.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="ON Semiconductor" x="26.53" y="4.02" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="NS5B1G385DTT1G" x="26.53" y="4.02" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="26.08" y="3.77" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF" x="25.4" y="3.75" smashed="yes" rot="R270">
-<attribute name="AEC-Q" value="" x="25.4" y="3.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="" x="25.4" y="3.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LCSC#" value="C1525" x="25.4" y="3.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF" value="" x="25.4" y="3.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="" x="25.4" y="3.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.4" y="3.75" size="0.4064" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="25.4" y="3.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE" value="0402" x="25.4" y="3.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE" value="" x="25.4" y="3.75" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF" x="23.49" y="3.74" smashed="yes" rot="R270">
+<attribute name="AEC-Q" value="" x="23.49" y="3.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="" x="23.49" y="3.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="C1525" x="23.49" y="3.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="" x="23.49" y="3.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="" x="23.49" y="3.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="23.49" y="3.73" size="0.4064" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="23.49" y="3.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="0402" x="23.49" y="3.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="" x="23.49" y="3.74" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:5347863/9" value="NS5B1G385" x="28.1" y="21.75" smashed="yes">
-<attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" x="28.6" y="21.75" size="1.778" layer="27" display="off"/>
-<attribute name="LCSC#" value="C889718" x="28.1" y="21.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="ON Semiconductor" x="28.6" y="21.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="NS5B1G385DTT1G" x="28.6" y="21.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.1" y="21.75" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
+<element name="IC1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:5347863/9" value="NS5B1G385" x="25.45" y="21.59" smashed="yes">
+<attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" x="25.95" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C889718" x="25.45" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="ON Semiconductor" x="25.95" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="NS5B1G385DTT1G" x="25.95" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.26" y="20.93" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF" x="25.4" y="21.75" smashed="yes" rot="R270">
-<attribute name="AEC-Q" value="" x="25.9" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="" x="25.9" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LCSC#" value="C1525" x="25.9" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF" value="" x="25.9" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="" x="25.9" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.4" y="21.75" size="0.4064" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="25.9" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE" value="0402" x="25.9" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE" value="" x="25.9" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF" x="23.05" y="21.74" smashed="yes" rot="R270">
+<attribute name="AEC-Q" value="" x="23.55" y="21.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="" x="23.55" y="21.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="C1525" x="23.55" y="21.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="" x="23.55" y="21.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="" x="23.55" y="21.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="22.84" y="22.03" size="0.4064" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="23.55" y="21.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="0402" x="23.55" y="21.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="" x="23.55" y="21.69" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0402" package3d_urn="urn:adsk.eagle:package:2539470/2" value="LED-0402" x="29.2" y="5.9" smashed="yes">
 <attribute name="COLOR" value="RED" x="29.25" y="6.4" size="1.778" layer="27" display="off"/>
@@ -4252,16 +4282,16 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <attribute name="MANF#" value="" x="29.25" y="6.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.2" y="5.9" size="0.4064" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="R3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="27.1" y="5.9" smashed="yes" rot="R180">
-<attribute name="AEC-Q" value="" x="26.8" y="4.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY#" value="" x="26.8" y="4.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LCSC#" value="C11702" x="26.8" y="4.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF" value="" x="26.8" y="4.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="" x="26.8" y="4.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.1" y="5.9" size="0.5" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="26.8" y="4.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGE" value="0402" x="26.8" y="4.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="26.8" y="4.9" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="26.18" y="6.08" smashed="yes" rot="R180">
+<attribute name="AEC-Q" value="" x="25.88" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY#" value="" x="25.88" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC#" value="C11702" x="25.88" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="" x="25.88" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="" x="25.88" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="26.18" y="6.08" size="0.5" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="25.88" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0402" x="25.88" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="25.88" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0402" package3d_urn="urn:adsk.eagle:package:2539470/2" value="LED-0402" x="29.15" y="23.9" smashed="yes">
 <attribute name="COLOR" value="RED" x="29.2" y="24.4" size="1.778" layer="27" display="off"/>
@@ -4277,7 +4307,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <attribute name="LCSC#" value="C11702" x="26.75" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="" x="26.75" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="" x="26.75" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.05" y="23.9" size="0.5" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="27.04" y="24.13" size="0.5" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="OPERATING_TEMP" value="" x="26.75" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="0402" x="26.75" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="26.75" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4300,59 +4330,23 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <attribute name="MANF#" value="STM32F373CBT6" x="9.719" y="28.279" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="9.557" y="28.402" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R107" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="31.65" y="4.5" smashed="yes" rot="R270">
-<attribute name="MANF" value="YAGEO" x="31.65" y="4.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="RC0201FR-0710KL" x="31.65" y="4.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.485" y="4.455" size="0.1" layer="25" font="vector" ratio="12"/>
-<attribute name="PACKAGE" value="0201" x="31.65" y="4.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="0" x="31.65" y="4.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="31.65" y="4.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="29.745" y="5.135" size="1.27" layer="27" rot="R270"/>
+<element name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="23.13" y="15.25" smashed="yes">
+<attribute name="MANF" value="YAGEO" x="23.13" y="15.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RC0201FR-0710KL" x="23.13" y="15.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="23.175" y="15.095" size="0.1" layer="25" font="vector" rot="R90"/>
+<attribute name="PACKAGE" value="0201" x="23.13" y="15.25" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="0" x="23.13" y="15.25" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="23.13" y="15.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.495" y="13.345" size="1.27" layer="27"/>
 </element>
-<element name="R207" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="31.58" y="22.64" smashed="yes" rot="R270">
-<attribute name="MANF" value="YAGEO" x="36.46" y="22.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="RC0201FR-0710KL" x="36.46" y="22.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.425" y="22.595" size="0.1" layer="25" font="vector"/>
-<attribute name="PACKAGE" value="0201" x="36.46" y="22.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="0" x="36.46" y="22.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="36.46" y="22.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="29.675" y="23.275" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="R108" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="31.64" y="2.91" smashed="yes" rot="R270">
-<attribute name="MANF" value="YAGEO" x="26.76" y="2.91" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="RC0201FR-0710KL" x="26.76" y="2.91" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.495" y="2.875" size="0.1" layer="25" font="vector"/>
-<attribute name="PACKAGE" value="0201" x="26.76" y="2.91" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="0" x="26.76" y="2.91" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="26.76" y="2.91" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="29.735" y="3.545" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="R208" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="31.58" y="20.84" smashed="yes" rot="R270">
-<attribute name="MANF" value="YAGEO" x="31.58" y="20.84" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="RC0201FR-0710KL" x="31.58" y="20.84" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.425" y="20.805" size="0.1" layer="25" font="vector"/>
-<attribute name="PACKAGE" value="0201" x="31.58" y="20.84" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="0" x="31.58" y="20.84" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="31.58" y="20.84" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="29.675" y="21.475" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="22.08" y="15.5" smashed="yes" rot="R90">
-<attribute name="MANF" value="YAGEO" x="22.08" y="15.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANF#" value="RC0201FR-0710KL" x="22.08" y="15.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.235" y="15.545" size="0.1" layer="25" font="vector" rot="R180"/>
-<attribute name="PACKAGE" value="0201" x="22.08" y="15.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="0" x="22.08" y="15.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="22.08" y="15.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="23.985" y="14.865" size="1.27" layer="27" rot="R90"/>
-</element>
-<element name="R202" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="22.07" y="33.58" smashed="yes" rot="R90">
-<attribute name="MANF" value="YAGEO" x="22.07" y="33.58" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANF#" value="RC0201FR-0710KL" x="22.07" y="33.58" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.225" y="33.615" size="0.1" layer="25" font="vector" rot="R180"/>
-<attribute name="PACKAGE" value="0201" x="22.07" y="33.58" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="0" x="22.07" y="33.58" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="22.07" y="33.58" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="23.975" y="32.945" size="1.27" layer="27" rot="R90"/>
+<element name="R202" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="23.14" y="33.25" smashed="yes">
+<attribute name="MANF" value="YAGEO" x="23.14" y="33.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RC0201FR-0710KL" x="23.14" y="33.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="23.175" y="33.095" size="0.1" layer="25" font="vector" rot="R90"/>
+<attribute name="PACKAGE" value="0201" x="23.14" y="33.25" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="0" x="23.14" y="33.25" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="23.14" y="33.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.505" y="31.345" size="1.27" layer="27"/>
 </element>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k" x="3.39" y="47.24" smashed="yes" rot="R90">
 <attribute name="MANF" value="YAGEO" x="3.39" y="47.24" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4368,6 +4362,42 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <attribute name="MANF" value="XKB Connectivity" x="3.07" y="48.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="DS-01RP" x="3.07" y="48.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.03" y="54.09" size="1.5" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+</element>
+<element name="R103" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k" x="30.73" y="2.7" smashed="yes" rot="R180">
+<attribute name="MANF" value="YAGEO" x="30.73" y="2.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="RP0402FRE0710KL" x="30.73" y="2.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="30.585" y="3.175" size="0.3" layer="25" font="vector" rot="R270"/>
+<attribute name="PACKAGE" value="0402" x="30.73" y="2.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULARITY" value="0" x="30.73" y="2.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="30.73" y="2.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="31.365" y="4.605" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R203" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k" x="31.07" y="20.56" smashed="yes" rot="R180">
+<attribute name="MANF" value="YAGEO" x="31.07" y="20.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="RP0402FRE0710KL" x="31.07" y="20.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="30.925" y="21.025" size="0.3" layer="25" font="vector" rot="R270"/>
+<attribute name="PACKAGE" value="0402" x="31.07" y="20.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULARITY" value="0" x="31.07" y="20.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="31.07" y="20.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="31.705" y="22.465" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R104" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k" x="31.26" y="4.32" smashed="yes" rot="R270">
+<attribute name="MANF" value="YAGEO" x="31.26" y="4.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="RP0402FRE0710KL" x="31.26" y="4.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="30.795" y="4.175" size="0.3" layer="25" font="vector"/>
+<attribute name="PACKAGE" value="0402" x="31.26" y="4.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="31.26" y="4.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="31.26" y="4.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="29.355" y="4.955" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R204" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k" x="31.58" y="22.5" smashed="yes" rot="R270">
+<attribute name="MANF" value="YAGEO" x="31.58" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="RP0402FRE0710KL" x="31.58" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="31.115" y="22.355" size="0.3" layer="25" font="vector"/>
+<attribute name="PACKAGE" value="0402" x="31.58" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="31.58" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="31.58" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="29.675" y="23.135" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -4488,7 +4518,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <via x="24.8" y="11.3" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="27.15" y="11.55" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="27.25" y="14.9" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="23.5" y="15.35" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="16.6" y="11" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="17.75" y="5.75" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="16.5" y="7.15" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -4506,7 +4535,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <via x="2.6" y="19.25" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="2.6" y="14.95" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="14.45" y="17.3" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="16.7" y="5" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="16.7" y="5.6" extent="1-16" drill="0.3" diameter="0.6"/>
 <contactref element="IC3" pad="2"/>
 <contactref element="C26" pad="1"/>
 <contactref element="C1" pad="1"/>
@@ -4580,7 +4609,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <via x="24.8" y="29.3" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="27.15" y="29.55" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="27.25" y="32.9" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="23.5" y="33.35" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="16.6" y="29" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="13.6" y="21.45" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="17.7" y="23.85" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -4598,7 +4626,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <via x="2.3" y="35.9" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="2.3" y="37.05" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="14.45" y="35.3" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="16.7" y="23" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="16.7" y="23.7" extent="1-16" drill="0.3" diameter="0.6"/>
 <polygon width="0.2" layer="2" rank="4">
 <vertex x="2" y="73.35"/>
 <vertex x="38.9" y="73.35"/>
@@ -4635,18 +4663,14 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <contactref element="IC205" pad="8"/>
 <contactref element="IC2" pad="3"/>
 <contactref element="C2" pad="1"/>
-<via x="30.48" y="5.9" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="28.05" y="5" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="24.68" y="4.33" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="27.61" y="5.44" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="22.65" y="4.47" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="13.6" y="3.45" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="12.4" y1="18.95" x2="12.35" y2="18.9" width="0.5" layer="1"/>
 <wire x1="12.35" y1="18.9" x2="11.1" y2="18.9" width="0.5" layer="1"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="C3" pad="1"/>
 <via x="15.5" y="38.8" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="25.64" y="23.19" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="28.1" y="23" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="30.42" y="23.9" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="6.1" y="38.8" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="12.4" y1="36.95" x2="12.35" y2="36.9" width="0.5" layer="1"/>
 <wire x1="12.35" y1="36.9" x2="11.1" y2="36.9" width="0.5" layer="1"/>
@@ -4659,8 +4683,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <contactref element="IC201" pad="47"/>
 <contactref element="IC101" pad="8"/>
 <contactref element="IC201" pad="8"/>
-<contactref element="R108" pad="2"/>
-<contactref element="R208" pad="2"/>
 <contactref element="S1" pad="1"/>
 <via x="6.21" y="65.63" extent="1-16" drill="0.3"/>
 <via x="13.44" y="68.87" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -4671,7 +4693,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <via x="4.38" y="69.14" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="5.96" y="57.58" extent="1-16" drill="0.3"/>
 <via x="4.15" y="63.58" extent="1-16" drill="0.3"/>
-<via x="8.38" y="54.1" extent="1-16" drill="0.3"/>
+<via x="8.38" y="54.89" extent="1-16" drill="0.3"/>
 <via x="18.59" y="54.89" extent="1-16" drill="0.3"/>
 <via x="13.21" y="56.15" extent="1-16" drill="0.3"/>
 <via x="23.21" y="66.83" extent="1-16" drill="0.3"/>
@@ -4684,6 +4706,13 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <via x="3.15" y="60.03" extent="1-16" drill="0.3"/>
 <via x="11.87" y="11" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="11.82" y="28.98" extent="1-16" drill="0.3" diameter="0.6"/>
+<contactref element="R103" pad="2"/>
+<contactref element="R203" pad="2"/>
+<via x="29.27" y="2.63" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="28.305" y="22.58" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="29.255" y="20.74" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="29.815" y="4.37" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="23.045" y="22.86" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="12" y1="72.05" x2="12" y2="72.05" width="0" layer="19" extent="1-16"/>
 <wire x1="9.9" y1="72.05" x2="12" y2="72.05" width="0" layer="19" extent="1-16"/>
 <wire x1="5.4" y1="72.05" x2="7.5" y2="72.05" width="0" layer="19" extent="1-16"/>
@@ -5089,10 +5118,11 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="7.95" y1="13.25" x2="8.45" y2="12.75" width="0.15" layer="2"/>
 <wire x1="8.45" y1="12.75" x2="8.45" y2="4.05" width="0.15" layer="2"/>
 <wire x1="10.35" y1="2.15" x2="15.3" y2="2.15" width="0.15" layer="2"/>
-<wire x1="15.3" y1="2.15" x2="16.1" y2="2.95" width="0.15" layer="2"/>
-<wire x1="16.1" y1="2.95" x2="16.7" y2="2.95" width="0.15" layer="2"/>
-<via x="16.7" y="2.95" extent="1-16" drill="0.3" diameter="0.6"/>
-<wire x1="17.45" y1="2.95" x2="16.7" y2="2.95" width="0.15" layer="1"/>
+<wire x1="15.3" y1="2.15" x2="15.7" y2="2.55" width="0.15" layer="2"/>
+<wire x1="15.7" y1="2.55" x2="16.4" y2="2.55" width="0.15" layer="2"/>
+<via x="16.4" y="2.55" extent="1-16" drill="0.3" diameter="0.6"/>
+<wire x1="17.45" y1="2.95" x2="17.05" y2="2.55" width="0.15" layer="1"/>
+<wire x1="17.05" y1="2.55" x2="16.4" y2="2.55" width="0.15" layer="1"/>
 <wire x1="6.9" y1="16.6682" x2="6.9" y2="16.05" width="0.15" layer="1"/>
 <wire x1="6.9" y1="16.05" x2="6.95" y2="16" width="0.15" layer="1"/>
 <wire x1="6.9" y1="16.6682" x2="6.5" y2="17.0682" width="0.15" layer="1"/>
@@ -5298,8 +5328,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="8.32" y1="12.62" x2="11.7818" y2="12.62" width="0.15" layer="1"/>
 <wire x1="8.32" y1="12.62" x2="6.75" y2="11.05" width="0.15" layer="1"/>
 <wire x1="11.7818" y1="12.62" x2="13.7868" y2="14.625" width="0.15" layer="1"/>
-<wire x1="21.51989375" y1="14.45" x2="22.08" y2="14.45" width="0.1524" layer="1"/>
-<wire x1="22.08" y1="14.45" x2="22.1" y2="14.45" width="0.1524" layer="1"/>
+<wire x1="21.51989375" y1="14.45" x2="22" y2="14.45" width="0.1524" layer="1"/>
+<wire x1="22" y1="14.45" x2="22.1" y2="14.45" width="0.1524" layer="1"/>
 <wire x1="16.8308375" y1="14.625" x2="17.4820375" y2="15.2762" width="0.1524" layer="1"/>
 <wire x1="17.4820375" y1="15.2762" x2="20.69369375" y2="15.2762" width="0.1524" layer="1"/>
 <wire x1="20.69369375" y1="15.2762" x2="21.51989375" y2="14.45" width="0.1524" layer="1"/>
@@ -5308,7 +5338,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="6.75" y1="11.05" x2="6.746" y2="11.046" width="0.2" layer="1"/>
 <wire x1="6.746" y1="11.046" x2="5.46" y2="11.046" width="0.2" layer="1"/>
 <contactref element="R102" pad="1"/>
-<wire x1="22.08" y1="15.245" x2="22.08" y2="14.45" width="0.2" layer="1"/>
+<wire x1="22.875" y1="15.25" x2="22.075" y2="14.45" width="0.2" layer="1"/>
+<wire x1="22.075" y1="14.45" x2="22" y2="14.45" width="0.2" layer="1"/>
 </signal>
 <signal name="GNDD">
 <contactref element="CON16" pad="M$1"/>
@@ -5446,9 +5477,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </polygon>
 <wire x1="32.15" y1="14.05" x2="29.75" y2="14.05" width="0.4" layer="16"/>
 <wire x1="29.75" y1="14.05" x2="29.65" y2="14.15" width="0.4" layer="16"/>
-<contactref element="R107" pad="1"/>
-<wire x1="31.65" y1="4.755" x2="31.745" y2="4.85" width="0.3048" layer="1"/>
-<wire x1="31.745" y1="4.85" x2="32.65" y2="4.85" width="0.3048" layer="1"/>
+<contactref element="R104" pad="1"/>
+<wire x1="32.65" y1="4.85" x2="32.62" y2="4.82" width="0.254" layer="1"/>
+<wire x1="32.62" y1="4.82" x2="31.26" y2="4.82" width="0.254" layer="1"/>
 </signal>
 <signal name="CANL2">
 <contactref element="CON1" pad="3"/>
@@ -5512,7 +5543,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="24.6" y1="14.5" x2="24.5" y2="14.5" width="0.5" layer="1"/>
 <wire x1="24.5" y1="14.5" x2="24.5" y2="15.7" width="0.5" layer="1"/>
 <wire x1="24.5" y1="15.7" x2="24.05" y2="16.15" width="0.5" layer="1"/>
-<wire x1="24.05" y1="16.15" x2="22.14" y2="16.15" width="0.5" layer="1"/>
+<wire x1="24.05" y1="16.15" x2="23.44" y2="16.15" width="0.5" layer="1"/>
+<wire x1="23.44" y1="16.15" x2="22.14" y2="16.15" width="0.5" layer="1"/>
 <wire x1="22.14" y1="16.15" x2="21" y2="16.15" width="0.5" layer="1"/>
 <wire x1="17.25" y1="19.9" x2="11.15" y2="19.9" width="0.5" layer="1"/>
 <wire x1="11.1" y1="19.85" x2="11.15" y2="19.9" width="0.5" layer="1"/>
@@ -5575,7 +5607,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="24.6" y1="32.5" x2="24.5" y2="32.5" width="0.5" layer="1"/>
 <wire x1="24.5" y1="32.5" x2="24.5" y2="33.7" width="0.5" layer="1"/>
 <wire x1="24.5" y1="33.7" x2="24.05" y2="34.15" width="0.5" layer="1"/>
-<wire x1="24.05" y1="34.15" x2="22.12" y2="34.15" width="0.5" layer="1"/>
+<wire x1="24.05" y1="34.15" x2="23.42" y2="34.15" width="0.5" layer="1"/>
+<wire x1="23.42" y1="34.15" x2="22.12" y2="34.15" width="0.5" layer="1"/>
 <wire x1="22.12" y1="34.15" x2="21" y2="34.15" width="0.5" layer="1"/>
 <wire x1="21" y1="34.15" x2="17.3" y2="37.85" width="0.5" layer="1"/>
 <polygon width="0.2" layer="1" thermals="no">
@@ -5664,23 +5697,21 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="25.635" y1="8.615" x2="25.7" y2="8.55" width="0.3" layer="1"/>
 <contactref element="IC2" pad="5"/>
 <contactref element="C2" pad="2"/>
-<wire x1="26.9" y1="2.8" x2="26.45" y2="2.75" width="0.2" layer="1"/>
-<wire x1="26.45" y1="2.75" x2="26.1" y2="3.1" width="0.2" layer="1"/>
-<wire x1="26.1" y1="3.1" x2="25.5125" y2="3.1" width="0.2" layer="1"/>
-<wire x1="25.5125" y1="3.1" x2="25.4" y2="3.25" width="0.2" layer="1"/>
+<wire x1="24.88" y1="2.82" x2="24.87" y2="2.81" width="0.2" layer="1"/>
+<wire x1="24.87" y1="2.81" x2="23.8125" y2="2.81" width="0.2" layer="1"/>
+<wire x1="23.8125" y1="2.81" x2="23.49" y2="3.24" width="0.2" layer="1"/>
 <wire x1="11.1" y1="17.95" x2="12.4" y2="17.95" width="0.5" layer="1"/>
 <contactref element="IC1" pad="5"/>
 <contactref element="C3" pad="2"/>
 <wire x1="20.45" y1="2.95" x2="20.6" y2="2.8" width="0.3" layer="1"/>
 <wire x1="20.45" y1="20.95" x2="20.6" y2="20.8" width="0.3" layer="1"/>
-<wire x1="24.95" y1="20.8" x2="25.4" y2="21.25" width="0.3" layer="1"/>
-<wire x1="20.6" y1="20.8" x2="24.95" y2="20.8" width="0.3" layer="1"/>
-<wire x1="26.9" y1="20.8" x2="26.45" y2="20.8" width="0.3" layer="1"/>
-<wire x1="26.1" y1="21.15" x2="25.5" y2="21.15" width="0.3" layer="1"/>
-<wire x1="25.5" y1="21.15" x2="25.4" y2="21.25" width="0.3" layer="1"/>
-<wire x1="26.45" y1="20.8" x2="26.1" y2="21.15" width="0.3" layer="1"/>
-<wire x1="24.95" y1="2.8" x2="25.4" y2="3.25" width="0.3" layer="1"/>
-<wire x1="20.6" y1="2.8" x2="24.95" y2="2.8" width="0.3" layer="1"/>
+<wire x1="22.61" y1="20.8" x2="23.05" y2="21.24" width="0.3" layer="1"/>
+<wire x1="20.6" y1="20.8" x2="22.61" y2="20.8" width="0.3" layer="1"/>
+<wire x1="24.25" y1="20.64" x2="24.25" y2="21.15" width="0.3" layer="1"/>
+<wire x1="24.25" y1="21.15" x2="23.14" y2="21.15" width="0.3" layer="1"/>
+<wire x1="23.14" y1="21.15" x2="23.05" y2="21.24" width="0.3" layer="1"/>
+<wire x1="23.05" y1="2.8" x2="23.49" y2="3.24" width="0.3" layer="1"/>
+<wire x1="20.6" y1="2.8" x2="23.05" y2="2.8" width="0.3" layer="1"/>
 <wire x1="20.05" y1="23.65" x2="20.05" y2="22.55" width="0.3" layer="1"/>
 <wire x1="20.45" y1="22.05" x2="20.45" y2="22.15" width="0.3" layer="1"/>
 <wire x1="20.45" y1="22.15" x2="20.05" y2="22.55" width="0.3" layer="1"/>
@@ -5699,10 +5730,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="24.0169" y1="57.7069" x2="26.6199" y2="57.7069" width="1.27" layer="1"/>
 <contactref element="R102" pad="2"/>
 <contactref element="R202" pad="2"/>
-<wire x1="22.08" y1="15.755" x2="22.08" y2="16.09" width="0.2" layer="1"/>
-<wire x1="22.08" y1="16.09" x2="22.14" y2="16.15" width="0.2" layer="1"/>
-<wire x1="22.07" y1="33.835" x2="22.07" y2="34.1" width="0.2" layer="1"/>
-<wire x1="22.07" y1="34.1" x2="22.12" y2="34.15" width="0.2" layer="1"/>
 <wire x1="6.201090625" y1="46.568909375" x2="4.601090625" y2="46.568909375" width="0.3048" layer="15"/>
 <wire x1="4.601090625" y1="46.568909375" x2="4.6" y2="46.57" width="0.3048" layer="15"/>
 <wire x1="4.53" y1="54.24" x2="4.53" y2="60.87" width="0.6096" layer="15"/>
@@ -5724,6 +5751,10 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="9.88" y1="66.27" x2="10.32" y2="66.71" width="0.6096" layer="15"/>
 <wire x1="11.89" y1="67.055" x2="10.665" y2="67.055" width="0.6096" layer="1"/>
 <wire x1="10.665" y1="67.055" x2="9.45" y2="65.84" width="0.6096" layer="1"/>
+<wire x1="23.385" y1="15.25" x2="23.385" y2="16.095" width="0.2" layer="1"/>
+<wire x1="23.385" y1="16.095" x2="23.44" y2="16.15" width="0.2" layer="1"/>
+<wire x1="23.395" y1="33.25" x2="23.395" y2="34.125" width="0.2" layer="1"/>
+<wire x1="23.395" y1="34.125" x2="23.42" y2="34.15" width="0.2" layer="1"/>
 </signal>
 <signal name="N$37">
 <contactref element="Q7" pad="1"/>
@@ -6448,10 +6479,12 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="7.15" y1="34.45" x2="6.45" y2="35.15" width="0.15" layer="2"/>
 <wire x1="7.15" y1="34.45" x2="7.15" y2="33.8" width="0.15" layer="2"/>
 <wire x1="10.45" y1="20.05" x2="8.55" y2="21.95" width="0.15" layer="2"/>
-<wire x1="16.2" y1="20.95" x2="15.3" y2="20.05" width="0.15" layer="2"/>
-<wire x1="16.2" y1="20.95" x2="16.7" y2="20.95" width="0.15" layer="2"/>
-<via x="16.7" y="20.95" extent="1-16" drill="0.3" diameter="0.6"/>
-<wire x1="17.45" y1="20.95" x2="16.7" y2="20.95" width="0.15" layer="1"/>
+<wire x1="15.8" y1="20.55" x2="15.3" y2="20.05" width="0.15" layer="2"/>
+<wire x1="16.5" y1="20.55" x2="16.6" y2="20.65" width="0.15" layer="2"/>
+<wire x1="16.5" y1="20.55" x2="15.8" y2="20.55" width="0.15" layer="2"/>
+<via x="16.6" y="20.65" extent="1-16" drill="0.3" diameter="0.6"/>
+<wire x1="17.45" y1="20.95" x2="17.15" y2="20.65" width="0.15" layer="1"/>
+<wire x1="17.15" y1="20.65" x2="16.6" y2="20.65" width="0.15" layer="1"/>
 <wire x1="6.875" y1="34.6932" x2="6.875" y2="34.075" width="0.15" layer="1"/>
 <wire x1="6.95" y1="34" x2="6.875" y2="34.075" width="0.15" layer="1"/>
 <wire x1="6.45" y1="35.1182" x2="6.45" y2="35.15" width="0.15" layer="1"/>
@@ -6607,12 +6640,10 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="32.775" y1="23.925" x2="32.715" y2="23.985" width="0.1524" layer="1"/>
 <contactref element="IC1" pad="1"/>
 <wire x1="32.715" y1="23.985" x2="32.62" y2="24.08" width="0.1524" layer="1"/>
-<wire x1="29.3" y1="20.8" x2="30.2" y2="20.8" width="0.2" layer="1"/>
-<wire x1="30.51" y1="21.11" x2="30.51" y2="22.93" width="0.2" layer="1"/>
-<wire x1="30.51" y1="22.93" x2="31.21" y2="23.63" width="0.2" layer="1"/>
-<wire x1="32.36" y1="23.63" x2="32.715" y2="23.985" width="0.2" layer="1"/>
-<wire x1="30.2" y1="20.8" x2="30.51" y2="21.11" width="0.2" layer="1"/>
-<wire x1="31.21" y1="23.63" x2="32.36" y2="23.63" width="0.2" layer="1"/>
+<wire x1="26.65" y1="20.64" x2="28.08" y2="20.64" width="0.2" layer="1"/>
+<wire x1="32.5" y1="23.77" x2="32.715" y2="23.985" width="0.2" layer="1"/>
+<wire x1="28.08" y1="20.64" x2="31.21" y2="23.77" width="0.2" layer="1"/>
+<wire x1="31.21" y1="23.77" x2="32.5" y2="23.77" width="0.2" layer="1"/>
 </signal>
 <signal name="BABEL2:CAN_VDD_EN">
 <contactref element="Q202" pad="1"/>
@@ -6639,8 +6670,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="6.75" y1="29.05" x2="6.729" y2="29.029" width="0.2" layer="1"/>
 <wire x1="6.729" y1="29.029" x2="5.469" y2="29.029" width="0.2" layer="1"/>
 <contactref element="R202" pad="1"/>
-<wire x1="22.07" y1="33.325" x2="22.07" y2="32.81" width="0.2" layer="1"/>
 <wire x1="22.07" y1="32.81" x2="21.88" y2="32.62" width="0.2" layer="1"/>
+<wire x1="22.885" y1="33.25" x2="22.445" y2="32.81" width="0.2" layer="1"/>
+<wire x1="22.445" y1="32.81" x2="22.07" y2="32.81" width="0.2" layer="1"/>
 </signal>
 <signal name="CAN1_VDD1">
 <contactref element="CON1" pad="1"/>
@@ -6704,9 +6736,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <vertex x="32.45" y="23.05"/>
 <vertex x="32.45" y="22.05"/>
 </polygon>
-<contactref element="R207" pad="1"/>
-<wire x1="31.58" y1="22.895" x2="32.605" y2="22.895" width="0.3048" layer="1"/>
-<wire x1="32.605" y1="22.895" x2="32.65" y2="22.85" width="0.3048" layer="1"/>
+<contactref element="R204" pad="1"/>
+<wire x1="32.65" y1="22.85" x2="31.73" y2="22.85" width="0.3048" layer="1"/>
+<wire x1="31.73" y1="22.85" x2="31.58" y2="23" width="0.3048" layer="1"/>
 </signal>
 <signal name="BABEL2:PA5">
 <contactref element="IC202" pad="21"/>
@@ -7075,12 +7107,15 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="32.616" y1="6.075" x2="32.6955" y2="5.9955" width="0.2" layer="1"/>
 <wire x1="32.6955" y1="5.9955" x2="32.766" y2="5.925" width="0.2" layer="1"/>
 <wire x1="32.616" y1="7.516" x2="32.616" y2="6.075" width="0.2" layer="1"/>
-<wire x1="29.3" y1="2.8" x2="30.06" y2="2.8" width="0.2" layer="1"/>
-<wire x1="30.62" y1="3.36" x2="30.62" y2="4.87" width="0.2" layer="1"/>
-<wire x1="30.62" y1="4.87" x2="31.3" y2="5.55" width="0.2" layer="1"/>
-<wire x1="32.25" y1="5.55" x2="32.6955" y2="5.9955" width="0.2" layer="1"/>
-<wire x1="30.06" y1="2.8" x2="30.62" y2="3.36" width="0.2" layer="1"/>
-<wire x1="31.3" y1="5.55" x2="32.25" y2="5.55" width="0.2" layer="1"/>
+<wire x1="32.6955" y1="5.9955" x2="32.25" y2="5.55" width="0.2" layer="1"/>
+<wire x1="27.97" y1="2.8" x2="27.3" y2="2.8" width="0.2" layer="1"/>
+<wire x1="27.28" y1="2.82" x2="27.3" y2="2.8" width="0.2" layer="1"/>
+<wire x1="30.72" y1="5.55" x2="30.21" y2="5.04" width="0.2" layer="1"/>
+<wire x1="28.64" y1="3.47" x2="27.97" y2="2.8" width="0.2" layer="1"/>
+<wire x1="32.25" y1="5.55" x2="30.72" y2="5.55" width="0.2" layer="1"/>
+<wire x1="30.21" y1="5.04" x2="29.39" y2="5.04" width="0.2" layer="1"/>
+<wire x1="28.64" y1="4.29" x2="28.64" y2="3.47" width="0.2" layer="1"/>
+<wire x1="29.39" y1="5.04" x2="28.64" y2="4.29" width="0.2" layer="1"/>
 </signal>
 <signal name="CANL1">
 <contactref element="CON16" pad="3"/>
@@ -7098,10 +7133,12 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="31.1" y1="12" x2="29.6" y2="10.5" width="0.2" layer="1"/>
 <wire x1="31.1" y1="12" x2="31.1" y2="12.77" width="0.2" layer="1"/>
 <wire x1="27.68644375" y1="10.5" x2="29.6" y2="10.5" width="0.2" layer="1"/>
-<wire x1="21.6" y1="5.775" x2="24.525" y2="5.775" width="0.2" layer="1"/>
+<wire x1="24.415" y1="6.045" x2="21.87" y2="6.045" width="0.2" layer="1"/>
+<wire x1="21.6" y1="5.775" x2="21.87" y2="6.045" width="0.2" layer="1"/>
 <wire x1="27.35" y1="8.615" x2="27.365" y2="8.615" width="0.2" layer="1"/>
+<wire x1="26.985" y1="8.615" x2="27.35" y2="8.615" width="0.2" layer="1"/>
 <wire x1="27.365" y1="8.615" x2="28.65" y2="8.615" width="0.2" layer="1"/>
-<wire x1="24.525" y1="5.775" x2="27.365" y2="8.615" width="0.2" layer="1"/>
+<wire x1="24.415" y1="6.045" x2="26.985" y2="8.615" width="0.2" layer="1"/>
 <wire x1="27.35" y1="10.16355625" x2="27.35" y2="8.615" width="0.2" layer="1"/>
 <wire x1="35.6" y1="9.4" x2="35.6" y2="7.85" width="0.2" layer="1"/>
 <wire x1="34.925" y1="7.175" x2="33.89" y2="7.175" width="0.2" layer="1"/>
@@ -7118,15 +7155,17 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <contactref element="R2" pad="1"/>
 <contactref element="IC1" pad="2"/>
 <wire x1="21.6915" y1="22.2835" x2="21.6" y2="22.375" width="0.1524" layer="1"/>
-<wire x1="29.3" y1="21.75" x2="22.225" y2="21.75" width="0.15" layer="1"/>
-<wire x1="22.225" y1="21.75" x2="21.6915" y2="22.2835" width="0.15" layer="1"/>
+<wire x1="26.65" y1="21.59" x2="26.5" y2="21.74" width="0.15" layer="1"/>
+<wire x1="26.5" y1="21.74" x2="22.235" y2="21.74" width="0.15" layer="1"/>
+<wire x1="22.235" y1="21.74" x2="21.6915" y2="22.2835" width="0.15" layer="1"/>
 </signal>
 <signal name="CAN_L">
 <contactref element="IC2" pad="2"/>
 <contactref element="R1" pad="1"/>
 <wire x1="21.775" y1="4.15" x2="21.6" y2="4.325" width="0.2" layer="1"/>
-<wire x1="22.175" y1="3.75" x2="21.775" y2="4.15" width="0.15" layer="1"/>
-<wire x1="29.3" y1="3.75" x2="22.175" y2="3.75" width="0.15" layer="1"/>
+<wire x1="22.165" y1="3.76" x2="21.775" y2="4.15" width="0.15" layer="1"/>
+<wire x1="27.28" y1="3.77" x2="27.27" y2="3.76" width="0.15" layer="1"/>
+<wire x1="27.27" y1="3.76" x2="22.165" y2="3.76" width="0.15" layer="1"/>
 </signal>
 <signal name="BABEL2_TERM">
 <contactref element="IC1" pad="4"/>
@@ -7136,11 +7175,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="9.15" y1="22.3" x2="10.7" y2="20.75" width="0.15" layer="2"/>
 <wire x1="9.15" y1="30.85" x2="9.15" y2="22.3" width="0.15" layer="2"/>
 <wire x1="10.7" y1="20.75" x2="14.85" y2="20.75" width="0.15" layer="2"/>
-<wire x1="26.55" y1="22.7" x2="26.9" y2="22.7" width="0.15" layer="1"/>
-<wire x1="24.6" y1="23.1" x2="25.4" y2="23.9" width="0.15" layer="1"/>
-<wire x1="24.6" y1="23.1" x2="20.75" y2="23.1" width="0.15" layer="1"/>
-<wire x1="20.75" y1="23.1" x2="20.7" y2="23.05" width="0.15" layer="1"/>
 <via x="20.7" y="23.05" extent="1-16" drill="0.3" diameter="0.6"/>
+<wire x1="24.25" y1="22.6726" x2="25.4774" y2="23.9" width="0.15" layer="1"/>
 <wire x1="19.95" y1="22.3" x2="20.7" y2="23.05" width="0.15" layer="2"/>
 <wire x1="14.85" y1="20.75" x2="16.4" y2="22.3" width="0.15" layer="2"/>
 <wire x1="16.4" y1="22.3" x2="19.95" y2="22.3" width="0.15" layer="2"/>
@@ -7153,16 +7189,22 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="7.85" y1="34.1" x2="9.15" y2="32.8" width="0.15" layer="2"/>
 <wire x1="9.15" y1="32.8" x2="9.15" y2="31.65" width="0.15" layer="2"/>
 <contactref element="R4" pad="2"/>
-<wire x1="26.55" y1="23.9" x2="26.55" y2="22.7" width="0.15" layer="1"/>
-<wire x1="25.4" y1="23.9" x2="26.55" y2="23.9" width="0.15" layer="1"/>
+<wire x1="25.4774" y1="23.9" x2="26.55" y2="23.9" width="0.15" layer="1"/>
 <contactref element="IC201" pad="20"/>
 <wire x1="9.55" y1="31.25" x2="8.969" y2="31.831" width="0.2" layer="1"/>
 <wire x1="8.969" y1="31.831" x2="8.969" y2="32.529" width="0.2" layer="1"/>
+<wire x1="24.25" y1="22.62" x2="24.25" y2="22.54" width="0.15" layer="1"/>
+<wire x1="20.7" y1="23.05" x2="22.32" y2="23.05" width="0.1524" layer="1"/>
+<wire x1="22.32" y1="23.05" x2="22.7926" y2="23.5226" width="0.1524" layer="1"/>
+<wire x1="22.7926" y1="23.5226" x2="23.4" y2="23.5226" width="0.1524" layer="1"/>
+<wire x1="23.4" y1="23.5226" x2="24.25" y2="22.6726" width="0.1524" layer="1"/>
+<wire x1="24.25" y1="22.6726" x2="24.25" y2="22.62" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="A"/>
 <contactref element="R3" pad="1"/>
-<wire x1="27.6" y1="5.9" x2="28.7" y2="5.9" width="0.15" layer="1"/>
+<wire x1="28.52" y1="6.08" x2="28.7" y2="5.9" width="0.15" layer="1"/>
+<wire x1="28.52" y1="6.08" x2="26.68" y2="6.08" width="0.15" layer="1"/>
 </signal>
 <signal name="BABEL1_TERM">
 <contactref element="R3" pad="2"/>
@@ -7177,11 +7219,12 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="8.85" y1="14.1" x2="9.55" y2="13.4" width="0.15" layer="2"/>
 <wire x1="9.55" y1="13.4" x2="9.55" y2="13.25" width="0.15" layer="2"/>
 <via x="9.55" y="13.25" extent="1-16" drill="0.3" diameter="0.6"/>
-<wire x1="26.9" y1="4.7" x2="26.6" y2="4.9" width="0.15" layer="1"/>
-<wire x1="26.6" y1="4.9" x2="26.6" y2="5.9" width="0.15" layer="1"/>
-<wire x1="26.6" y1="5.9" x2="25.45" y2="5.9" width="0.15" layer="1"/>
-<wire x1="25.45" y1="5.9" x2="24.85" y2="5.3" width="0.15" layer="1"/>
-<wire x1="24.85" y1="5.3" x2="22.35" y2="5.3" width="0.15" layer="1"/>
+<wire x1="24.88" y1="4.72" x2="25.54" y2="5.159996875" width="0.15" layer="1"/>
+<wire x1="25.54" y1="5.94" x2="25.68" y2="6.08" width="0.15" layer="1"/>
+<wire x1="25.54" y1="5.94" x2="25.54" y2="5.159996875" width="0.15" layer="1"/>
+<wire x1="25.68" y1="6.08" x2="25.28" y2="6.08" width="0.15" layer="1"/>
+<wire x1="25.28" y1="6.08" x2="24.5" y2="5.3" width="0.15" layer="1"/>
+<wire x1="24.5" y1="5.3" x2="22.35" y2="5.3" width="0.15" layer="1"/>
 <wire x1="22.35" y1="5.3" x2="22.1" y2="5.05" width="0.15" layer="1"/>
 <wire x1="22.1" y1="5.05" x2="20.75" y2="5.05" width="0.15" layer="1"/>
 <via x="20.75" y="5.05" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -7238,37 +7281,40 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </signal>
 <signal name="BABEL1:N$4">
 <contactref element="IC101" pad="10"/>
-<contactref element="R108" pad="1"/>
-<contactref element="R107" pad="2"/>
-<via x="31.65" y="3.71" extent="1-16" drill="0.3"/>
-<wire x1="31.65" y1="4.245" x2="31.65" y2="3.71" width="0.3048" layer="1"/>
-<wire x1="31.64" y1="3.165" x2="31.64" y2="3.7" width="0.3048" layer="1"/>
-<wire x1="31.64" y1="3.7" x2="31.65" y2="3.71" width="0.3048" layer="1"/>
+<via x="30.23" y="3.61" extent="1-16" drill="0.3"/>
 <wire x1="13.96" y1="12.046" x2="12.754" y2="12.046" width="0.2" layer="1"/>
 <via x="12.47" y="12.39" extent="1-16" drill="0.3"/>
 <wire x1="12.754" y1="12.046" x2="12.47" y2="12.33" width="0.2" layer="1"/>
 <wire x1="12.47" y1="12.33" x2="12.47" y2="12.39" width="0.2" layer="1"/>
-<wire x1="31.65" y1="3.71" x2="26.42" y2="3.71" width="0.2" layer="15"/>
-<wire x1="26.42" y1="3.71" x2="17.61" y2="12.52" width="0.2" layer="15"/>
+<wire x1="30.23" y1="3.61" x2="26.52" y2="3.61" width="0.2" layer="15"/>
+<wire x1="26.52" y1="3.61" x2="17.61" y2="12.52" width="0.2" layer="15"/>
 <wire x1="17.61" y1="12.52" x2="12.6" y2="12.52" width="0.2" layer="15"/>
 <wire x1="12.6" y1="12.52" x2="12.47" y2="12.39" width="0.2" layer="15"/>
+<contactref element="R103" pad="1"/>
+<contactref element="R104" pad="2"/>
+<wire x1="31.23" y1="3.79" x2="31.26" y2="3.82" width="0.254" layer="1"/>
+<wire x1="31.23" y1="3.79" x2="31.23" y2="2.7" width="0.254" layer="1"/>
+<wire x1="30.23" y1="3.61" x2="31.05" y2="3.61" width="0.254" layer="1"/>
+<wire x1="31.05" y1="3.61" x2="31.26" y2="3.82" width="0.254" layer="1"/>
 </signal>
 <signal name="BABEL2:N$4">
 <contactref element="IC201" pad="10"/>
-<contactref element="R208" pad="1"/>
-<contactref element="R207" pad="2"/>
-<via x="31.58" y="21.75" extent="1-16" drill="0.3"/>
-<wire x1="31.58" y1="22.385" x2="31.58" y2="21.75" width="0.3048" layer="1"/>
-<wire x1="31.58" y1="21.095" x2="31.58" y2="21.75" width="0.3048" layer="1"/>
+<via x="30.59" y="21.73" extent="1-16" drill="0.3"/>
 <wire x1="13.969" y1="30.029" x2="13.929" y2="30.069" width="0.2" layer="1"/>
 <wire x1="13.929" y1="30.069" x2="12.991" y2="30.069" width="0.2" layer="1"/>
 <wire x1="12.991" y1="30.069" x2="12.73" y2="30.33" width="0.2" layer="1"/>
 <wire x1="12.73" y1="30.33" x2="12.73" y2="30.58" width="0.2" layer="1"/>
 <via x="12.73" y="30.58" extent="1-16" drill="0.3"/>
-<wire x1="31.58" y1="21.75" x2="25.85" y2="21.75" width="0.2" layer="15"/>
-<wire x1="25.85" y1="21.75" x2="16.94" y2="30.66" width="0.2" layer="15"/>
+<wire x1="30.59" y1="21.73" x2="25.87" y2="21.73" width="0.2" layer="15"/>
+<wire x1="25.87" y1="21.73" x2="16.94" y2="30.66" width="0.2" layer="15"/>
 <wire x1="16.94" y1="30.66" x2="12.81" y2="30.66" width="0.2" layer="15"/>
 <wire x1="12.81" y1="30.66" x2="12.73" y2="30.58" width="0.2" layer="15"/>
+<contactref element="R203" pad="1"/>
+<contactref element="R204" pad="2"/>
+<wire x1="31.58" y1="22" x2="31.58" y2="20.57" width="0.3048" layer="1"/>
+<wire x1="31.58" y1="20.57" x2="31.57" y2="20.56" width="0.3048" layer="1"/>
+<wire x1="30.59" y1="21.73" x2="30.86" y2="22" width="0.3048" layer="1"/>
+<wire x1="30.86" y1="22" x2="31.58" y2="22" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
