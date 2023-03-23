@@ -10755,7 +10755,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND29" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="IC5" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="TJA1051" device="-SO8" package3d_urn="urn:adsk.eagle:package:4771007/5"/>
 <part name="R13" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="1K5">
-<attribute name="LCSC#" value="C25867"/>
+<attribute name="MANF" value="Panasonic"/>
+<attribute name="MANF#" value="ERJ-3EKF1501V"/>
 </part>
 <part name="P+2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="C8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">
@@ -10846,28 +10847,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="IC1" library="stm32" deviceset="STM32F373CBT6" device="-LQFP48"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MANF" value="YAGEO"/>
-<attribute name="MANF#" value="RC0201FR-0710KL"/>
-<attribute name="PACKAGE" value="0201"/>
-</part>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MANF" value="YAGEO"/>
-<attribute name="MANF#" value="RC0201FR-0710KL"/>
-<attribute name="PACKAGE" value="0201"/>
-</part>
 <part name="+P5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10k">
 <spice>
@@ -10879,6 +10858,28 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MANF" value="YAGEO"/>
 <attribute name="MANF#" value="RC0201FR-0710KL"/>
 <attribute name="PACKAGE" value="0201"/>
+</part>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MANF" value="YAGEO"/>
+<attribute name="MANF#" value="RP0402FRE0710KL"/>
+<attribute name="PACKAGE" value="0402"/>
+</part>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MANF" value="YAGEO"/>
+<attribute name="MANF#" value="RP0402FRE0710KL"/>
+<attribute name="PACKAGE" value="0402"/>
 </part>
 </parts>
 <sheets>
@@ -10998,7 +10999,7 @@ BABEL firmare</text>
 <attribute name="MANF#" x="292.1" y="204.724" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="R13" gate="G$1" x="307.34" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="307.34" y="152.4" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="NAME" x="302.26" y="154.94" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="309.372" y="152.146" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="306.832" y="148.59" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="TOLERANCE" x="309.372" y="152.654" size="0.762" layer="96" font="vector" rot="R90"/>
@@ -11214,20 +11215,6 @@ BABEL firmare</text>
 <instance part="IC1" gate="G$1" x="243.84" y="111.76" smashed="yes">
 <attribute name="NAME" x="267.97" y="138.43" size="2.54" layer="97" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="R7" gate="G$1" x="233.68" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="234.2134" y="92.964" size="1.143" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="235.712" y="91.44" size="0.762" layer="96" font="vector" rot="R90"/>
-<attribute name="MANF#" x="233.68" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANF" x="233.68" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PACKAGE" x="232.41" y="92.456" size="1.016" layer="96" font="vector" rot="R90"/>
-</instance>
-<instance part="R8" gate="G$1" x="233.68" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="234.2134" y="105.664" size="1.143" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="235.712" y="104.14" size="0.762" layer="96" font="vector" rot="R90"/>
-<attribute name="MANF#" x="233.68" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANF" x="233.68" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PACKAGE" x="232.41" y="105.156" size="1.016" layer="96" font="vector" rot="R90"/>
-</instance>
 <instance part="+P5" gate="G$1" x="180.34" y="71.12" smashed="yes">
 <attribute name="VALUE" x="180.34" y="74.676" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
@@ -11237,6 +11224,20 @@ BABEL firmare</text>
 <attribute name="MANF#" x="180.34" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANF" x="180.34" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PACKAGE" x="179.07" y="61.976" size="1.016" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="R3" gate="G$1" x="233.68" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="232.1814" y="105.41" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="236.982" y="102.87" size="1.778" layer="96" rot="R90"/>
+<attribute name="MANF" x="233.68" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANF#" x="233.68" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PACKAGE" x="233.68" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="233.68" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="232.1814" y="92.71" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="236.982" y="90.17" size="1.778" layer="96" rot="R90"/>
+<attribute name="MANF" x="233.68" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANF#" x="233.68" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PACKAGE" x="233.68" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -11541,10 +11542,10 @@ BABEL firmare</text>
 <wire x1="231.14" y1="119.38" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="132.08" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VSSA"/>
-<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="111.76" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="119.38" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
 <junction x="231.14" y="119.38"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C84" gate="G$1" pin="2"/>
@@ -11858,8 +11859,8 @@ BABEL firmare</text>
 <wire x1="233.68" y1="50.8" x2="233.68" y2="53.34" width="0.1524" layer="91"/>
 <junction x="233.68" y="53.34"/>
 <label x="236.22" y="53.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="88.9" x2="233.68" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="CAN_VDD_EN" class="0">
@@ -11947,12 +11948,12 @@ BABEL firmare</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA0"/>
 <wire x1="241.3" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="127" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="99.06" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <junction x="233.68" y="101.6"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
