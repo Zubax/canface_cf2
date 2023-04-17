@@ -3,7 +3,7 @@
 ## Purpose
 
 Babel-Babel is a device intended to ease the process of flashing and testing of Zubax products (or similar products).
-Besides that, the device can be used as a tool for developing and debugging UAVCAN-compatible embedded devices.
+Besides that, the device can be used as a tool for developing and debugging Cyphal/CAN-compatible embedded devices.
 One Babel-Babel can replace two USB-CAN converters, a programmer, and provide one free USB 2.0 host port.
 All this requires a single USB connection to the host PC.
 
@@ -27,4 +27,4 @@ All this requires a single USB connection to the host PC.
 
 * In-door usage.
 * Operating temperature range - 0..+40C
-* Operating humidty - up to 100%
+* Operating humidty - up to 100% (non-condensing)

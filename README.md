@@ -1,6 +1,6 @@
 # Babel-Babel
 
-All-in-one hardware solution for developing UAVCAN-compatible devices.
+All-in-one hardware solution for developing [Cyphal/CAN](https://opencyphal.org) and DroneCAN devices.
 
 Babel-Babel consists of three devices that are assembled on a single PCB:
 2x [Babel](https://zubax.com/babel) USB-CAN adapters and a
@@ -10,8 +10,8 @@ Babel-Babel consists of three devices that are assembled on a single PCB:
 Babel-Babel is connected to the PC with a single USB cable as it contains a built-in USB hub.
 It provides the following interfaces for connecting to the device under development:
 
-- CAN 1 (UAVCAN micro connector)
-- CAN 2 (UAVCAN micro connector)
+- CAN 1 (UCANPHY Micro connector)
+- CAN 2 (UCANPHY Micro connector)
 - SWD and UART (Dronecode Debug connector, medium)
 - USB (regular USB A connector)
 
@@ -49,11 +49,10 @@ it still may be beneficial as it greatly reduces the total amount of
 wiring and connectors involved in the production testing routine.
 This, in turn, makes the process faster, more reliable, and less painstaking.
 
-MyDuck-LV is a good example.
-It is a device used for flashing and testing [Mitochondrik-LV](https://zubax.com/mitochondrik-lv).
-To eliminate additional adapter PCBs, MyDuck-LV is designed to host Babel-Babel directly:
+The [Mitochondrik-LV](https://zubax.com/mitochondrik-lv) evaluation board is a good example.
+To eliminate additional adapter PCBs, the evaluation board is designed to host Babel-Babel directly:
 
-![](https://github.com/Zubax/MyDuck-LV/blob/master/figures/Myduck-LV-jig.png)
+![](docs/figures/mitochondrik-lv-evaluation-board.png)
 
 ## Manufacturing instructions
 
@@ -64,12 +63,17 @@ instructions at [manufacturing document](/docs/manufacturing.md).
 
 Newest entries at the top.
 
-### Babel-Babel v1.1 (2023)
+### v1.2 (2023)
 
-* CAN VDD pulled high with resistor
-* Reset switch added to DCP with added pulup resistor
-* CAN VBUS voltage measurement implemented
+* Fixed silkscreen labels and BOM inconsistencies.
+* Replaced references to UAVCAN with Cyphal/CAN.
 
-### Babel-Babel v1.0 (2021)
+### v1.1 (2023)
+
+* CAN VDD pulled high with resistor.
+* Bootloader switch added to DCP with added pulup resistor.
+* CAN VBUS voltage measurement implemented.
+
+### v1.0 (2021)
 
 The original version.
