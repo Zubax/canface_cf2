@@ -13332,7 +13332,7 @@ No divider needed</text>
 <attribute name="VALUE" x="110.236" y="109.22" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
 <instance part="R43" gate="G$1" x="99.06" y="116.84" smashed="yes">
-<attribute name="NAME" x="99.06" y="116.84" size="1.27" layer="95" align="center"/>
+<attribute name="NAME" x="101.6" y="119.38" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="98.806" y="114.808" size="0.762" layer="96" align="bottom-right"/>
 <attribute name="PACKAGE" x="95.25" y="117.348" size="0.508" layer="95" align="center"/>
 <attribute name="TOLERANCE" x="99.314" y="114.808" size="0.762" layer="96"/>
@@ -14450,14 +14450,14 @@ No divider needed</text>
 <approved hash="104,2,45.72,27.94,IC3,OUT,VDD_3V3,,,"/>
 <approved hash="104,1,137.16,162.56,IC2,VCC,VDD_5V,,,"/>
 <approved hash="104,1,137.16,88.9,IC1,VCC,VDD_5V,,,"/>
-<approved hash="104,1@BABEL,193.04,73.66,IC3,IN,VDD_5V,,,"/>
-<approved hash="104,1@BABEL,215.9,73.66,IC3,OUT,VDD_3V3,,,"/>
+<approved hash="104,1@BABEL,91.44,68.58,IC3,IN,VDD_5V,,,"/>
+<approved hash="104,1@BABEL,114.3,68.58,IC3,OUT,VDD_3V3,,,"/>
 <approved hash="213,1,208.28,132.08,RST,in,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME3,,,,,"/>
 <approved hash="113,2,130.071,89.431,FRAME4,,,,,"/>
 <approved hash="113,1@BABEL,193.571,130.071,FRAME1,,,,,"/>
-<approved hash="118,1@BABEL,279.4,100.33,Связь,GND,,,,"/>
-<approved hash="118,1@BABEL,121.92,71.12,Связь,VDD_5V,,,,"/>
+<approved hash="118,1@BABEL,279.4,100.33,Net,GND,,,,"/>
+<approved hash="118,1@BABEL,203.2,53.34,Net,VDD_5V,,,,"/>
 </errors>
 </schematic>
 </drawing>

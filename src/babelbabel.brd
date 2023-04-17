@@ -443,7 +443,6 @@ VDD</text>
 <wire x1="38" y1="54.25" x2="39" y2="53.25" width="0.01" layer="20" curve="90"/>
 <wire x1="34" y1="34.5" x2="34" y2="34.9" width="0.2" layer="41"/>
 <wire x1="34" y1="16.5" x2="34" y2="16.9" width="0.2" layer="41"/>
-<text x="22.22" y="41.41" size="1.778" layer="22" rot="MR270">V1.1</text>
 <circle x="7.8" y="54.1" radius="0.1" width="0.2" layer="21"/>
 <circle x="9" y="54.1" radius="0.1" width="0.2" layer="21"/>
 <circle x="16.7" y="21.2" radius="0.1" width="0.2" layer="21"/>
