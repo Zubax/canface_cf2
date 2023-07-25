@@ -57,7 +57,7 @@ To flash and test Babel, follow the procedure below:
 To flash the DCP part, follow [the DCP Manufacturing documentation](https://github.com/Zubax/dronecode_probe/blob/master/MANUFACTURING.md).
 
 3) After flashing is done, the PCBs and 3D enclosure parts should be stacked, aligned,
-and secured together using x5 2 mm diameter screws and nuts.
+and secured together using x5 M2x10 mm screws and nuts.
 * For the top 3D spacer, insert the bottom connector in the gap underneath CON4.
 
 ![](figures/parts.jpg)
@@ -70,6 +70,6 @@ and secured together using x5 2 mm diameter screws and nuts.
 | Top 3D spacer    | 1 |
 | Main PCB         | 1 |
 | Bottom 3D spacer | 1 |
-| 2 mm screws      | 5 |
-| 2 mm nuts        | 5 |
+| M2x10 mm screws  | 5 |
+| M2 nuts          | 5 |
 
