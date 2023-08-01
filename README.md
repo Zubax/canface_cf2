@@ -65,8 +65,8 @@ Newest entries at the top.
 
 ### v1.2.1 (2023)
 
-* Replaced enclosure PCBs with 3D.
-* Added Zubax logo to main PCB.
+* Replaced Parts A, C, and D (spacer) PCBs with 3D.
+* Added the Zubax logo to the enclosure PCB.
 
 ### v1.2 (2023)
 
