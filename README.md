@@ -63,6 +63,11 @@ instructions at [manufacturing document](/docs/manufacturing.md).
 
 Newest entries at the top.
 
+### v1.2.1 (2023)
+
+* Replaced enclosure PCBs with 3D.
+* Added Zubax logo to main PCB.
+
 ### v1.2 (2023)
 
 * Fixed silkscreen labels and BOM inconsistencies.
