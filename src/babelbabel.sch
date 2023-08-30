@@ -12077,11 +12077,18 @@ BABEL firmare</text>
 </part>
 <part name="GND71" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="IC14" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="74LVC2T45" device="" package3d_urn="urn:adsk.eagle:package:8706717/3">
+<attribute name="ALTERNATIVE" value="74LVC2T45DC-Q100H"/>
 <attribute name="LCSC#" value="C139382"/>
 </part>
-<part name="IC15" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="74LVC2T45" device="" package3d_urn="urn:adsk.eagle:package:8706717/3"/>
-<part name="IC16" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="74LVC2T45" device="" package3d_urn="urn:adsk.eagle:package:8706717/3"/>
-<part name="IC17" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="74LVC2T45" device="" package3d_urn="urn:adsk.eagle:package:8706717/3"/>
+<part name="IC15" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="74LVC2T45" device="" package3d_urn="urn:adsk.eagle:package:8706717/3">
+<attribute name="ALTERNATIVE" value="74LVC2T45DC-Q100H"/>
+</part>
+<part name="IC16" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="74LVC2T45" device="" package3d_urn="urn:adsk.eagle:package:8706717/3">
+<attribute name="ALTERNATIVE" value="74LVC2T45DC-Q100H"/>
+</part>
+<part name="IC17" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="74LVC2T45" device="" package3d_urn="urn:adsk.eagle:package:8706717/3">
+<attribute name="ALTERNATIVE" value="74LVC2T45DC-Q100H"/>
+</part>
 <part name="GND72" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="C42" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">
 <attribute name="LCSC#" value="C1525"/>
@@ -13368,18 +13375,22 @@ No divider needed</text>
 <attribute name="NAME" x="215.9" y="166.37" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="MANF#" x="215.9" y="151.13" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="LCSC#" x="205.74" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ALTERNATIVE" x="205.74" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC15" gate="G$1" x="205.74" y="132.08" smashed="yes">
 <attribute name="NAME" x="215.9" y="146.05" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="MANF#" x="215.9" y="130.81" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="ALTERNATIVE" x="205.74" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC16" gate="G$1" x="205.74" y="111.76" smashed="yes">
 <attribute name="NAME" x="215.9" y="125.73" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="MANF#" x="215.9" y="110.49" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="ALTERNATIVE" x="205.74" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC17" gate="G$1" x="205.74" y="91.44" smashed="yes">
 <attribute name="NAME" x="215.9" y="105.41" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="MANF#" x="215.9" y="90.17" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="ALTERNATIVE" x="205.74" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND72" gate="1" x="193.04" y="88.9" smashed="yes">
 <attribute name="VALUE" x="193.04" y="87.63" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
