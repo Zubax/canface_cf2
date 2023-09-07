@@ -25,6 +25,8 @@
 
 ## Manufacturing
 
+NOTE: When generating the gerber files, use the 2/2 DCP schematic.
+
 1) SMT mounting of the main PCB.
 
 2) Flashing both Babels and [Dronecode probe](https://github.com/Zubax/dronecode_probe) on the PCB.
