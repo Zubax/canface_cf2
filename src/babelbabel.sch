@@ -12469,12 +12469,12 @@ BABEL firmare</text>
 <instance part="CON15" gate="G$1" x="116.84" y="73.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="114.3" y="87.63" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="S2" gate="G$1" x="210.82" y="121.92" smashed="yes">
-<attribute name="NAME" x="208.28" y="116.84" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="215.265" y="116.84" size="1.778" layer="96" rot="R90"/>
-<attribute name="LCSC#" x="210.82" y="121.92" size="1.778" layer="96" display="off"/>
-<attribute name="MANF" x="210.82" y="121.92" size="1.778" layer="96" display="off"/>
-<attribute name="MANF#" x="210.82" y="121.92" size="1.778" layer="96" display="off"/>
+<instance part="S2" gate="G$1" x="210.82" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="213.36" y="127" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="206.375" y="127" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC#" x="210.82" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANF" x="210.82" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANF#" x="210.82" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="218.44" y="111.76" smashed="yes"/>
 <instance part="GND6" gate="1" x="170.18" y="48.26" smashed="yes">
@@ -12514,12 +12514,12 @@ BABEL firmare</text>
 <attribute name="AEC-Q" x="238.76" y="48.26" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center" display="off"/>
 <attribute name="NAME" x="245.11" y="41.91" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
-<instance part="S4" gate="G$1" x="210.82" y="48.26" smashed="yes">
-<attribute name="NAME" x="208.28" y="43.18" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="215.265" y="43.18" size="1.778" layer="96" rot="R90"/>
-<attribute name="LCSC#" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
-<attribute name="MANF" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
-<attribute name="MANF#" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<instance part="S4" gate="G$1" x="210.82" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="213.36" y="53.34" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="206.375" y="53.34" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC#" x="210.82" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANF" x="210.82" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANF#" x="210.82" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J2" gate="G$1" x="218.44" y="38.1" smashed="yes"/>
 <instance part="IC2" gate="G$1" x="157.48" y="149.86" smashed="yes" rot="MR0">
@@ -12679,12 +12679,12 @@ BABEL firmare</text>
 <wire x1="48.26" y1="154.94" x2="48.26" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="210.82" y1="104.14" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P$1"/>
-<wire x1="210.82" y1="111.76" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="111.76" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="10"/>
+<wire x1="210.82" y1="114.3" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
 <junction x="210.82" y="111.76"/>
 </segment>
 <segment>
@@ -12704,12 +12704,12 @@ BABEL firmare</text>
 <wire x1="170.18" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S4" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="210.82" y1="30.48" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="P$1"/>
-<wire x1="210.82" y1="38.1" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="38.1" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="S4" gate="G$1" pin="10"/>
+<wire x1="210.82" y1="40.64" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
 <junction x="210.82" y="38.1"/>
 </segment>
 <segment>
@@ -12809,10 +12809,10 @@ BABEL firmare</text>
 </net>
 <net name="BABEL1_RST" class="0">
 <segment>
+<pinref part="S2" gate="G$1" pin="1"/>
 <portref moduleinst="BABEL1" port="RST"/>
-<wire x1="210.82" y1="132.08" x2="208.28" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="10"/>
-<wire x1="210.82" y1="129.54" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="132.08" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -13047,7 +13047,7 @@ BABEL firmare</text>
 <segment>
 <portref moduleinst="BABEL2" port="RST"/>
 <wire x1="210.82" y1="58.42" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="S4" gate="G$1" pin="10"/>
+<pinref part="S4" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="55.88" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>

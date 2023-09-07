@@ -63,6 +63,10 @@ instructions at [manufacturing document](/docs/manufacturing.md).
 
 Newest entries at the top.
 
+### v1.3 (In progress)
+
+* Flip the two rest switches.
+
 ### v1.2.2 (2023)
 
 * Added alternative part:
