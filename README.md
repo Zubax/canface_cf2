@@ -67,6 +67,14 @@ Newest entries at the top.
 
 * Flip the two rest switches.
 
+### v1.2.2 (2023)
+
+* Added alternative part:
+
+| Original | Alternative |
+| -------- | ----------- |
+| 74LVC2T45DC,125 | 74LVC2T45DC-Q100H |
+
 ### v1.2.1 (2023)
 
 * Replaced Parts A, C, and D (spacer) PCBs with 3D.
