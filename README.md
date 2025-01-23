@@ -63,9 +63,14 @@ instructions at [manufacturing document](/docs/manufacturing.md).
 
 Newest entries at the top.
 
-### v1.3 (In progress)
+### v1.3 (2025)
 
 * Flip the two rest switches.
+* Replaced obsolete part:
+
+| Original | Alternative |
+| -------- | ----------- |
+| NS5B1G385DTT1G | 74AHC1G66GV,125 |
 
 ### v1.2.2 (2023)
 

@@ -12237,7 +12237,10 @@ BABEL firmare</text>
 </part>
 <part name="J2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CONNECTION" device="-SMD" package3d_urn="urn:adsk.eagle:package:7439847/1"/>
 <part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="NS5B1G385" device="" package3d_urn="urn:adsk.eagle:package:5347863/9" override_package3d_urn="urn:adsk.eagle:package:5347863/10" override_package_urn="urn:adsk.eagle:footprint:8637277/4">
-<attribute name="LCSC#" value="C889718"/>
+<attribute name="DIGIKEY#" value="1727-6763-1-ND"/>
+<attribute name="LCSC#" value="C554311"/>
+<attribute name="MANF" value="Nexperia USA Inc."/>
+<attribute name="MANF#" value="74AHC1G66GV,125"/>
 </part>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">
@@ -12246,7 +12249,10 @@ BABEL firmare</text>
 <part name="GND16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="IC1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="NS5B1G385" device="" package3d_urn="urn:adsk.eagle:package:5347863/9">
-<attribute name="LCSC#" value="C889718"/>
+<attribute name="DIGIKEY#" value="1727-6763-1-ND"/>
+<attribute name="LCSC#" value="C554311"/>
+<attribute name="MANF" value="Nexperia USA Inc."/>
+<attribute name="MANF#" value="74AHC1G66GV,125"/>
 </part>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">

@@ -4242,10 +4242,10 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <attribute name="BOM" value="EXCLUDE" x="30.25" y="33.3" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:5347863/9" override_package3d_urn="urn:adsk.eagle:package:5347863/10" override_package_urn="urn:adsk.eagle:footprint:8637277/4" value="NS5B1G385" x="26.08" y="3.77" smashed="yes">
-<attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" x="26.53" y="4.02" size="1.778" layer="27" display="off"/>
-<attribute name="LCSC#" value="C889718" x="26.08" y="3.77" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="ON Semiconductor" x="26.53" y="4.02" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="NS5B1G385DTT1G" x="26.53" y="4.02" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="1727-6763-1-ND" x="26.53" y="4.02" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C554311" x="26.08" y="3.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Nexperia USA Inc." x="26.53" y="4.02" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="74AHC1G66GV,125" x="26.53" y="4.02" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.08" y="3.77" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
 </element>
 <element name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF" x="23.49" y="3.74" smashed="yes" rot="R270">
@@ -4260,10 +4260,10 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <attribute name="VOLTAGE" value="" x="23.49" y="3.74" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:5347863/9" value="NS5B1G385" x="25.45" y="21.59" smashed="yes">
-<attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" x="25.95" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="LCSC#" value="C889718" x="25.45" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="ON Semiconductor" x="25.95" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="NS5B1G385DTT1G" x="25.95" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="1727-6763-1-ND" x="25.95" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C554311" x="25.45" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Nexperia USA Inc." x="25.95" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="74AHC1G66GV,125" x="25.95" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.26" y="20.93" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
 </element>
 <element name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF" x="23.05" y="21.74" smashed="yes" rot="R270">
