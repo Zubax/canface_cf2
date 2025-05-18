@@ -52,7 +52,7 @@ To flash and test Babel, follow the procedure below:
 
 ![](figures/flashing2.jpg)
 
-* Enter provided credentials and press enter and the flashing process will start
+* Press enter and the flashing process will start
 
 ![](figures/flashing4.png)
 
@@ -63,6 +63,10 @@ and secured together using x5 M2x10 mm screws and nuts.
 * For the top 3D spacer, insert the bottom connector in the gap underneath CON4.
 
 ![](figures/parts.jpg)
+
+4) The final switch positions shall be as shown below:
+
+![](figures/final_switch_positions.jpg)
 
 ## BOM for final assembly of Babel-Babel
 
