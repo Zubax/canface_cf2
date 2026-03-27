@@ -1,0 +1,22 @@
+# Keep the actual KiCad design files under version control.
+# Ignore only local state and generated outputs.
+
+# Local KiCad state
+*.kicad_prl
+fp-info-cache
+
+# KiCad backups and autosaves
+*-backups/
+*_autosave-*
+.autosave-*
+*.kicad_pro-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Generated fabrication outputs
+*_gerber_files/
+*_gerber_files.zip
+*.gbr
+*.gbrjob
+*.drl
+*.rpt
