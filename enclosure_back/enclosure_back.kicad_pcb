@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -36,7 +36,20 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(tenting front back)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -45,15 +58,12 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -77,7 +87,6 @@
 			(outputdirectory "enclosure_back_gerber_files/")
 		)
 	)
-	(net 0 "")
 	(gr_poly
 		(pts
 			(xy 152.297757 113.044589) (xy 151.259268 113.044589) (xy 152.097997 114.318558) (xy 152.12178 114.356122)
@@ -404,6 +413,28 @@
 		(layer "Edge.Cuts")
 		(uuid "92b07c20-fc40-4d87-9e14-4b18430a8af9")
 	)
+	(gr_circle
+		(center 130 90.55)
+		(end 131 90.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "96f1511a-f7ea-4352-b1c2-59fc3bc027c3")
+	)
+	(gr_circle
+		(center 130 141)
+		(end 130 140)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "9b23c5f9-ecfb-4b75-a07d-b307d44513d2")
+	)
 	(gr_line
 		(start 130.0011 67.2536)
 		(end 167.0011 67.2536)
@@ -435,17 +466,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "4ddba0f7-53ec-4f99-8fc7-775b0b629519")
-	)
-	(gr_circle
-		(center 167 90.55)
-		(end 168 90.55)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "96f1511a-f7ea-4352-b1c2-59fc3bc027c3")
 	)
 	(gr_arc
 		(start 167.0011 67.2536)
